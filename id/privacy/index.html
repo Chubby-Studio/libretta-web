@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="id" dir="ltr" data-code="id" data-page="privacy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privasi · Libretta</title>
+  <meta name="description" content="Kebijakan privasi Libretta: tanpa akun dan tanpa server sendiri. Catatan Anda diproses di perangkat Anda dan disimpan di folder Anda.">
+  <link rel="canonical" href="https://libretta.app/id/privacy/">
+  <link rel="alternate" hreflang="en" href="https://libretta.app/privacy/">
+  <link rel="alternate" hreflang="es" href="https://libretta.app/es/privacy/">
+  <link rel="alternate" hreflang="ca" href="https://libretta.app/ca/privacy/">
+  <link rel="alternate" hreflang="cs" href="https://libretta.app/cs/privacy/">
+  <link rel="alternate" hreflang="da" href="https://libretta.app/da/privacy/">
+  <link rel="alternate" hreflang="de" href="https://libretta.app/de/privacy/">
+  <link rel="alternate" hreflang="el" href="https://libretta.app/el/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://libretta.app/fi/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://libretta.app/fr/privacy/">
+  <link rel="alternate" hreflang="hr" href="https://libretta.app/hr/privacy/">
+  <link rel="alternate" hreflang="hu" href="https://libretta.app/hu/privacy/">
+  <link rel="alternate" hreflang="id" href="https://libretta.app/id/privacy/">
+  <link rel="alternate" hreflang="it" href="https://libretta.app/it/privacy/">
+  <link rel="alternate" hreflang="ms" href="https://libretta.app/ms/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://libretta.app/nl/privacy/">
+  <link rel="alternate" hreflang="nb" href="https://libretta.app/no/privacy/">
+  <link rel="alternate" hreflang="pl" href="https://libretta.app/pl/privacy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://libretta.app/pt-br/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://libretta.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="ro" href="https://libretta.app/ro/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://libretta.app/ru/privacy/">
+  <link rel="alternate" hreflang="sk" href="https://libretta.app/sk/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://libretta.app/sv/privacy/">
+  <link rel="alternate" hreflang="tr" href="https://libretta.app/tr/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://libretta.app/uk/privacy/">
+  <link rel="alternate" hreflang="vi" href="https://libretta.app/vi/privacy/">
+  <link rel="alternate" hreflang="ar" href="https://libretta.app/ar/privacy/">
+  <link rel="alternate" hreflang="he" href="https://libretta.app/he/privacy/">
+  <link rel="alternate" hreflang="hi" href="https://libretta.app/hi/privacy/">
+  <link rel="alternate" hreflang="th" href="https://libretta.app/th/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://libretta.app/ja/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://libretta.app/ko/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://libretta.app/zh-hans/privacy/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://libretta.app/zh-hant/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://libretta.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+(function () {
+  var codes = ["en", "es", "ca", "cs", "da", "de", "el", "fi", "fr", "hr", "hu", "id", "it", "ms", "nl", "no", "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sv", "tr", "uk", "vi", "ar", "he", "hi", "th", "ja", "ko", "zh-hans", "zh-hant"];
+  var here = document.documentElement.getAttribute("data-code");
+  var page = document.documentElement.getAttribute("data-page");
+  var chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+    if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
+    var primary = tag.split("-")[0];
+    if (primary === "nb" || primary === "nn") primary = "no";
+    return codes.indexOf(primary) >= 0 ? primary : null;
+  }
+  var want = chosen && codes.indexOf(chosen) >= 0 ? chosen : null;
+  if (!want) {
+    var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < tags.length && !want; i++) want = match(tags[i]);
+  }
+  if (here === "en" && want && want !== "en") {
+    location.replace("/" + want + "/" + (page === "privacy" ? "privacy/" : "") + location.hash);
+  }
+  window.librettaPick = function (code) {
+    try { localStorage.setItem("lang", code); } catch (e) {}
+    location.href = (code === "en" ? "/" : "/" + code + "/") + (page === "privacy" ? "privacy/" : "");
+  };
+})();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="home" href="/id/"><img src="/assets/icon-512.png" alt="" width="28" height="28"><picture><source srcset="/assets/wordmark-pequeno-negativo.svg" media="(prefers-color-scheme: dark)"><img class="wm" src="/assets/wordmark-pequeno.svg" alt="Libretta" width="78" height="18"></picture></a>
+    </header>
+
+    <article>
+      <p class="label">Diperbarui 10 November 2026</p>
+      <h1>Privasi</h1>
+      <p>Libretta adalah buku catatan suara: Anda menulis, berbicara, dan merekam rapat, lalu app mentranskripsikan dan meringkasnya. App ini dirancang agar semua itu terjadi di perangkat Anda dan disimpan di folder milik Anda.</p>
+
+      <div class="summary">
+        <ul>
+          <li><strong>Tanpa akun.</strong> Kami tidak pernah meminta nama, email, atau kata sandi Anda.</li>
+          <li><strong>Tanpa server sendiri.</strong> Catatan, audio, dan transkrip Anda tidak pernah melewati server kami, karena kami tidak memilikinya.</li>
+          <li><strong>Catatan Anda hanya milik Anda.</strong> Tidak ada yang Anda tulis, rekam, atau transkripsikan yang sampai kepada kami atau pihak ketiga, kecuali teks yang Anda kirim ke Private Cloud Compute jika Anda mengaktifkannya. Tanpa iklan dan tanpa pelacakan lintas app.</li>
+        </ul>
+      </div>
+
+      <h2>Tempat catatan Anda disimpan</h2>
+      <p>Setiap catatan adalah folder berisi file Markdown dan audionya. Catatan disimpan di perangkat Anda atau di folder Libretta pada iCloud Drive Anda, sesuai pilihan Anda. Jika Anda menggunakan iCloud Drive, Apple menyinkronkan file tersebut di seluruh perangkat Anda sesuai <a href="https://www.apple.com/legal/privacy/">kebijakan privasinya</a>; kami tidak memiliki akses ke file itu. Anda dapat membuka, memindahkan, atau menghapusnya dari app File atau Finder kapan saja.</p>
+<p>App ini juga menyimpan indeks pencarian dan cache di perangkat agar lebih cepat. Keduanya dibangun ulang dari file Anda dan hilang saat Anda menghapus app.</p>
+
+      <h2>Apa yang diproses di perangkat Anda</h2>
+      <ul>
+<li><strong>Transkripsi dan suara.</strong> Audio ditranskripsikan dan dipisahkan menurut pembicara dengan model yang berjalan di perangkat Anda: pengenalan ucapan Apple dan model dari Desert Ant Labs.</li>
+<li><strong>Ringkasan dan pertanyaan.</strong> Ringkasan, keputusan, tugas, dan jawaban atas pertanyaan Anda ditulis oleh Apple Intelligence di perangkat Anda.</li>
+<li><strong>Pencarian.</strong> Indeks yang memungkinkan Anda mencari catatan dibuat dan dikueri di perangkat Anda.</li>
+</ul>
+
+      <h2>Ringkasan dengan Private Cloud Compute (opsional)</h2>
+      <p>Libretta memiliki pengaturan untuk menulis ringkasan dengan Private Cloud Compute, model Apple yang berjalan di servernya. Pengaturan ini <strong>nonaktif secara default</strong>. Jika Anda mengaktifkannya, teks transkrip yang diringkas dikirim ke Private Cloud Compute; audionya tidak. Apple merancang layanan ini untuk memproses permintaan tanpa menyimpannya dan tanpa seorang pun, baik Apple maupun kami, dapat melihatnya. App menandai setiap ringkasan yang ditulis di luar perangkat Anda, dan Anda dapat memintanya menyembunyikan data pribadi sebelum teks dikirim.</p>
+
+      <h2>Unduhan model</h2>
+      <p>Saat pertama kali digunakan, Libretta mengunduh model transkripsi dari Desert Ant Labs, dan sistem mengunduh model ucapan Apple. Ini adalah unduhan file: server yang mengirimkannya melihat alamat IP koneksi Anda, seperti pada unduhan mana pun, tetapi tidak menerima catatan, audio, atau data Anda.</p>
+
+      <h2>Izin yang diminta app</h2>
+      <p>Setiap izin hanya diminta saat Anda menggunakan fitur yang membutuhkannya, dan Anda dapat mencabutnya di Pengaturan kapan saja.</p>
+<ul>
+<li><strong>Mikrofon.</strong> Untuk merekam catatan dan rapat Anda. App hanya merekam saat Anda memintanya, dan hal itu terlihat di layar selama merekam.</li>
+<li><strong>Kalender.</strong> Untuk menampilkan rapat Anda dan menyiapkannya sebagai catatan. iOS hanya menawarkan akses penuh, tetapi Libretta hanya membaca: app ini tidak pernah membuat, mengubah, atau menghapus acara.</li>
+<li><strong>Kontak.</strong> Untuk menambahkan nama dan email pada siapa pun yang berbicara dalam rapat. Pilihan Anda disimpan di catatan Anda.</li>
+<li><strong>Notifikasi.</strong> Untuk mengingatkan Anda sebelum rapat. Notifikasi dijadwalkan di perangkat Anda.</li>
+<li><strong>Audio sistem (Mac).</strong> Untuk merekam suara panggilan video Anda bersama mikrofon Anda.</li>
+</ul>
+<p>Tidak ada yang dibaca app dari kalender atau kontak Anda yang keluar dari perangkat Anda, kecuali yang Anda tulis di catatan dan sinkronkan ke iCloud Drive Anda.</p>
+
+      <h2>Statistik penggunaan</h2>
+      <p>Untuk mengetahui fitur mana yang digunakan dan apa yang rusak, Libretta mengirim statistik penggunaan anonim ke <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, layanan yang dibuat dengan mengutamakan privasi. Setiap sinyal menyebutkan layar atau fitur yang digunakan, beserta versi app dan sistem, model perangkat, dan bahasa. Pengidentifikasi pengguna di-hash di perangkat Anda sebelum dikirim, TelemetryDeck tidak menyimpan alamat IP Anda, dan tidak ada sinyal yang membawa isi catatan, audio, transkrip, kalender, atau kontak Anda. Data ini tidak digunakan untuk iklan atau digabungkan dengan data dari app lain.</p>
+
+      <h2>Pembelian</h2>
+      <p>Jika Anda membeli sesuatu di Libretta, Apple yang menangani pembayaran dan kami tidak pernah melihat detail pembayaran Anda. Untuk mengetahui apa yang telah Anda buka, kami menggunakan <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, yang menerima pengidentifikasi anonim yang dibuat oleh app, informasi pembelian yang diberikan Apple, dan detail teknis perangkat. RevenueCat tidak menerima nama, email, atau apa pun dari catatan Anda.</p>
+
+      <h2>Saat Anda berbagi</h2>
+      <p>Jika Anda mengekspor atau membagikan catatan, rekaman, atau ringkasan, hasilnya dikirim ke tujuan pilihan Anda, sesuai ketentuan app atau layanan tersebut.</p>
+
+      <h2>Laporan kerusakan</h2>
+      <p>Jika di pengaturan perangkat Anda menyetujui untuk berbagi analitik dengan developer app, Apple dapat meneruskan laporan kerusakan anonim dari Libretta kepada kami. Laporan itu tidak berisi catatan atau audio Anda, dan Anda dapat menonaktifkannya di Pengaturan &rsaquo; Privasi &amp; Keamanan &rsaquo; Analitik &amp; Peningkatan.</p>
+
+      <h2>Anak-anak</h2>
+      <p>Libretta tidak meminta data pribadi dari siapa pun, termasuk anak-anak, dan tidak ditujukan untuk anak-anak.</p>
+
+      <h2>Situs web ini</h2>
+      <p>libretta.app tidak menggunakan cookie, analitik, atau sumber daya pihak ketiga. Situs ini disajikan dari GitHub Pages, yang mencatat kunjungan untuk keperluan keamanan sesuai <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">pernyataan privasinya</a>.</p>
+
+      <h2>Perubahan</h2>
+      <p>Jika ada yang berubah dari hal-hal yang dijelaskan di halaman ini, kami akan memperbaruinya dan tanggal di bagian atas akan berubah.</p>
+
+      <h2>Kontak</h2>
+      <p>Libretta dibuat oleh Chubby Studio. Untuk pertanyaan apa pun tentang privasi, tulis kepada kami di <a href="mailto:hello@chubby.studio">hello@chubby.studio</a>.</p>
+    </article>
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      <a href="/id/">Beranda</a>
+      <select class="lang" aria-label="Bahasa" onchange="librettaPick(this.value)">
+        <option value="en" lang="en">English</option>
+        <option value="es" lang="es">Español</option>
+        <option value="ca" lang="ca">Català</option>
+        <option value="cs" lang="cs">Čeština</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="el" lang="el">Ελληνικά</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="id" lang="id" selected>Bahasa Indonesia</option>
+        <option value="it" lang="it">Italiano</option>
+        <option value="ms" lang="ms">Bahasa Melayu</option>
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="no" lang="nb">Norsk</option>
+        <option value="pl" lang="pl">Polski</option>
+        <option value="pt-br" lang="pt-BR">Português (Brasil)</option>
+        <option value="pt-pt" lang="pt-PT">Português (Portugal)</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="ru" lang="ru">Русский</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="tr" lang="tr">Türkçe</option>
+        <option value="uk" lang="uk">Українська</option>
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="ar" lang="ar">العربية</option>
+        <option value="he" lang="he">עברית</option>
+        <option value="hi" lang="hi">हिन्दी</option>
+        <option value="th" lang="th">ไทย</option>
+        <option value="ja" lang="ja">日本語</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="zh-hans" lang="zh-Hans">简体中文</option>
+        <option value="zh-hant" lang="zh-Hant">繁體中文</option>
+      </select>
+    </footer>
+  </div>
+</body>
+</html>

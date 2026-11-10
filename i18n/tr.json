@@ -1,0 +1,71 @@
+{
+  "language_label": "Dil",
+  "home_description": "Libretta, iPhone, iPad ve Mac için bir sesli defter: tek bir notta yaz, konuş ve toplantıları kaydet. Not, cihazında yazıya dökülür ve özetlenir.",
+  "home_lede": "Bir sesli defter. Yaz, konuş ve toplantıları <strong>tek bir notta</strong> kaydet; not <mark>cihazında</mark> yazıya dökülsün ve özetlensin.",
+  "home_soon": "Yakında iPhone, iPad ve Mac için",
+  "privacy_link": "Gizlilik",
+  "home_link": "Ana Sayfa",
+  "privacy_title": "Gizlilik",
+  "privacy_description": "Libretta gizlilik politikası: hesap yok, kendi sunucumuz yok. Notların cihazında işlenir ve klasöründe saklanır.",
+  "updated": "10 Kasım 2026 tarihinde güncellendi",
+  "intro": "Libretta bir sesli defterdir: yazarsın, konuşursun, toplantıları kaydedersin; uygulama da bunları yazıya döker ve özetler. Hepsi cihazında gerçekleşecek ve sana ait bir klasörde saklanacak şekilde tasarlanmıştır.",
+  "summary": [
+    "<strong>Hesap yok.</strong> Senden hiçbir zaman adını, e-postanı veya parolanı istemeyiz.",
+    "<strong>Kendi sunucumuz yok.</strong> Notların, seslerin ve yazıya dökümlerin hiçbir zaman sunucularımızdan geçmez, çünkü bizim sunucumuz yok.",
+    "<strong>Notların yalnızca senin.</strong> Yazdığın, kaydettiğin veya yazıya döktüğün hiçbir şey, açarsan Private Cloud Compute'a gönderdiğin metin dışında, bize ya da üçüncü taraflara ulaşmaz. Reklam yok, uygulamalar arası izleme yok."
+  ],
+  "sections": [
+    {
+      "h": "Notların nerede duruyor",
+      "html": "<p>Her not, Markdown dosyaları ve sesiyle birlikte bir klasördür. Seçimine göre cihazında veya iCloud Drive'daki Libretta klasöründe saklanır. iCloud Drive kullanırsan Apple bu dosyaları kendi <a href=\"https://www.apple.com/legal/privacy/\">gizlilik politikası</a> kapsamında cihazların arasında senkronize eder; bunlara erişimimiz yok. Dosyalar uygulamasından veya Finder'dan istediğin zaman açabilir, taşıyabilir ya da silebilirsin.</p>\n<p>Uygulama ayrıca daha hızlı olmak için cihazda bir arama dizini ve bir önbellek tutar. İkisi de dosyalarından yeniden oluşturulur ve uygulamayı sildiğinde kaybolur.</p>"
+    },
+    {
+      "h": "Cihazında neler işleniyor",
+      "html": "<ul>\n<li><strong>Yazıya dökme ve sesler.</strong> Ses, cihazında çalışan modellerle yazıya dökülür ve konuşmacılara göre ayrılır: Apple'ın konuşma tanıma özelliği ve Desert Ant Labs modelleri.</li>\n<li><strong>Özetler ve sorular.</strong> Özetleri, kararları, görevleri ve sorularına verilen yanıtları cihazında Apple Intelligence yazar.</li>\n<li><strong>Arama.</strong> Notlarında arama yapmanı sağlayan dizin cihazında oluşturulur ve sorgulanır.</li>\n</ul>"
+    },
+    {
+      "h": "Private Cloud Compute ile özetler (isteğe bağlı)",
+      "html": "<p>Libretta'da özetleri, Apple'ın kendi sunucularında çalışan modeli olan Private Cloud Compute ile yazmak için bir ayar var. Bu ayar <strong>varsayılan olarak kapalıdır</strong>. Açarsan, özetlenen dökümün metni Private Cloud Compute'a gönderilir; ses gönderilmez. Apple bu hizmeti, isteği saklamadan ve ne Apple ne de biz dahil kimsenin görmesine izin vermeden işleyecek şekilde tasarladı. Uygulama, cihazın dışında yazılan her özeti işaretler ve metin gönderilmeden önce kişisel verilerin gizlenmesini isteyebilirsin.</p>"
+    },
+    {
+      "h": "Model indirmeleri",
+      "html": "<p>Libretta'yı ilk kullandığında yazıya dökme modellerini Desert Ant Labs'ten indirir, sistem de Apple'ın konuşma modellerini indirir. Bunlar dosya indirmeleridir: dosyaları ileten sunucu, her indirmede olduğu gibi bağlantının IP adresini görür ama notlarından, sesinden veya verilerinden hiçbirini almaz.</p>"
+    },
+    {
+      "h": "Uygulamanın istediği izinler",
+      "html": "<p>Her izin yalnızca ona ihtiyaç duyan özelliği kullandığında istenir ve istediğin zaman Ayarlar'dan geri alabilirsin.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Notlarını ve toplantılarını kaydetmek için. Yalnızca sen istediğinde kaydeder ve kayıt sırasında ekranda görünür.</li>\n<li><strong>Takvim.</strong> Toplantılarını göstermek ve onları not olarak hazırlamak için. iOS yalnızca tam erişim sunar, ancak Libretta yalnızca okur: etkinlik oluşturmaz, değiştirmez veya silmez.</li>\n<li><strong>Kişiler.</strong> Bir toplantıda konuşan kişiye ad ve e-posta eklemek için. Seçtiğin şey notuna kaydedilir.</li>\n<li><strong>Bildirimler.</strong> Toplantıdan önce seni uyarmak için. Cihazında planlanırlar.</li>\n<li><strong>Sistem sesi (Mac).</strong> Görüntülü aramalarının sesini mikrofonunla birlikte kaydetmek için.</li>\n</ul>\n<p>Uygulamanın takviminden veya kişilerinden okuduğu hiçbir şey, notlarına yazdıkların ve iCloud Drive'ınla senkronize ettiklerin dışında cihazından çıkmaz.</p>"
+    },
+    {
+      "h": "Kullanım istatistikleri",
+      "html": "<p>Hangi özelliklerin kullanıldığını ve neyin bozulduğunu öğrenmek için Libretta, gizlilik gözetilerek geliştirilmiş bir hizmet olan <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>'e anonim kullanım istatistikleri gönderir. Her sinyal, hangi ekranın veya özelliğin kullanıldığını; uygulama ve sistem sürümünü, cihaz modelini ve dili belirtir. Kullanıcı tanımlayıcısı gönderilmeden önce cihazında karma hale getirilir, TelemetryDeck IP adresini saklamaz ve hiçbir sinyal notlarının, sesinin, dökümlerinin, takviminin veya kişilerinin içeriğini taşımaz. Reklam için kullanılmaz ve diğer uygulamalardaki verilerle birleştirilmez.</p>"
+    },
+    {
+      "h": "Satın alımlar",
+      "html": "<p>Libretta'da bir şey satın alırsan ödemeyi Apple yönetir ve biz ödeme bilgilerini asla görmeyiz. Nelerin kilidini açtığını bilmek için <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a> kullanıyoruz; RevenueCat uygulamanın oluşturduğu anonim bir tanımlayıcıyı, Apple'ın sağladığı satın alma bilgilerini ve cihazın teknik ayrıntılarını alır. Adını, e-postanı veya notlarından hiçbir şeyi almaz.</p>"
+    },
+    {
+      "h": "Paylaştığında",
+      "html": "<p>Bir notu, kaydı veya özeti dışa aktarır ya da paylaşırsan, o uygulamanın veya hizmetin koşullarına tabi olarak seçtiğin yere gider.</p>"
+    },
+    {
+      "h": "Çökme raporları",
+      "html": "<p>Cihaz ayarlarında analizleri uygulama geliştiricileriyle paylaşmayı kabul edersen Apple, Libretta'dan anonim çökme raporlarını bize iletebilir. Bunlar notlarından veya sesinden hiçbirini içermez ve Ayarlar &rsaquo; Gizlilik ve Güvenlik &rsaquo; Analiz ve İyileştirmeler bölümünden kapatabilirsin.</p>"
+    },
+    {
+      "h": "Çocuklar",
+      "html": "<p>Libretta çocuklar dahil kimseden kişisel veri istemez ve çocuklara yönelik değildir.</p>"
+    },
+    {
+      "h": "Bu web sitesi",
+      "html": "<p>libretta.app çerez, analiz veya üçüncü taraf kaynakları kullanmaz. Güvenlik amacıyla ziyaretleri <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">gizlilik bildirimi</a> kapsamında kaydeden GitHub Pages üzerinden sunulur.</p>"
+    },
+    {
+      "h": "Değişiklikler",
+      "html": "<p>Bu sayfada anlatılan herhangi bir şey değişirse sayfayı güncelleriz ve üstteki tarih değişir.</p>"
+    },
+    {
+      "h": "İletişim",
+      "html": "<p>Libretta, Chubby Studio tarafından yapılır. Gizlilikle ilgili her soru için bize <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a> adresinden yazabilirsin.</p>"
+    }
+  ]
+}

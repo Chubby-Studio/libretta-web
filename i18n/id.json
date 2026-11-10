@@ -1,0 +1,71 @@
+{
+  "language_label": "Bahasa",
+  "home_description": "Libretta adalah buku catatan suara untuk iPhone, iPad, dan Mac: tulis, bicara, dan rekam rapat dalam satu catatan, yang ditranskripsikan dan diringkas di perangkat Anda.",
+  "home_lede": "Buku catatan suara. Tulis, bicara, dan rekam rapat dalam <strong>satu catatan</strong>, yang ditranskripsikan dan diringkas <mark>di perangkat Anda</mark>.",
+  "home_soon": "Segera hadir di iPhone, iPad, dan Mac",
+  "privacy_link": "Privasi",
+  "home_link": "Beranda",
+  "privacy_title": "Privasi",
+  "privacy_description": "Kebijakan privasi Libretta: tanpa akun dan tanpa server sendiri. Catatan Anda diproses di perangkat Anda dan disimpan di folder Anda.",
+  "updated": "Diperbarui 10 November 2026",
+  "intro": "Libretta adalah buku catatan suara: Anda menulis, berbicara, dan merekam rapat, lalu app mentranskripsikan dan meringkasnya. App ini dirancang agar semua itu terjadi di perangkat Anda dan disimpan di folder milik Anda.",
+  "summary": [
+    "<strong>Tanpa akun.</strong> Kami tidak pernah meminta nama, email, atau kata sandi Anda.",
+    "<strong>Tanpa server sendiri.</strong> Catatan, audio, dan transkrip Anda tidak pernah melewati server kami, karena kami tidak memilikinya.",
+    "<strong>Catatan Anda hanya milik Anda.</strong> Tidak ada yang Anda tulis, rekam, atau transkripsikan yang sampai kepada kami atau pihak ketiga, kecuali teks yang Anda kirim ke Private Cloud Compute jika Anda mengaktifkannya. Tanpa iklan dan tanpa pelacakan lintas app."
+  ],
+  "sections": [
+    {
+      "h": "Tempat catatan Anda disimpan",
+      "html": "<p>Setiap catatan adalah folder berisi file Markdown dan audionya. Catatan disimpan di perangkat Anda atau di folder Libretta pada iCloud Drive Anda, sesuai pilihan Anda. Jika Anda menggunakan iCloud Drive, Apple menyinkronkan file tersebut di seluruh perangkat Anda sesuai <a href=\"https://www.apple.com/legal/privacy/\">kebijakan privasinya</a>; kami tidak memiliki akses ke file itu. Anda dapat membuka, memindahkan, atau menghapusnya dari app File atau Finder kapan saja.</p>\n<p>App ini juga menyimpan indeks pencarian dan cache di perangkat agar lebih cepat. Keduanya dibangun ulang dari file Anda dan hilang saat Anda menghapus app.</p>"
+    },
+    {
+      "h": "Apa yang diproses di perangkat Anda",
+      "html": "<ul>\n<li><strong>Transkripsi dan suara.</strong> Audio ditranskripsikan dan dipisahkan menurut pembicara dengan model yang berjalan di perangkat Anda: pengenalan ucapan Apple dan model dari Desert Ant Labs.</li>\n<li><strong>Ringkasan dan pertanyaan.</strong> Ringkasan, keputusan, tugas, dan jawaban atas pertanyaan Anda ditulis oleh Apple Intelligence di perangkat Anda.</li>\n<li><strong>Pencarian.</strong> Indeks yang memungkinkan Anda mencari catatan dibuat dan dikueri di perangkat Anda.</li>\n</ul>"
+    },
+    {
+      "h": "Ringkasan dengan Private Cloud Compute (opsional)",
+      "html": "<p>Libretta memiliki pengaturan untuk menulis ringkasan dengan Private Cloud Compute, model Apple yang berjalan di servernya. Pengaturan ini <strong>nonaktif secara default</strong>. Jika Anda mengaktifkannya, teks transkrip yang diringkas dikirim ke Private Cloud Compute; audionya tidak. Apple merancang layanan ini untuk memproses permintaan tanpa menyimpannya dan tanpa seorang pun, baik Apple maupun kami, dapat melihatnya. App menandai setiap ringkasan yang ditulis di luar perangkat Anda, dan Anda dapat memintanya menyembunyikan data pribadi sebelum teks dikirim.</p>"
+    },
+    {
+      "h": "Unduhan model",
+      "html": "<p>Saat pertama kali digunakan, Libretta mengunduh model transkripsi dari Desert Ant Labs, dan sistem mengunduh model ucapan Apple. Ini adalah unduhan file: server yang mengirimkannya melihat alamat IP koneksi Anda, seperti pada unduhan mana pun, tetapi tidak menerima catatan, audio, atau data Anda.</p>"
+    },
+    {
+      "h": "Izin yang diminta app",
+      "html": "<p>Setiap izin hanya diminta saat Anda menggunakan fitur yang membutuhkannya, dan Anda dapat mencabutnya di Pengaturan kapan saja.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Untuk merekam catatan dan rapat Anda. App hanya merekam saat Anda memintanya, dan hal itu terlihat di layar selama merekam.</li>\n<li><strong>Kalender.</strong> Untuk menampilkan rapat Anda dan menyiapkannya sebagai catatan. iOS hanya menawarkan akses penuh, tetapi Libretta hanya membaca: app ini tidak pernah membuat, mengubah, atau menghapus acara.</li>\n<li><strong>Kontak.</strong> Untuk menambahkan nama dan email pada siapa pun yang berbicara dalam rapat. Pilihan Anda disimpan di catatan Anda.</li>\n<li><strong>Notifikasi.</strong> Untuk mengingatkan Anda sebelum rapat. Notifikasi dijadwalkan di perangkat Anda.</li>\n<li><strong>Audio sistem (Mac).</strong> Untuk merekam suara panggilan video Anda bersama mikrofon Anda.</li>\n</ul>\n<p>Tidak ada yang dibaca app dari kalender atau kontak Anda yang keluar dari perangkat Anda, kecuali yang Anda tulis di catatan dan sinkronkan ke iCloud Drive Anda.</p>"
+    },
+    {
+      "h": "Statistik penggunaan",
+      "html": "<p>Untuk mengetahui fitur mana yang digunakan dan apa yang rusak, Libretta mengirim statistik penggunaan anonim ke <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, layanan yang dibuat dengan mengutamakan privasi. Setiap sinyal menyebutkan layar atau fitur yang digunakan, beserta versi app dan sistem, model perangkat, dan bahasa. Pengidentifikasi pengguna di-hash di perangkat Anda sebelum dikirim, TelemetryDeck tidak menyimpan alamat IP Anda, dan tidak ada sinyal yang membawa isi catatan, audio, transkrip, kalender, atau kontak Anda. Data ini tidak digunakan untuk iklan atau digabungkan dengan data dari app lain.</p>"
+    },
+    {
+      "h": "Pembelian",
+      "html": "<p>Jika Anda membeli sesuatu di Libretta, Apple yang menangani pembayaran dan kami tidak pernah melihat detail pembayaran Anda. Untuk mengetahui apa yang telah Anda buka, kami menggunakan <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, yang menerima pengidentifikasi anonim yang dibuat oleh app, informasi pembelian yang diberikan Apple, dan detail teknis perangkat. RevenueCat tidak menerima nama, email, atau apa pun dari catatan Anda.</p>"
+    },
+    {
+      "h": "Saat Anda berbagi",
+      "html": "<p>Jika Anda mengekspor atau membagikan catatan, rekaman, atau ringkasan, hasilnya dikirim ke tujuan pilihan Anda, sesuai ketentuan app atau layanan tersebut.</p>"
+    },
+    {
+      "h": "Laporan kerusakan",
+      "html": "<p>Jika di pengaturan perangkat Anda menyetujui untuk berbagi analitik dengan developer app, Apple dapat meneruskan laporan kerusakan anonim dari Libretta kepada kami. Laporan itu tidak berisi catatan atau audio Anda, dan Anda dapat menonaktifkannya di Pengaturan &rsaquo; Privasi &amp; Keamanan &rsaquo; Analitik &amp; Peningkatan.</p>"
+    },
+    {
+      "h": "Anak-anak",
+      "html": "<p>Libretta tidak meminta data pribadi dari siapa pun, termasuk anak-anak, dan tidak ditujukan untuk anak-anak.</p>"
+    },
+    {
+      "h": "Situs web ini",
+      "html": "<p>libretta.app tidak menggunakan cookie, analitik, atau sumber daya pihak ketiga. Situs ini disajikan dari GitHub Pages, yang mencatat kunjungan untuk keperluan keamanan sesuai <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">pernyataan privasinya</a>.</p>"
+    },
+    {
+      "h": "Perubahan",
+      "html": "<p>Jika ada yang berubah dari hal-hal yang dijelaskan di halaman ini, kami akan memperbaruinya dan tanggal di bagian atas akan berubah.</p>"
+    },
+    {
+      "h": "Kontak",
+      "html": "<p>Libretta dibuat oleh Chubby Studio. Untuk pertanyaan apa pun tentang privasi, tulis kepada kami di <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

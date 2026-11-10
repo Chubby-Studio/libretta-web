@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="cs" dir="ltr" data-code="cs" data-page="privacy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soukromí · Libretta</title>
+  <meta name="description" content="Zásady ochrany soukromí Libretty: žádný účet a žádný vlastní server. Vaše poznámky se zpracovávají ve vašem zařízení a ukládají do vaší složky.">
+  <link rel="canonical" href="https://libretta.app/cs/privacy/">
+  <link rel="alternate" hreflang="en" href="https://libretta.app/privacy/">
+  <link rel="alternate" hreflang="es" href="https://libretta.app/es/privacy/">
+  <link rel="alternate" hreflang="ca" href="https://libretta.app/ca/privacy/">
+  <link rel="alternate" hreflang="cs" href="https://libretta.app/cs/privacy/">
+  <link rel="alternate" hreflang="da" href="https://libretta.app/da/privacy/">
+  <link rel="alternate" hreflang="de" href="https://libretta.app/de/privacy/">
+  <link rel="alternate" hreflang="el" href="https://libretta.app/el/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://libretta.app/fi/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://libretta.app/fr/privacy/">
+  <link rel="alternate" hreflang="hr" href="https://libretta.app/hr/privacy/">
+  <link rel="alternate" hreflang="hu" href="https://libretta.app/hu/privacy/">
+  <link rel="alternate" hreflang="id" href="https://libretta.app/id/privacy/">
+  <link rel="alternate" hreflang="it" href="https://libretta.app/it/privacy/">
+  <link rel="alternate" hreflang="ms" href="https://libretta.app/ms/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://libretta.app/nl/privacy/">
+  <link rel="alternate" hreflang="nb" href="https://libretta.app/no/privacy/">
+  <link rel="alternate" hreflang="pl" href="https://libretta.app/pl/privacy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://libretta.app/pt-br/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://libretta.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="ro" href="https://libretta.app/ro/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://libretta.app/ru/privacy/">
+  <link rel="alternate" hreflang="sk" href="https://libretta.app/sk/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://libretta.app/sv/privacy/">
+  <link rel="alternate" hreflang="tr" href="https://libretta.app/tr/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://libretta.app/uk/privacy/">
+  <link rel="alternate" hreflang="vi" href="https://libretta.app/vi/privacy/">
+  <link rel="alternate" hreflang="ar" href="https://libretta.app/ar/privacy/">
+  <link rel="alternate" hreflang="he" href="https://libretta.app/he/privacy/">
+  <link rel="alternate" hreflang="hi" href="https://libretta.app/hi/privacy/">
+  <link rel="alternate" hreflang="th" href="https://libretta.app/th/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://libretta.app/ja/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://libretta.app/ko/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://libretta.app/zh-hans/privacy/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://libretta.app/zh-hant/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://libretta.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+(function () {
+  var codes = ["en", "es", "ca", "cs", "da", "de", "el", "fi", "fr", "hr", "hu", "id", "it", "ms", "nl", "no", "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sv", "tr", "uk", "vi", "ar", "he", "hi", "th", "ja", "ko", "zh-hans", "zh-hant"];
+  var here = document.documentElement.getAttribute("data-code");
+  var page = document.documentElement.getAttribute("data-page");
+  var chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+    if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
+    var primary = tag.split("-")[0];
+    if (primary === "nb" || primary === "nn") primary = "no";
+    return codes.indexOf(primary) >= 0 ? primary : null;
+  }
+  var want = chosen && codes.indexOf(chosen) >= 0 ? chosen : null;
+  if (!want) {
+    var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < tags.length && !want; i++) want = match(tags[i]);
+  }
+  if (here === "en" && want && want !== "en") {
+    location.replace("/" + want + "/" + (page === "privacy" ? "privacy/" : "") + location.hash);
+  }
+  window.librettaPick = function (code) {
+    try { localStorage.setItem("lang", code); } catch (e) {}
+    location.href = (code === "en" ? "/" : "/" + code + "/") + (page === "privacy" ? "privacy/" : "");
+  };
+})();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="home" href="/cs/"><img src="/assets/icon-512.png" alt="" width="28" height="28"><picture><source srcset="/assets/wordmark-pequeno-negativo.svg" media="(prefers-color-scheme: dark)"><img class="wm" src="/assets/wordmark-pequeno.svg" alt="Libretta" width="78" height="18"></picture></a>
+    </header>
+
+    <article>
+      <p class="label">Aktualizováno 10. listopadu 2026</p>
+      <h1>Soukromí</h1>
+      <p>Libretta je hlasový zápisník: píšete, mluvíte a nahráváte schůzky a aplikace je přepisuje a shrnuje. Je postavená tak, aby se to všechno dělo ve vašem zařízení a ukládalo do složky, která patří vám.</p>
+
+      <div class="summary">
+        <ul>
+          <li><strong>Žádný účet.</strong> Nikdy se neptáme na vaše jméno, e-mail ani heslo.</li>
+          <li><strong>Žádný vlastní server.</strong> Vaše poznámky, zvuk a přepisy nikdy neprocházejí našimi servery, protože žádné nemáme.</li>
+          <li><strong>Vaše poznámky patří jen vám.</strong> Nic z toho, co napíšete, nahrajete nebo přepíšete, se nedostane k nám ani k třetím stranám, kromě textu, který odešlete do Private Cloud Compute, pokud ho zapnete. Žádná reklama a žádné sledování napříč aplikacemi.</li>
+        </ul>
+      </div>
+
+      <h2>Kde jsou vaše poznámky</h2>
+      <p>Každá poznámka je složka se soubory Markdown a svým zvukem. Ukládají se do vašeho zařízení nebo do složky Libretta na vašem iCloud Drive, podle toho, co si zvolíte. Pokud používáte iCloud Drive, Apple tyto soubory synchronizuje mezi vašimi zařízeními podle svých <a href="https://www.apple.com/legal/privacy/">zásad ochrany soukromí</a>; my k nim přístup nemáme. Můžete je kdykoli otevřít, přesunout nebo smazat v aplikaci Soubory nebo ve Finderu.</p>
+<p>Aplikace si také v zařízení uchovává vyhledávací index a mezipaměť, aby byla rychlejší. Obojí se znovu vytvoří z vašich souborů a zmizí, když aplikaci smažete.</p>
+
+      <h2>Co se zpracovává ve vašem zařízení</h2>
+      <ul>
+<li><strong>Přepis a hlasy.</strong> Zvuk se přepisuje a rozděluje podle mluvčích pomocí modelů, které běží ve vašem zařízení: rozpoznávání řeči od Applu a modely od Desert Ant Labs.</li>
+<li><strong>Shrnutí a otázky.</strong> Shrnutí, rozhodnutí, úkoly a odpovědi na vaše otázky píše Apple Intelligence ve vašem zařízení.</li>
+<li><strong>Vyhledávání.</strong> Index, který umožňuje prohledávat vaše poznámky, se vytváří a dotazuje ve vašem zařízení.</li>
+</ul>
+
+      <h2>Shrnutí přes Private Cloud Compute (volitelné)</h2>
+      <p>Libretta má nastavení pro psaní shrnutí přes Private Cloud Compute, model Applu, který běží na jeho serverech. Ve výchozím stavu je <strong>vypnuté</strong>. Pokud ho zapnete, text přepisu, který se shrnuje, se odešle do Private Cloud Compute; zvuk ne. Apple tuto službu navrhl tak, aby požadavek zpracovala bez jeho uložení a bez toho, aby ho kdokoli, ať Apple, nebo my, mohl vidět. Aplikace označí každé shrnutí vytvořené mimo vaše zařízení a můžete si vyžádat, aby se před odesláním textu skryly osobní údaje.</p>
+
+      <h2>Stahování modelů</h2>
+      <p>Při prvním použití Libretta stáhne přepisovací modely od Desert Ant Labs a systém stáhne řečové modely Applu. Jde o stahování souborů: server, který je poskytuje, vidí IP adresu vašeho připojení, jako při jakémkoli stahování, ale nedostává žádné vaše poznámky, zvuk ani data.</p>
+
+      <h2>Oprávnění, o která aplikace žádá</h2>
+      <p>O každé oprávnění se žádá, až když použijete funkci, která ho potřebuje, a můžete ho kdykoli odvolat v Nastavení.</p>
+<ul>
+<li><strong>Mikrofon.</strong> K nahrávání vašich poznámek a schůzek. Nahrává jen tehdy, když o to požádáte, a během nahrávání je to vidět na obrazovce.</li>
+<li><strong>Kalendář.</strong> K zobrazení vašich schůzek a jejich přípravě jako poznámek. iOS nabízí jen plný přístup, ale Libretta pouze čte: nikdy nevytváří, nemění ani nemaže události.</li>
+<li><strong>Kontakty.</strong> K přiřazení jména a e-mailu tomu, kdo na schůzce mluví. To, co vyberete, se uloží do vaší poznámky.</li>
+<li><strong>Oznámení.</strong> K upozornění před schůzkou. Plánují se ve vašem zařízení.</li>
+<li><strong>Zvuk systému (Mac).</strong> K nahrávání zvuku vašich videohovorů spolu s mikrofonem.</li>
+</ul>
+<p>Nic z toho, co aplikace čte z vašeho kalendáře nebo kontaktů, neopouští vaše zařízení, kromě toho, co napíšete do poznámek a synchronizujete se svým iCloud Drive.</p>
+
+      <h2>Statistiky používání</h2>
+      <p>Aby Libretta zjistila, které funkce se používají a co nefunguje, posílá anonymní statistiky používání službě <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, která je vytvořená s ohledem na soukromí. Každý signál říká, která obrazovka nebo funkce byla použita, spolu s verzí aplikace a systému, modelem zařízení a jazykem. Identifikátor uživatele se před odesláním zahashuje ve vašem zařízení, TelemetryDeck neukládá vaši IP adresu a žádný signál neobsahuje obsah vašich poznámek, zvuku, přepisů, kalendáře ani kontaktů. Nepoužívají se k reklamě ani se nekombinují s daty z jiných aplikací.</p>
+
+      <h2>Nákupy</h2>
+      <p>Pokud si v aplikaci Libretta něco koupíte, platbu zpracovává Apple a my nikdy nevidíme vaše platební údaje. Abychom věděli, co máte odemčeno, používáme <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, který dostává anonymní identifikátor vytvořený aplikací, informace o nákupu, které poskytuje Apple, a technické údaje o zařízení. Nedostává vaše jméno, e-mail ani nic z vašich poznámek.</p>
+
+      <h2>Když sdílíte</h2>
+      <p>Pokud exportujete nebo sdílíte poznámku, nahrávku nebo shrnutí, odejde to, kam si zvolíte, a podle podmínek dané aplikace nebo služby.</p>
+
+      <h2>Hlášení o selhání</h2>
+      <p>Pokud v nastavení zařízení souhlasíte se sdílením analytických dat s vývojáři aplikací, může nám Apple předávat anonymní hlášení o selhání Libretty. Neobsahují žádné vaše poznámky ani zvuk a můžete je vypnout v Nastavení &rsaquo; Soukromí a zabezpečení &rsaquo; Analýzy a vylepšení.</p>
+
+      <h2>Děti</h2>
+      <p>Libretta nikoho nežádá o osobní údaje, ani děti, a není určena dětem.</p>
+
+      <h2>Tento web</h2>
+      <p>libretta.app nepoužívá cookies, analytiku ani zdroje třetích stran. Je poskytován z GitHub Pages, které z bezpečnostních důvodů zaznamenávají návštěvy podle svého <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">prohlášení o ochraně soukromí</a>.</p>
+
+      <h2>Změny</h2>
+      <p>Pokud se cokoli z toho, co tato stránka popisuje, změní, stránku aktualizujeme a změní se datum nahoře.</p>
+
+      <h2>Kontakt</h2>
+      <p>Libretta vzniká ve Chubby Studio. S jakoukoli otázkou o soukromí nám napište na <a href="mailto:hello@chubby.studio">hello@chubby.studio</a>.</p>
+    </article>
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      <a href="/cs/">Domů</a>
+      <select class="lang" aria-label="Jazyk" onchange="librettaPick(this.value)">
+        <option value="en" lang="en">English</option>
+        <option value="es" lang="es">Español</option>
+        <option value="ca" lang="ca">Català</option>
+        <option value="cs" lang="cs" selected>Čeština</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="el" lang="el">Ελληνικά</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="id" lang="id">Bahasa Indonesia</option>
+        <option value="it" lang="it">Italiano</option>
+        <option value="ms" lang="ms">Bahasa Melayu</option>
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="no" lang="nb">Norsk</option>
+        <option value="pl" lang="pl">Polski</option>
+        <option value="pt-br" lang="pt-BR">Português (Brasil)</option>
+        <option value="pt-pt" lang="pt-PT">Português (Portugal)</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="ru" lang="ru">Русский</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="tr" lang="tr">Türkçe</option>
+        <option value="uk" lang="uk">Українська</option>
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="ar" lang="ar">العربية</option>
+        <option value="he" lang="he">עברית</option>
+        <option value="hi" lang="hi">हिन्दी</option>
+        <option value="th" lang="th">ไทย</option>
+        <option value="ja" lang="ja">日本語</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="zh-hans" lang="zh-Hans">简体中文</option>
+        <option value="zh-hant" lang="zh-Hant">繁體中文</option>
+      </select>
+    </footer>
+  </div>
+</body>
+</html>

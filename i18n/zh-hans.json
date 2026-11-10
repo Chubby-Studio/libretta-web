@@ -1,0 +1,71 @@
+{
+  "language_label": "语言",
+  "home_description": "Libretta 是适用于 iPhone、iPad 和 Mac 的语音笔记本：在同一篇笔记里书写、讲话、录制会议，并在你的设备上完成转写和摘要。",
+  "home_lede": "语音笔记本。在<strong>同一篇笔记</strong>里书写、讲话、录制会议，并<mark>在你的设备上</mark>完成转写和摘要。",
+  "home_soon": "即将登陆 iPhone、iPad 和 Mac",
+  "privacy_link": "隐私",
+  "home_link": "主页",
+  "privacy_title": "隐私",
+  "privacy_description": "Libretta 隐私政策：无需账户，也没有我们自己的服务器。你的笔记在你的设备上处理，并存储在你的文件夹中。",
+  "updated": "更新于 2026 年 11 月 10 日",
+  "intro": "Libretta 是一款语音笔记本：你可以书写、讲话、录制会议，App 会为你转写并生成摘要。它的设计让这一切都在你的设备上完成，并存储在属于你的文件夹中。",
+  "summary": [
+    "<strong>无需账户。</strong>我们从不要求你提供姓名、电子邮件或密码。",
+    "<strong>没有我们自己的服务器。</strong>你的笔记、音频和转写文本从不经过我们的服务器，因为我们没有服务器。",
+    "<strong>你的笔记只属于你。</strong>你书写、录制或转写的任何内容都不会到达我们或任何第三方，但你开启 Private Cloud Compute 后发送给它的文本除外。没有广告，也没有跨 App 追踪。"
+  ],
+  "sections": [
+    {
+      "h": "你的笔记存放在哪里",
+      "html": "<p>每篇笔记都是一个文件夹，里面有 Markdown 文件和对应的音频。它们按你的选择存储在你的设备上，或存储在 iCloud Drive 的 Libretta 文件夹中。如果你使用 iCloud Drive，Apple 会根据其<a href=\"https://www.apple.com/legal/privacy/\">隐私政策</a>在你的设备之间同步这些文件；我们无法访问它们。你可以随时在“文件”App 或 Finder 中打开、移动或删除它们。</p>\n<p>App 还会在设备上保留一个搜索索引和一份缓存，以便运行得更快。两者都可以由你的文件重新生成，删除 App 时也会一并删除。</p>"
+    },
+    {
+      "h": "在你的设备上处理的内容",
+      "html": "<ul>\n<li><strong>转写和说话人区分。</strong>音频由在你的设备上运行的模型转写并按说话人划分：Apple 的语音识别和 Desert Ant Labs 的模型。</li>\n<li><strong>摘要和提问。</strong>摘要、决定、任务以及对你提问的回答，都由你设备上的 Apple Intelligence 撰写。</li>\n<li><strong>搜索。</strong>用于搜索你笔记的索引在你的设备上建立和查询。</li>\n</ul>"
+    },
+    {
+      "h": "使用 Private Cloud Compute 生成摘要（可选）",
+      "html": "<p>Libretta 提供一项设置，可以使用 Private Cloud Compute 来生成摘要，它是 Apple 在其服务器上运行的模型。该设置<strong>默认关闭</strong>。如果你开启它，待摘要的转写文本会发送到 Private Cloud Compute；音频不会发送。Apple 将该服务设计为在不存储请求、也不让任何人（无论是 Apple 还是我们）看到请求的情况下处理它。App 会标注每一条在你设备之外生成的摘要，你也可以让它在发送文本之前隐藏个人数据。</p>"
+    },
+    {
+      "h": "模型下载",
+      "html": "<p>首次使用时，Libretta 会从 Desert Ant Labs 下载转写模型，系统会下载 Apple 的语音模型。这些是文件下载：提供文件的服务器与任何下载一样，会看到你连接的 IP 地址，但不会收到你的任何笔记、音频或数据。</p>"
+    },
+    {
+      "h": "App 请求的权限",
+      "html": "<p>每项权限只会在你使用需要它的功能时请求，你可以随时在“设置”中撤回。</p>\n<ul>\n<li><strong>麦克风。</strong>用于录制你的笔记和会议。它只在你要求时录音，录音期间会在屏幕上显示。</li>\n<li><strong>日历。</strong>用于显示你的会议并将其准备为笔记。iOS 只提供完全访问权限，但 Libretta 只读取：从不创建、更改或删除日程。</li>\n<li><strong>通讯录。</strong>用于为会议中的发言者添加姓名和电子邮件。你所选的内容会保存在你的笔记中。</li>\n<li><strong>通知。</strong>用于在会议前提醒你。通知在你的设备上安排。</li>\n<li><strong>系统音频（Mac）。</strong>用于在录制麦克风的同时录下视频通话的声音。</li>\n</ul>\n<p>App 从你的日历或通讯录读取的任何内容都不会离开你的设备，但你写进笔记并同步到 iCloud Drive 的内容除外。</p>"
+    },
+    {
+      "h": "使用统计",
+      "html": "<p>为了了解哪些功能被使用以及哪里出了问题，Libretta 会向 <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a> 发送匿名使用统计，这是一项专为保护隐私而打造的服务。每条信号会说明使用了哪个屏幕或功能，以及 App 和系统版本、设备型号和语言。用户标识符在发送前会在你的设备上进行哈希处理，TelemetryDeck 不会存储你的 IP 地址，任何信号都不包含你的笔记、音频、转写文本、日历或通讯录的内容。这些数据不用于广告，也不会与其他 App 的数据合并。</p>"
+    },
+    {
+      "h": "购买",
+      "html": "<p>如果你在 Libretta 中购买内容，付款由 Apple 处理，我们从不会看到你的付款信息。为了知道你解锁了什么，我们使用 <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>，它会收到由 App 创建的匿名标识符、Apple 提供的购买信息以及设备的技术信息。它不会收到你的姓名、电子邮件或笔记中的任何内容。</p>"
+    },
+    {
+      "h": "当你分享时",
+      "html": "<p>如果你导出或分享笔记、录音或摘要，它会发送到你选择的地方，并受该 App 或服务的条款约束。</p>"
+    },
+    {
+      "h": "崩溃报告",
+      "html": "<p>如果你在设备设置中同意与 App 开发者共享分析数据，Apple 可能会将 Libretta 的匿名崩溃报告转交给我们。报告中不包含你的任何笔记或音频，你可以在“设置” &rsaquo; “隐私与安全性” &rsaquo; “分析与改进”中将其关闭。</p>"
+    },
+    {
+      "h": "儿童",
+      "html": "<p>Libretta 不向任何人（包括儿童）索取个人数据，也不面向儿童。</p>"
+    },
+    {
+      "h": "本网站",
+      "html": "<p>libretta.app 不使用 Cookie、分析工具或第三方资源。它由 GitHub Pages 提供服务，GitHub Pages 会出于安全目的，根据其<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">隐私声明</a>记录访问。</p>"
+    },
+    {
+      "h": "变更",
+      "html": "<p>如果本页所述的任何内容发生变化，我们会更新本页，顶部的日期也会随之改变。</p>"
+    },
+    {
+      "h": "联系我们",
+      "html": "<p>Libretta 由 Chubby Studio 制作。如对隐私有任何疑问，请发送邮件至 <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>。</p>"
+    }
+  ]
+}

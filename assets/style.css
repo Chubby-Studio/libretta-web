@@ -5,6 +5,17 @@
   font-stretch: 75% 100%;
   font-display: swap;
   src: url("/assets/instrument-sans-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Instrument Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-stretch: 75% 100%;
+  font-display: swap;
+  src: url("/assets/instrument-sans-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 :root {
@@ -48,6 +59,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Instrument Sans covers Latin only; Vietnamese tone marks and other scripts use the system font. */
+:lang(vi), :lang(ar), :lang(he), :lang(el), :lang(ru), :lang(uk), :lang(hi), :lang(th), :lang(ja), :lang(ko), :lang(zh) {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", system-ui, sans-serif;
+}
+:lang(ja) .label, :lang(ko) .label, :lang(zh) .label, :lang(ar) .label, :lang(he) .label, :lang(hi) .label, :lang(th) .label { text-transform: none; letter-spacing: 0; }
+
 a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
 a:hover { text-decoration-color: var(--voice); }
 
@@ -65,6 +82,17 @@ header.bar {
   color: var(--grey-500);
 }
 header.bar a { color: var(--grey-500); text-decoration: none; }
+footer select.lang {
+  font: inherit;
+  color: var(--grey-500);
+  background: transparent;
+  border: 0;
+  padding: 0.25rem 0;
+  cursor: pointer;
+  max-width: 11rem;
+}
+footer select.lang:hover, footer select.lang:focus-visible { color: var(--ink); }
+footer select.lang { margin-inline-start: auto; }
 header.bar a:hover { color: var(--ink); }
 header.bar .home { display: flex; align-items: center; gap: 0.6rem; color: var(--ink); }
 header.bar .home .wm { width: 78px; height: auto; display: block; }
@@ -81,7 +109,7 @@ header.bar .home img { width: 1.75rem; height: 1.75rem; }
 
 /* Home */
 .hero {
-  min-height: calc(100svh - 9rem);
+  min-height: calc(100svh - 5rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,7 +163,7 @@ article h2 {
   margin: 2.75rem 0 0.75rem;
 }
 article strong { color: var(--ink); font-weight: 600; }
-article ul { padding-left: 1.25rem; }
+article ul { padding-inline-start: 1.25rem; }
 article li { margin: 0.4rem 0; }
 .summary {
   background: var(--grey-100);
@@ -143,4 +171,4 @@ article li { margin: 0.4rem 0; }
   padding: 1.25rem 1.5rem;
   margin: 2rem 0;
 }
-.summary ul { margin: 0; padding-left: 1.25rem; }
+.summary ul { margin: 0; padding-inline-start: 1.25rem; }

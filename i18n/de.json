@@ -1,0 +1,71 @@
+{
+  "language_label": "Sprache",
+  "home_description": "Libretta ist ein Sprachnotizbuch für iPhone, iPad und Mac: Schreibe, sprich und nimm Meetings in einer Notiz auf, auf deinem Gerät transkribiert und zusammengefasst.",
+  "home_lede": "Ein Sprachnotizbuch. Schreibe, sprich und nimm Meetings in <strong>einer Notiz</strong> auf, <mark>auf deinem Gerät</mark> transkribiert und zusammengefasst.",
+  "home_soon": "Demnächst für iPhone, iPad und Mac",
+  "privacy_link": "Datenschutz",
+  "home_link": "Start",
+  "privacy_title": "Datenschutz",
+  "privacy_description": "Datenschutzerklärung von Libretta: kein Account und kein eigener Server. Deine Notizen werden auf deinem Gerät verarbeitet und in deinem Ordner gespeichert.",
+  "updated": "Aktualisiert am 10. November 2026",
+  "intro": "Libretta ist ein Sprachnotizbuch: Du schreibst, sprichst und nimmst Meetings auf, und die App transkribiert und fasst sie zusammen. Sie ist so gebaut, dass das alles auf deinem Gerät geschieht und in einem Ordner gespeichert wird, der dir gehört.",
+  "summary": [
+    "<strong>Kein Account.</strong> Wir fragen nie nach deinem Namen, deiner E-Mail-Adresse oder einem Passwort.",
+    "<strong>Kein eigener Server.</strong> Deine Notizen, dein Audio und deine Transkripte laufen nie über unsere Server, denn wir haben keine.",
+    "<strong>Deine Notizen gehören nur dir.</strong> Nichts, was du schreibst, aufnimmst oder transkribierst, erreicht uns oder Dritte, außer dem Text, den du an Private Cloud Compute sendest, wenn du es aktivierst. Keine Werbung und kein Tracking über Apps hinweg."
+  ],
+  "sections": [
+    {
+      "h": "Wo deine Notizen liegen",
+      "html": "<p>Jede Notiz ist ein Ordner mit Markdown-Dateien und ihrem Audio. Sie werden auf deinem Gerät oder im Libretta-Ordner deines iCloud Drive gespeichert, wie du es wählst. Wenn du iCloud Drive nutzt, synchronisiert Apple diese Dateien zwischen deinen Geräten gemäß seiner <a href=\"https://www.apple.com/legal/privacy/\">Datenschutzrichtlinie</a>; wir haben keinen Zugriff darauf. Du kannst sie jederzeit in der Dateien-App oder im Finder öffnen, verschieben oder löschen.</p>\n<p>Die App speichert außerdem einen Suchindex und einen Cache auf dem Gerät, um schneller zu sein. Beides wird aus deinen Dateien neu aufgebaut und verschwindet, wenn du die App löschst.</p>"
+    },
+    {
+      "h": "Was auf deinem Gerät verarbeitet wird",
+      "html": "<ul>\n<li><strong>Transkription und Stimmen.</strong> Audio wird mit Modellen, die auf deinem Gerät laufen, transkribiert und nach Sprechenden getrennt: der Spracherkennung von Apple und Modellen von Desert Ant Labs.</li>\n<li><strong>Zusammenfassungen und Fragen.</strong> Zusammenfassungen, Entscheidungen, Aufgaben und die Antworten auf deine Fragen schreibt Apple Intelligence auf deinem Gerät.</li>\n<li><strong>Suche.</strong> Der Index, mit dem du deine Notizen durchsuchen kannst, wird auf deinem Gerät erstellt und abgefragt.</li>\n</ul>"
+    },
+    {
+      "h": "Zusammenfassungen mit Private Cloud Compute (optional)",
+      "html": "<p>Libretta hat eine Einstellung, um Zusammenfassungen mit Private Cloud Compute zu schreiben, dem Modell von Apple, das auf dessen Servern läuft. Sie ist <strong>standardmäßig ausgeschaltet</strong>. Wenn du sie einschaltest, wird der Text des Transkripts, der zusammengefasst wird, an Private Cloud Compute gesendet; das Audio nicht. Apple hat den Dienst so entworfen, dass er die Anfrage verarbeitet, ohne sie zu speichern und ohne dass jemand, weder Apple noch wir, sie sehen kann. Die App kennzeichnet jede Zusammenfassung, die außerhalb deines Geräts geschrieben wurde, und du kannst sie bitten, personenbezogene Daten auszublenden, bevor der Text gesendet wird.</p>"
+    },
+    {
+      "h": "Modell-Downloads",
+      "html": "<p>Beim ersten Gebrauch lädt Libretta die Transkriptionsmodelle von Desert Ant Labs herunter, und das System lädt die Sprachmodelle von Apple herunter. Das sind Datei-Downloads: Der Server, der sie ausliefert, sieht wie bei jedem Download die IP-Adresse deiner Verbindung, erhält aber keine deiner Notizen, kein Audio und keine Daten von dir.</p>"
+    },
+    {
+      "h": "Berechtigungen, um die die App bittet",
+      "html": "<p>Jede Berechtigung wird nur angefragt, wenn du die Funktion nutzt, die sie braucht, und du kannst sie jederzeit in den Einstellungen widerrufen.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Um deine Notizen und Meetings aufzunehmen. Es nimmt nur auf, wenn du es verlangst, und es wird während der Aufnahme auf dem Bildschirm angezeigt.</li>\n<li><strong>Kalender.</strong> Um deine Meetings anzuzeigen und als Notizen vorzubereiten. iOS bietet nur Vollzugriff an, aber Libretta liest nur: Es erstellt, ändert oder löscht nie Termine.</li>\n<li><strong>Kontakte.</strong> Um denjenigen, die in einem Meeting sprechen, Namen und E-Mail-Adresse zuzuordnen. Was du auswählst, wird in deiner Notiz gespeichert.</li>\n<li><strong>Mitteilungen.</strong> Um dich vor einem Meeting zu erinnern. Sie werden auf deinem Gerät geplant.</li>\n<li><strong>Systemaudio (Mac).</strong> Um den Ton deiner Videoanrufe zusammen mit deinem Mikrofon aufzunehmen.</li>\n</ul>\n<p>Nichts, was die App aus deinem Kalender oder deinen Kontakten liest, verlässt dein Gerät, außer dem, was du selbst in deine Notizen schreibst und mit deinem iCloud Drive synchronisierst.</p>"
+    },
+    {
+      "h": "Nutzungsstatistiken",
+      "html": "<p>Um zu erfahren, welche Funktionen genutzt werden und was kaputtgeht, sendet Libretta anonyme Nutzungsstatistiken an <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, einen Dienst, der auf Datenschutz ausgelegt ist. Jedes Signal sagt, welcher Bildschirm oder welche Funktion genutzt wurde, zusammen mit App- und Systemversion, Gerätemodell und Sprache. Die Nutzerkennung wird vor dem Senden auf deinem Gerät gehasht, TelemetryDeck speichert deine IP-Adresse nicht, und kein Signal enthält den Inhalt deiner Notizen, deines Audios, deiner Transkripte, deines Kalenders oder deiner Kontakte. Sie werden nicht für Werbung verwendet und nicht mit Daten aus anderen Apps kombiniert.</p>"
+    },
+    {
+      "h": "Käufe",
+      "html": "<p>Wenn du in Libretta etwas kaufst, wickelt Apple die Zahlung ab, und wir sehen nie deine Zahlungsdaten. Um zu wissen, was du freigeschaltet hast, nutzen wir <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, das eine von der App erzeugte anonyme Kennung, die Kaufinformationen von Apple und technische Angaben zum Gerät erhält. Es erhält weder deinen Namen noch deine E-Mail-Adresse noch irgendetwas aus deinen Notizen.</p>"
+    },
+    {
+      "h": "Wenn du teilst",
+      "html": "<p>Wenn du eine Notiz, eine Aufnahme oder eine Zusammenfassung exportierst oder teilst, geht sie dorthin, wohin du es wählst, nach den Bedingungen dieser App oder dieses Dienstes.</p>"
+    },
+    {
+      "h": "Absturzberichte",
+      "html": "<p>Wenn du in den Einstellungen deines Geräts zustimmst, Analysedaten mit App-Entwicklern zu teilen, kann Apple uns anonyme Absturzberichte von Libretta weitergeben. Sie enthalten keine deiner Notizen und kein Audio, und du kannst sie in Einstellungen &rsaquo; Datenschutz &amp; Sicherheit &rsaquo; Analyse &amp; Verbesserungen ausschalten.</p>"
+    },
+    {
+      "h": "Kinder",
+      "html": "<p>Libretta verlangt von niemandem personenbezogene Daten, auch nicht von Kindern, und richtet sich nicht an Kinder.</p>"
+    },
+    {
+      "h": "Diese Website",
+      "html": "<p>libretta.app verwendet keine Cookies, keine Analyse und keine Ressourcen von Dritten. Sie wird über GitHub Pages ausgeliefert, das Besuche aus Sicherheitsgründen gemäß seiner <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung</a> protokolliert.</p>"
+    },
+    {
+      "h": "Änderungen",
+      "html": "<p>Wenn sich etwas von dem ändert, was auf dieser Seite beschrieben ist, aktualisieren wir sie, und das Datum oben ändert sich.</p>"
+    },
+    {
+      "h": "Kontakt",
+      "html": "<p>Libretta wird von Chubby Studio gemacht. Bei Fragen zum Datenschutz schreib uns an <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "language_label": "Kieli",
+  "home_description": "Libretta on äänimuistikirja iPhonelle, iPadille ja Macille: kirjoita, puhu ja nauhoita palavereja yhteen muistiinpanoon, joka litteroidaan ja tiivistetään laitteellasi.",
+  "home_lede": "Äänimuistikirja. Kirjoita, puhu ja nauhoita palavereja <strong>yhteen muistiinpanoon</strong>, joka litteroidaan ja tiivistetään <mark>laitteellasi</mark>.",
+  "home_soon": "Tulossa pian: iPhone, iPad ja Mac",
+  "privacy_link": "Tietosuoja",
+  "home_link": "Etusivu",
+  "privacy_title": "Tietosuoja",
+  "privacy_description": "Librettan tietosuojakäytäntö: ei tiliä eikä omaa palvelinta. Muistiinpanosi käsitellään laitteellasi ja tallennetaan kansioosi.",
+  "updated": "Päivitetty 10. marraskuuta 2026",
+  "intro": "Libretta on äänimuistikirja: kirjoitat, puhut ja nauhoitat palavereja, ja sovellus litteroi ja tiivistää ne. Se on tehty niin, että kaikki tämä tapahtuu laitteellasi ja tallentuu kansioon, joka kuuluu sinulle.",
+  "summary": [
+    "<strong>Ei tiliä.</strong> Emme koskaan kysy nimeäsi, sähköpostiosoitettasi tai salasanaa.",
+    "<strong>Ei omaa palvelinta.</strong> Muistiinpanosi, äänesi ja litteraattisi eivät koskaan kulje palvelintemme kautta, koska meillä ei ole sellaisia.",
+    "<strong>Muistiinpanosi ovat vain sinun.</strong> Mikään kirjoittamasi, nauhoittamasi tai litteroimasi ei tavoita meitä tai kolmansia osapuolia, paitsi teksti, jonka lähetät Private Cloud Computeen, jos otat sen käyttöön. Ei mainontaa eikä seurantaa sovellusten välillä."
+  ],
+  "sections": [
+    {
+      "h": "Missä muistiinpanosi ovat",
+      "html": "<p>Jokainen muistiinpano on kansio, jossa on Markdown-tiedostoja ja sen ääni. Ne tallennetaan laitteellesi tai iCloud Driven Libretta-kansioon sen mukaan, mitä valitset. Jos käytät iCloud Drivea, Apple synkronoi nämä tiedostot laitteidesi välillä <a href=\"https://www.apple.com/legal/privacy/\">tietosuojakäytäntönsä</a> mukaisesti; meillä ei ole pääsyä niihin. Voit avata, siirtää tai poistaa ne milloin tahansa Tiedostot-apissa tai Finderissa.</p>\n<p>Sovellus tallentaa laitteelle myös hakuindeksin ja välimuistin nopeuttaakseen toimintaansa. Molemmat rakennetaan uudelleen tiedostoistasi, ja ne katoavat, kun poistat sovelluksen.</p>"
+    },
+    {
+      "h": "Mitä käsitellään laitteellasi",
+      "html": "<ul>\n<li><strong>Litterointi ja äänet.</strong> Ääni litteroidaan ja jaetaan puhujien mukaan laitteellasi toimivilla malleilla: Applen puheentunnistuksella ja Desert Ant Labsin malleilla.</li>\n<li><strong>Tiivistelmät ja kysymykset.</strong> Tiivistelmät, päätökset, tehtävät ja vastaukset kysymyksiisi kirjoittaa Apple Intelligence laitteellasi.</li>\n<li><strong>Haku.</strong> Indeksi, jonka avulla voit hakea muistiinpanoistasi, rakennetaan ja sitä kyselään laitteellasi.</li>\n</ul>"
+    },
+    {
+      "h": "Tiivistelmät Private Cloud Computella (valinnainen)",
+      "html": "<p>Libretassa on asetus, jolla tiivistelmät kirjoitetaan Private Cloud Computella, Applen mallilla, joka toimii sen palvelimilla. Se on <strong>oletuksena pois päältä</strong>. Jos otat sen käyttöön, tiivistettävä litteraatin teksti lähetetään Private Cloud Computeen; ääntä ei lähetetä. Apple on suunnitellut palvelun käsittelemään pyynnön tallentamatta sitä ja niin, ettei kukaan, ei Apple eikä me, voi nähdä sitä. Sovellus merkitsee jokaisen laitteesi ulkopuolella kirjoitetun tiivistelmän, ja voit pyytää sitä piilottamaan henkilötiedot ennen tekstin lähettämistä.</p>"
+    },
+    {
+      "h": "Mallien lataukset",
+      "html": "<p>Ensimmäisellä käyttökerralla Libretta lataa litterointimallit Desert Ant Labsilta, ja järjestelmä lataa Applen puhemallit. Nämä ovat tiedostolatauksia: ne toimittava palvelin näkee yhteytesi IP-osoitteen, kuten missä tahansa latauksessa, mutta ei saa mitään muistiinpanoistasi, äänestäsi tai tiedoistasi.</p>"
+    },
+    {
+      "h": "Sovelluksen pyytämät oikeudet",
+      "html": "<p>Jokaista oikeutta pyydetään vasta, kun käytät toimintoa, joka sitä tarvitsee, ja voit perua sen Asetuksissa milloin tahansa.</p>\n<ul>\n<li><strong>Mikrofoni.</strong> Muistiinpanojesi ja palaverien nauhoittamiseen. Se nauhoittaa vain, kun pyydät, ja se näkyy näytöllä nauhoituksen aikana.</li>\n<li><strong>Kalenteri.</strong> Palaverien näyttämiseen ja niiden valmisteluun muistiinpanoiksi. iOS tarjoaa vain täyden käyttöoikeuden, mutta Libretta vain lukee: se ei koskaan luo, muuta tai poista tapahtumia.</li>\n<li><strong>Yhteystiedot.</strong> Palaverissa puhuvalle nimen ja sähköpostiosoitteen liittämiseen. Valintasi tallennetaan muistiinpanoosi.</li>\n<li><strong>Ilmoitukset.</strong> Muistutukseen ennen palaveria. Ne ajastetaan laitteellasi.</li>\n<li><strong>Järjestelmän ääni (Mac).</strong> Videopuhelujesi äänen nauhoittamiseen mikrofonisi kanssa.</li>\n</ul>\n<p>Mikään sovelluksen kalenteristasi tai yhteystiedoistasi lukema ei poistu laitteeltasi, paitsi se, minkä itse kirjoitat muistiinpanoihisi ja synkronoit iCloud Driveesi.</p>"
+    },
+    {
+      "h": "Käyttötilastot",
+      "html": "<p>Saadakseen selville, mitä toimintoja käytetään ja mikä menee rikki, Libretta lähettää nimettömiä käyttötilastoja palveluun <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, joka on rakennettu tietosuoja edellä. Jokainen signaali kertoo, mitä näyttöä tai toimintoa käytettiin, sekä sovelluksen ja järjestelmän version, laitemallin ja kielen. Käyttäjätunniste tiivistetään (hash) laitteellasi ennen lähettämistä, TelemetryDeck ei tallenna IP-osoitettasi, eikä mikään signaali sisällä muistiinpanojesi, äänesi, litteraattiesi, kalenterisi tai yhteystietojesi sisältöä. Niitä ei käytetä mainontaan eikä yhdistetä muiden sovellusten tietoihin.</p>"
+    },
+    {
+      "h": "Ostokset",
+      "html": "<p>Jos ostat jotain Librettassa, Apple hoitaa maksun, emmekä me koskaan näe maksutietojasi. Tietääksemme, mitä olet avannut, käytämme <a href=\"https://www.revenuecat.com/privacy/\">RevenueCatia</a>, joka saa sovelluksen luoman nimettömän tunnisteen, Applen antamat ostotiedot ja laitteen tekniset tiedot. Se ei saa nimeäsi, sähköpostiosoitettasi eikä mitään muistiinpanoistasi.</p>"
+    },
+    {
+      "h": "Kun jaat",
+      "html": "<p>Jos viet tai jaat muistiinpanon, nauhoituksen tai tiivistelmän, se menee sinne, minne valitset, kyseisen sovelluksen tai palvelun ehtojen mukaisesti.</p>"
+    },
+    {
+      "h": "Kaatumisraportit",
+      "html": "<p>Jos laitteesi asetuksissa suostut jakamaan analytiikkaa sovelluskehittäjien kanssa, Apple voi välittää meille nimettömiä Librettan kaatumisraportteja. Ne eivät sisällä muistiinpanojasi tai ääntäsi, ja voit poistaa ne käytöstä kohdassa Asetukset &rsaquo; Tietosuoja ja turvallisuus &rsaquo; Analytiikka ja parannukset.</p>"
+    },
+    {
+      "h": "Lapset",
+      "html": "<p>Libretta ei pyydä henkilötietoja keneltäkään, lapsilta ei myöskään, eikä sitä ole suunnattu lapsille.</p>"
+    },
+    {
+      "h": "Tämä verkkosivusto",
+      "html": "<p>libretta.app ei käytä evästeitä, analytiikkaa eikä kolmansien osapuolten resursseja. Se tarjotaan GitHub Pagesin kautta, joka kirjaa vierailut turvallisuussyistä <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">tietosuojaselosteensa</a> mukaisesti.</p>"
+    },
+    {
+      "h": "Muutokset",
+      "html": "<p>Jos jokin tällä sivulla kuvattu muuttuu, päivitämme sivun ja ylhäällä oleva päivämäärä muuttuu.</p>"
+    },
+    {
+      "h": "Yhteystiedot",
+      "html": "<p>Librettan tekee Chubby Studio. Jos sinulla on tietosuojaa koskevia kysymyksiä, kirjoita meille osoitteeseen <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

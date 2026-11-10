@@ -1,0 +1,71 @@
+{
+  "language_label": "Jazyk",
+  "home_description": "Libretta je hlasový zápisník pre iPhone, iPad a Mac: píšte, hovorte a nahrávajte stretnutia v jednej poznámke, ktorá sa prepíše a zhrnie vo vašom zariadení.",
+  "home_lede": "Hlasový zápisník. Píšte, hovorte a nahrávajte stretnutia v <strong>jednej poznámke</strong>, ktorá sa prepíše a zhrnie <mark>vo vašom zariadení</mark>.",
+  "home_soon": "Čoskoro pre iPhone, iPad a Mac",
+  "privacy_link": "Súkromie",
+  "home_link": "Domov",
+  "privacy_title": "Súkromie",
+  "privacy_description": "Zásady ochrany súkromia aplikácie Libretta: bez účtu a bez vlastného servera. Vaše poznámky sa spracúvajú vo vašom zariadení a ukladajú sa do vášho priečinka.",
+  "updated": "Aktualizované 10. novembra 2026",
+  "intro": "Libretta je hlasový zápisník: píšete, hovoríte a nahrávate stretnutia a aplikácia ich prepíše a zhrnie. Je navrhnutá tak, aby sa to všetko dialo vo vašom zariadení a ukladalo do priečinka, ktorý patrí vám.",
+  "summary": [
+    "<strong>Bez účtu.</strong> Nikdy sa vás nepýtame na meno, e-mail ani heslo.",
+    "<strong>Bez vlastného servera.</strong> Vaše poznámky, zvuk ani prepisy nikdy neprechádzajú cez naše servery, pretože žiadne nemáme.",
+    "<strong>Vaše poznámky patria len vám.</strong> Nič, čo napíšete, nahráte alebo prepíšete, sa k nám ani k tretím stranám nedostane, okrem textu, ktorý odošlete do Private Cloud Compute, ak ho zapnete. Bez reklamy a bez sledovania medzi aplikáciami."
+  ],
+  "sections": [
+    {
+      "h": "Kde sú vaše poznámky",
+      "html": "<p>Každá poznámka je priečinok so súbormi Markdown a jej zvukom. Ukladajú sa vo vašom zariadení alebo v priečinku Libretta vo vašom iCloud Drive, podľa vášho výberu. Ak používate iCloud Drive, Apple tieto súbory synchronizuje medzi vašimi zariadeniami podľa svojich <a href=\"https://www.apple.com/legal/privacy/\">zásad ochrany osobných údajov</a>; my k nim nemáme prístup. Môžete ich kedykoľvek otvoriť, presunúť alebo odstrániť v aplikácii Súbory alebo cez Finder.</p>\n<p>Aplikácia si vo vašom zariadení uchováva aj vyhľadávací index a vyrovnávaciu pamäť, aby bola rýchlejšia. Oba sa obnovia z vašich súborov a zmiznú, keď aplikáciu odstránite.</p>"
+    },
+    {
+      "h": "Čo sa spracúva vo vašom zariadení",
+      "html": "<ul>\n<li><strong>Prepis a hlasy.</strong> Zvuk sa prepisuje a rozdeľuje podľa hovoriacich pomocou modelov, ktoré bežia vo vašom zariadení: rozpoznávania reči od Apple a modelov od Desert Ant Labs.</li>\n<li><strong>Zhrnutia a otázky.</strong> Zhrnutia, rozhodnutia, úlohy aj odpovede na vaše otázky vytvára Apple Intelligence vo vašom zariadení.</li>\n<li><strong>Vyhľadávanie.</strong> Index, ktorý vám umožňuje prehľadávať poznámky, sa vytvára a používa vo vašom zariadení.</li>\n</ul>"
+    },
+    {
+      "h": "Zhrnutia cez Private Cloud Compute (voliteľné)",
+      "html": "<p>Libretta má nastavenie na písanie zhrnutí cez Private Cloud Compute, model od Apple, ktorý beží na jeho serveroch. Je <strong>predvolene vypnuté</strong>. Ak ho zapnete, text prepisu, ktorý sa zhrnuje, sa odošle do Private Cloud Compute; zvuk nie. Apple túto službu navrhol tak, aby požiadavku spracovala bez toho, aby ju uložila, a bez toho, aby ju mohol vidieť ktokoľvek, Apple ani my. Aplikácia označuje každé zhrnutie vytvorené mimo vášho zariadenia a môžete požiadať, aby sa osobné údaje pred odoslaním textu skryli.</p>"
+    },
+    {
+      "h": "Sťahovanie modelov",
+      "html": "<p>Pri prvom použití Libretta stiahne prepisovacie modely od Desert Ant Labs a systém stiahne rečové modely od Apple. Ide o sťahovanie súborov: server, ktorý ich poskytuje, vidí IP adresu vášho pripojenia, ako pri každom sťahovaní, ale nedostane žiadnu vašu poznámku, zvuk ani údaj.</p>"
+    },
+    {
+      "h": "Povolenia, o ktoré aplikácia žiada",
+      "html": "<p>O každé povolenie sa žiada len vtedy, keď používate funkciu, ktorá ho potrebuje, a môžete ho kedykoľvek odvolať v Nastaveniach.</p>\n<ul>\n<li><strong>Mikrofón.</strong> Na nahrávanie vašich poznámok a stretnutí. Nahráva len vtedy, keď o to požiadate, a počas nahrávania to vidíte na obrazovke.</li>\n<li><strong>Kalendár.</strong> Na zobrazenie vašich stretnutí a ich prípravu ako poznámok. iOS ponúka iba úplný prístup, ale Libretta iba číta: nikdy nevytvára, nemení ani neodstraňuje udalosti.</li>\n<li><strong>Kontakty.</strong> Na priradenie mena a e-mailu tomu, kto na stretnutí hovorí. To, čo vyberiete, sa uloží do vašej poznámky.</li>\n<li><strong>Oznámenia.</strong> Na pripomenutie pred stretnutím. Plánujú sa vo vašom zariadení.</li>\n<li><strong>Zvuk systému (Mac).</strong> Na nahrávanie zvuku vašich videohovorov spolu s mikrofónom.</li>\n</ul>\n<p>Nič, čo aplikácia číta z vášho kalendára alebo kontaktov, neopúšťa vaše zariadenie, okrem toho, čo napíšete do poznámok a synchronizujete s iCloud Drive.</p>"
+    },
+    {
+      "h": "Štatistiky používania",
+      "html": "<p>Aby sme vedeli, ktoré funkcie sa používajú a čo nefunguje, Libretta odosiela anonymné štatistiky používania službe <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ktorá je vytvorená s ohľadom na súkromie. Každý signál hovorí, ktorá obrazovka alebo funkcia sa použila, spolu s verziou aplikácie a systému, modelom zariadenia a jazykom. Identifikátor používateľa sa pred odoslaním vo vašom zariadení zahashuje, TelemetryDeck neukladá vašu IP adresu a žiadny signál neobsahuje obsah vašich poznámok, zvuku, prepisov, kalendára ani kontaktov. Nepoužívajú sa na reklamu a nekombinujú sa s údajmi z iných aplikácií.</p>"
+    },
+    {
+      "h": "Nákupy",
+      "html": "<p>Ak v aplikácii Libretta niečo kúpite, platbu spracuje Apple a my nikdy nevidíme vaše platobné údaje. Na zistenie, čo máte odomknuté, používame <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, ktorý dostáva anonymný identifikátor vytvorený aplikáciou, informácie o nákupe od Apple a technické údaje o zariadení. Nedostáva vaše meno, e-mail ani nič z vašich poznámok.</p>"
+    },
+    {
+      "h": "Keď zdieľate",
+      "html": "<p>Ak exportujete alebo zdieľate poznámku, nahrávku či zhrnutie, odíde tam, kam si vyberiete, podľa podmienok danej aplikácie alebo služby.</p>"
+    },
+    {
+      "h": "Hlásenia o zlyhaniach",
+      "html": "<p>Ak v nastaveniach zariadenia súhlasíte so zdieľaním analýz s vývojármi aplikácií, Apple nám môže posielať anonymné hlásenia o zlyhaniach aplikácie Libretta. Neobsahujú vaše poznámky ani zvuk a môžete ich vypnúť v Nastavenia &rsaquo; Súkromie a zabezpečenie &rsaquo; Analýzy a vylepšenia.</p>"
+    },
+    {
+      "h": "Deti",
+      "html": "<p>Libretta nežiada osobné údaje od nikoho, ani od detí, a nie je určená deťom.</p>"
+    },
+    {
+      "h": "Tento web",
+      "html": "<p>libretta.app nepoužíva súbory cookie, analytiku ani zdroje tretích strán. Poskytuje sa cez GitHub Pages, ktorý z bezpečnostných dôvodov zaznamenáva návštevy podľa svojho <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">vyhlásenia o ochrane osobných údajov</a>.</p>"
+    },
+    {
+      "h": "Zmeny",
+      "html": "<p>Ak sa niečo z toho, čo táto stránka popisuje, zmení, aktualizujeme ju a dátum navrchu sa zmení.</p>"
+    },
+    {
+      "h": "Kontakt",
+      "html": "<p>Libretta je dielom Chubby Studio. S akoukoľvek otázkou o súkromí nám napíšte na <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

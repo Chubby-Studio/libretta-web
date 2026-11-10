@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ca" dir="ltr" data-code="ca" data-page="privacy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privadesa · Libretta</title>
+  <meta name="description" content="Política de privadesa de Libretta: sense compte ni servidor propi. Les teves notes es processen al teu dispositiu i es desen a la teva carpeta.">
+  <link rel="canonical" href="https://libretta.app/ca/privacy/">
+  <link rel="alternate" hreflang="en" href="https://libretta.app/privacy/">
+  <link rel="alternate" hreflang="es" href="https://libretta.app/es/privacy/">
+  <link rel="alternate" hreflang="ca" href="https://libretta.app/ca/privacy/">
+  <link rel="alternate" hreflang="cs" href="https://libretta.app/cs/privacy/">
+  <link rel="alternate" hreflang="da" href="https://libretta.app/da/privacy/">
+  <link rel="alternate" hreflang="de" href="https://libretta.app/de/privacy/">
+  <link rel="alternate" hreflang="el" href="https://libretta.app/el/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://libretta.app/fi/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://libretta.app/fr/privacy/">
+  <link rel="alternate" hreflang="hr" href="https://libretta.app/hr/privacy/">
+  <link rel="alternate" hreflang="hu" href="https://libretta.app/hu/privacy/">
+  <link rel="alternate" hreflang="id" href="https://libretta.app/id/privacy/">
+  <link rel="alternate" hreflang="it" href="https://libretta.app/it/privacy/">
+  <link rel="alternate" hreflang="ms" href="https://libretta.app/ms/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://libretta.app/nl/privacy/">
+  <link rel="alternate" hreflang="nb" href="https://libretta.app/no/privacy/">
+  <link rel="alternate" hreflang="pl" href="https://libretta.app/pl/privacy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://libretta.app/pt-br/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://libretta.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="ro" href="https://libretta.app/ro/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://libretta.app/ru/privacy/">
+  <link rel="alternate" hreflang="sk" href="https://libretta.app/sk/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://libretta.app/sv/privacy/">
+  <link rel="alternate" hreflang="tr" href="https://libretta.app/tr/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://libretta.app/uk/privacy/">
+  <link rel="alternate" hreflang="vi" href="https://libretta.app/vi/privacy/">
+  <link rel="alternate" hreflang="ar" href="https://libretta.app/ar/privacy/">
+  <link rel="alternate" hreflang="he" href="https://libretta.app/he/privacy/">
+  <link rel="alternate" hreflang="hi" href="https://libretta.app/hi/privacy/">
+  <link rel="alternate" hreflang="th" href="https://libretta.app/th/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://libretta.app/ja/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://libretta.app/ko/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://libretta.app/zh-hans/privacy/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://libretta.app/zh-hant/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://libretta.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+(function () {
+  var codes = ["en", "es", "ca", "cs", "da", "de", "el", "fi", "fr", "hr", "hu", "id", "it", "ms", "nl", "no", "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sv", "tr", "uk", "vi", "ar", "he", "hi", "th", "ja", "ko", "zh-hans", "zh-hant"];
+  var here = document.documentElement.getAttribute("data-code");
+  var page = document.documentElement.getAttribute("data-page");
+  var chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+    if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
+    var primary = tag.split("-")[0];
+    if (primary === "nb" || primary === "nn") primary = "no";
+    return codes.indexOf(primary) >= 0 ? primary : null;
+  }
+  var want = chosen && codes.indexOf(chosen) >= 0 ? chosen : null;
+  if (!want) {
+    var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < tags.length && !want; i++) want = match(tags[i]);
+  }
+  if (here === "en" && want && want !== "en") {
+    location.replace("/" + want + "/" + (page === "privacy" ? "privacy/" : "") + location.hash);
+  }
+  window.librettaPick = function (code) {
+    try { localStorage.setItem("lang", code); } catch (e) {}
+    location.href = (code === "en" ? "/" : "/" + code + "/") + (page === "privacy" ? "privacy/" : "");
+  };
+})();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="home" href="/ca/"><img src="/assets/icon-512.png" alt="" width="28" height="28"><picture><source srcset="/assets/wordmark-pequeno-negativo.svg" media="(prefers-color-scheme: dark)"><img class="wm" src="/assets/wordmark-pequeno.svg" alt="Libretta" width="78" height="18"></picture></a>
+    </header>
+
+    <article>
+      <p class="label">Actualitzat el 10 de novembre del 2026</p>
+      <h1>Privadesa</h1>
+      <p>Libretta és un quadern de veu: escrius, parles i graves reunions, i l'app ho transcriu i ho resumeix. Està pensada perquè tot això passi al teu dispositiu i es desi en una carpeta que és teva.</p>
+
+      <div class="summary">
+        <ul>
+          <li><strong>Sense compte.</strong> Mai et demanem el nom, el correu electrònic ni una contrasenya.</li>
+          <li><strong>Sense servidor propi.</strong> Les teves notes, l'àudio i les transcripcions no passen mai pels nostres servidors, perquè no en tenim.</li>
+          <li><strong>Les teves notes són només teves.</strong> Res del que escrius, graves o transcrius no ens arriba a nosaltres ni a tercers, tret del text que enviïs a Private Cloud Compute si l'actives. Sense publicitat i sense seguiment entre apps.</li>
+        </ul>
+      </div>
+
+      <h2>On viuen les teves notes</h2>
+      <p>Cada nota és una carpeta amb fitxers Markdown i el seu àudio. Es desen al teu dispositiu o a la carpeta de Libretta del teu iCloud Drive, segons trobis. Si fas servir iCloud Drive, Apple sincronitza aquests fitxers entre els teus dispositius d'acord amb la seva <a href="https://www.apple.com/legal/privacy/">política de privadesa</a>; nosaltres no hi tenim accés. Pots obrir-los, moure'ls o eliminar-los des de l'app Fitxers o el Finder en qualsevol moment.</p>
+<p>L'app també desa un índex de cerca i una memòria cau al dispositiu per ser més ràpida. Tots dos es reconstrueixen a partir dels teus fitxers i desapareixen quan elimines l'app.</p>
+
+      <h2>Què es processa al teu dispositiu</h2>
+      <ul>
+<li><strong>Transcripció i veus.</strong> L'àudio es transcriu i se separa per qui parla amb models que s'executen al teu dispositiu: el reconeixement de veu d'Apple i models de Desert Ant Labs.</li>
+<li><strong>Resums i preguntes.</strong> Els resums, les decisions, les tasques i les respostes a les teves preguntes els escriu Apple Intelligence al teu dispositiu.</li>
+<li><strong>Cerca.</strong> L'índex que et permet cercar a les teves notes es crea i es consulta al teu dispositiu.</li>
+</ul>
+
+      <h2>Resums amb Private Cloud Compute (opcional)</h2>
+      <p>Libretta té un ajust per escriure els resums amb Private Cloud Compute, el model d'Apple que s'executa als seus servidors. Està <strong>desactivat per defecte</strong>. Si l'actives, el text de la transcripció que es resumeix s'envia a Private Cloud Compute; l'àudio no. Apple ha dissenyat aquest servei perquè processi la sol·licitud sense desar-la i sense que ningú, ni Apple ni nosaltres, pugui veure-la. L'app marca cada resum escrit fora del teu dispositiu, i pots demanar que s'amaguin les dades personals abans d'enviar el text.</p>
+
+      <h2>Descàrregues de models</h2>
+      <p>La primera vegada que la fas servir, Libretta descarrega els models de transcripció de Desert Ant Labs, i el sistema descarrega els models de veu d'Apple. Són descàrregues de fitxers: el servidor que els lliura veu l'adreça IP de la teva connexió, com en qualsevol descàrrega, però no rep cap nota, àudio ni dada teva.</p>
+
+      <h2>Permisos que demana l'app</h2>
+      <p>Cada permís es demana només quan fas servir la funció que el necessita, i el pots retirar a Configuració en qualsevol moment.</p>
+<ul>
+<li><strong>Micròfon.</strong> Per gravar les teves notes i reunions. Només grava quan tu ho demanes, i es veu en pantalla mentre grava.</li>
+<li><strong>Calendari.</strong> Per mostrar-te les reunions i preparar-les com a notes. L'iOS només ofereix accés complet, però Libretta només llegeix: mai crea, canvia ni elimina esdeveniments.</li>
+<li><strong>Contactes.</strong> Per posar nom i correu electrònic a qui parla en una reunió. Allò que triïs es desa a la teva nota.</li>
+<li><strong>Notificacions.</strong> Per avisar-te abans d'una reunió. Es programen al teu dispositiu.</li>
+<li><strong>Àudio del sistema (Mac).</strong> Per gravar el so de les teves videotrucades juntament amb el teu micròfon.</li>
+</ul>
+<p>Res del que l'app llegeix del teu calendari o dels teus contactes surt del teu dispositiu, tret del que escriguis a les teves notes i sincronitzis amb el teu iCloud Drive.</p>
+
+      <h2>Estadístiques d'ús</h2>
+      <p>Per saber quines funcions es fan servir i què falla, Libretta envia estadístiques d'ús anònimes a <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, un servei pensat per a la privadesa. Cada senyal diu quina pantalla o funció s'ha fet servir, juntament amb la versió de l'app i del sistema, el model de dispositiu i l'idioma. L'identificador d'usuari es xifra al teu dispositiu abans d'enviar-se, TelemetryDeck no desa la teva adreça IP, i cap senyal porta el contingut de les teves notes, l'àudio, les transcripcions, el calendari ni els contactes. No s'utilitzen per a publicitat ni es combinen amb dades d'altres apps.</p>
+
+      <h2>Compres</h2>
+      <p>Si compres alguna cosa a Libretta, Apple gestiona el pagament i nosaltres no veiem mai les teves dades de pagament. Per saber què tens desbloquejat fem servir <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, que rep un identificador anònim creat per l'app, la informació de la compra que proporciona Apple i dades tècniques del dispositiu. No rep el teu nom, el teu correu electrònic ni res de les teves notes.</p>
+
+      <h2>Quan comparteixes</h2>
+      <p>Si exportes o comparteixes una nota, un enregistrament o un resum, va allà on triïs, amb les condicions d'aquella app o servei.</p>
+
+      <h2>Informes d'errors</h2>
+      <p>Si als ajustos del dispositiu acceptes compartir analítiques amb els desenvolupadors d'apps, Apple ens pot fer arribar informes d'errors anònims de Libretta. No contenen cap de les teves notes ni àudio, i els pots desactivar a Configuració &rsaquo; Privadesa i seguretat &rsaquo; Analítiques i millores.</p>
+
+      <h2>Menors</h2>
+      <p>Libretta no demana dades personals a ningú, tampoc als menors, i no s'adreça a menors.</p>
+
+      <h2>Aquest web</h2>
+      <p>libretta.app no fa servir cookies, analítiques ni recursos de tercers. Es serveix des de GitHub Pages, que registra les visites per motius de seguretat segons la seva <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaració de privadesa</a>.</p>
+
+      <h2>Canvis</h2>
+      <p>Si canvia res del que descriu aquesta pàgina, l'actualitzarem i canviarà la data de dalt.</p>
+
+      <h2>Contacte</h2>
+      <p>Libretta l'ha feta Chubby Studio. Per a qualsevol pregunta sobre privadesa, escriu-nos a <a href="mailto:hello@chubby.studio">hello@chubby.studio</a>.</p>
+    </article>
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      <a href="/ca/">Inici</a>
+      <select class="lang" aria-label="Idioma" onchange="librettaPick(this.value)">
+        <option value="en" lang="en">English</option>
+        <option value="es" lang="es">Español</option>
+        <option value="ca" lang="ca" selected>Català</option>
+        <option value="cs" lang="cs">Čeština</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="el" lang="el">Ελληνικά</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="id" lang="id">Bahasa Indonesia</option>
+        <option value="it" lang="it">Italiano</option>
+        <option value="ms" lang="ms">Bahasa Melayu</option>
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="no" lang="nb">Norsk</option>
+        <option value="pl" lang="pl">Polski</option>
+        <option value="pt-br" lang="pt-BR">Português (Brasil)</option>
+        <option value="pt-pt" lang="pt-PT">Português (Portugal)</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="ru" lang="ru">Русский</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="tr" lang="tr">Türkçe</option>
+        <option value="uk" lang="uk">Українська</option>
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="ar" lang="ar">العربية</option>
+        <option value="he" lang="he">עברית</option>
+        <option value="hi" lang="hi">हिन्दी</option>
+        <option value="th" lang="th">ไทย</option>
+        <option value="ja" lang="ja">日本語</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="zh-hans" lang="zh-Hans">简体中文</option>
+        <option value="zh-hant" lang="zh-Hant">繁體中文</option>
+      </select>
+    </footer>
+  </div>
+</body>
+</html>

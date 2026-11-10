@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pl" dir="ltr" data-code="pl" data-page="privacy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prywatność · Libretta</title>
+  <meta name="description" content="Polityka prywatności Libretty: bez konta i bez własnego serwera. Twoje notatki są przetwarzane na Twoim urządzeniu i przechowywane w Twoim folderze.">
+  <link rel="canonical" href="https://libretta.app/pl/privacy/">
+  <link rel="alternate" hreflang="en" href="https://libretta.app/privacy/">
+  <link rel="alternate" hreflang="es" href="https://libretta.app/es/privacy/">
+  <link rel="alternate" hreflang="ca" href="https://libretta.app/ca/privacy/">
+  <link rel="alternate" hreflang="cs" href="https://libretta.app/cs/privacy/">
+  <link rel="alternate" hreflang="da" href="https://libretta.app/da/privacy/">
+  <link rel="alternate" hreflang="de" href="https://libretta.app/de/privacy/">
+  <link rel="alternate" hreflang="el" href="https://libretta.app/el/privacy/">
+  <link rel="alternate" hreflang="fi" href="https://libretta.app/fi/privacy/">
+  <link rel="alternate" hreflang="fr" href="https://libretta.app/fr/privacy/">
+  <link rel="alternate" hreflang="hr" href="https://libretta.app/hr/privacy/">
+  <link rel="alternate" hreflang="hu" href="https://libretta.app/hu/privacy/">
+  <link rel="alternate" hreflang="id" href="https://libretta.app/id/privacy/">
+  <link rel="alternate" hreflang="it" href="https://libretta.app/it/privacy/">
+  <link rel="alternate" hreflang="ms" href="https://libretta.app/ms/privacy/">
+  <link rel="alternate" hreflang="nl" href="https://libretta.app/nl/privacy/">
+  <link rel="alternate" hreflang="nb" href="https://libretta.app/no/privacy/">
+  <link rel="alternate" hreflang="pl" href="https://libretta.app/pl/privacy/">
+  <link rel="alternate" hreflang="pt-BR" href="https://libretta.app/pt-br/privacy/">
+  <link rel="alternate" hreflang="pt-PT" href="https://libretta.app/pt-pt/privacy/">
+  <link rel="alternate" hreflang="ro" href="https://libretta.app/ro/privacy/">
+  <link rel="alternate" hreflang="ru" href="https://libretta.app/ru/privacy/">
+  <link rel="alternate" hreflang="sk" href="https://libretta.app/sk/privacy/">
+  <link rel="alternate" hreflang="sv" href="https://libretta.app/sv/privacy/">
+  <link rel="alternate" hreflang="tr" href="https://libretta.app/tr/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://libretta.app/uk/privacy/">
+  <link rel="alternate" hreflang="vi" href="https://libretta.app/vi/privacy/">
+  <link rel="alternate" hreflang="ar" href="https://libretta.app/ar/privacy/">
+  <link rel="alternate" hreflang="he" href="https://libretta.app/he/privacy/">
+  <link rel="alternate" hreflang="hi" href="https://libretta.app/hi/privacy/">
+  <link rel="alternate" hreflang="th" href="https://libretta.app/th/privacy/">
+  <link rel="alternate" hreflang="ja" href="https://libretta.app/ja/privacy/">
+  <link rel="alternate" hreflang="ko" href="https://libretta.app/ko/privacy/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://libretta.app/zh-hans/privacy/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://libretta.app/zh-hant/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://libretta.app/privacy/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+(function () {
+  var codes = ["en", "es", "ca", "cs", "da", "de", "el", "fi", "fr", "hr", "hu", "id", "it", "ms", "nl", "no", "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sv", "tr", "uk", "vi", "ar", "he", "hi", "th", "ja", "ko", "zh-hans", "zh-hant"];
+  var here = document.documentElement.getAttribute("data-code");
+  var page = document.documentElement.getAttribute("data-page");
+  var chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+    if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
+    var primary = tag.split("-")[0];
+    if (primary === "nb" || primary === "nn") primary = "no";
+    return codes.indexOf(primary) >= 0 ? primary : null;
+  }
+  var want = chosen && codes.indexOf(chosen) >= 0 ? chosen : null;
+  if (!want) {
+    var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < tags.length && !want; i++) want = match(tags[i]);
+  }
+  if (here === "en" && want && want !== "en") {
+    location.replace("/" + want + "/" + (page === "privacy" ? "privacy/" : "") + location.hash);
+  }
+  window.librettaPick = function (code) {
+    try { localStorage.setItem("lang", code); } catch (e) {}
+    location.href = (code === "en" ? "/" : "/" + code + "/") + (page === "privacy" ? "privacy/" : "");
+  };
+})();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <a class="home" href="/pl/"><img src="/assets/icon-512.png" alt="" width="28" height="28"><picture><source srcset="/assets/wordmark-pequeno-negativo.svg" media="(prefers-color-scheme: dark)"><img class="wm" src="/assets/wordmark-pequeno.svg" alt="Libretta" width="78" height="18"></picture></a>
+    </header>
+
+    <article>
+      <p class="label">Zaktualizowano 10 listopada 2026</p>
+      <h1>Prywatność</h1>
+      <p>Libretta to głosowy notatnik: piszesz, mówisz i nagrywasz spotkania, a aplikacja je transkrybuje i podsumowuje. Została zaprojektowana tak, aby to wszystko działo się na Twoim urządzeniu i było zapisywane w folderze, który należy do Ciebie.</p>
+
+      <div class="summary">
+        <ul>
+          <li><strong>Bez konta.</strong> Nigdy nie prosimy o imię, adres e-mail ani hasło.</li>
+          <li><strong>Bez własnego serwera.</strong> Twoje notatki, nagrania i transkrypcje nigdy nie przechodzą przez nasze serwery, bo ich nie mamy.</li>
+          <li><strong>Twoje notatki należą tylko do Ciebie.</strong> Nic z tego, co piszesz, nagrywasz lub transkrybujesz, nie trafia do nas ani do osób trzecich, poza tekstem, który wysyłasz do Private Cloud Compute, jeśli to włączysz. Bez reklam i bez śledzenia między aplikacjami.</li>
+        </ul>
+      </div>
+
+      <h2>Gdzie są Twoje notatki</h2>
+      <p>Każda notatka to folder z plikami Markdown i jej nagraniem. Są przechowywane na Twoim urządzeniu lub w folderze Libretty w iCloud Drive, zależnie od Twojego wyboru. Jeśli korzystasz z iCloud Drive, Apple synchronizuje te pliki między Twoimi urządzeniami zgodnie ze swoją <a href="https://www.apple.com/legal/privacy/">polityką prywatności</a>; my nie mamy do nich dostępu. W każdej chwili możesz je otwierać, przenosić lub usuwać w aplikacji Pliki albo w Finderze.</p>
+<p>Aplikacja przechowuje też na urządzeniu indeks wyszukiwania i pamięć podręczną, aby działać szybciej. Oba są odbudowywane z Twoich plików i znikają po usunięciu aplikacji.</p>
+
+      <h2>Co jest przetwarzane na Twoim urządzeniu</h2>
+      <ul>
+<li><strong>Transkrypcja i głosy.</strong> Dźwięk jest transkrybowany i dzielony według mówców za pomocą modeli działających na Twoim urządzeniu: rozpoznawania mowy Apple oraz modeli Desert Ant Labs.</li>
+<li><strong>Podsumowania i pytania.</strong> Podsumowania, decyzje, zadania i odpowiedzi na Twoje pytania są tworzone przez Apple Intelligence na Twoim urządzeniu.</li>
+<li><strong>Wyszukiwanie.</strong> Indeks, który pozwala przeszukiwać Twoje notatki, jest budowany i przeszukiwany na Twoim urządzeniu.</li>
+</ul>
+
+      <h2>Podsumowania z Private Cloud Compute (opcjonalnie)</h2>
+      <p>Libretta ma ustawienie, które pozwala tworzyć podsumowania za pomocą Private Cloud Compute, modelu Apple działającego na jego serwerach. Jest <strong>domyślnie wyłączone</strong>. Jeśli je włączysz, tekst transkrypcji, który ma zostać podsumowany, jest wysyłany do Private Cloud Compute; nagranie nie jest. Apple zaprojektowało tę usługę tak, aby przetwarzała żądanie bez jego przechowywania i bez możliwości wglądu przez kogokolwiek, ani Apple, ani nas. Aplikacja oznacza każde podsumowanie utworzone poza Twoim urządzeniem, a Ty możesz poprosić o ukrycie danych osobowych przed wysłaniem tekstu.</p>
+
+      <h2>Pobieranie modeli</h2>
+      <p>Przy pierwszym użyciu Libretta pobiera modele transkrypcji od Desert Ant Labs, a system pobiera modele mowy Apple. To pobrania plików: serwer, który je dostarcza, widzi adres IP Twojego połączenia, jak przy każdym pobieraniu, ale nie otrzymuje żadnej z Twoich notatek, nagrań ani danych.</p>
+
+      <h2>Uprawnienia, o które prosi aplikacja</h2>
+      <p>Każde uprawnienie jest wymagane tylko wtedy, gdy korzystasz z funkcji, która go potrzebuje, i w każdej chwili możesz je cofnąć w Ustawieniach.</p>
+<ul>
+<li><strong>Mikrofon.</strong> Do nagrywania notatek i spotkań. Nagrywa tylko wtedy, gdy o to poprosisz, a podczas nagrywania widać to na ekranie.</li>
+<li><strong>Kalendarz.</strong> Aby pokazywać Twoje spotkania i przygotowywać je jako notatki. iOS oferuje tylko pełny dostęp, ale Libretta wyłącznie czyta: nigdy nie tworzy, nie zmienia ani nie usuwa wydarzeń.</li>
+<li><strong>Kontakty.</strong> Aby przypisać imię i adres e-mail osobie, która mówi na spotkaniu. To, co wybierzesz, jest zapisywane w Twojej notatce.</li>
+<li><strong>Powiadomienia.</strong> Aby przypomnieć Ci przed spotkaniem. Są planowane na Twoim urządzeniu.</li>
+<li><strong>Dźwięk systemowy (Mac).</strong> Aby nagrywać dźwięk Twoich rozmów wideo razem z mikrofonem.</li>
+</ul>
+<p>Nic z tego, co aplikacja odczytuje z Twojego kalendarza lub kontaktów, nie opuszcza Twojego urządzenia, poza tym, co sam wpiszesz w swoich notatkach i zsynchronizujesz z iCloud Drive.</p>
+
+      <h2>Statystyki użycia</h2>
+      <p>Aby wiedzieć, z których funkcji się korzysta i co przestaje działać, Libretta wysyła anonimowe statystyki użycia do <a href="https://telemetrydeck.com/privacy/">TelemetryDeck</a>, usługi stworzonej z myślą o prywatności. Każdy sygnał wskazuje, który ekran lub funkcja została użyta, wraz z wersją aplikacji i systemu, modelem urządzenia i językiem. Identyfikator użytkownika jest haszowany na Twoim urządzeniu przed wysłaniem, TelemetryDeck nie przechowuje Twojego adresu IP, a żaden sygnał nie zawiera treści Twoich notatek, nagrań, transkrypcji, kalendarza ani kontaktów. Nie są używane do reklam ani łączone z danymi z innych aplikacji.</p>
+
+      <h2>Zakupy</h2>
+      <p>Jeśli kupujesz coś w Librettcie, płatność obsługuje Apple, a my nigdy nie widzimy Twoich danych płatniczych. Aby wiedzieć, co zostało odblokowane, korzystamy z <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, które otrzymuje anonimowy identyfikator utworzony przez aplikację, informacje o zakupie przekazane przez Apple i dane techniczne urządzenia. Nie otrzymuje Twojego imienia, adresu e-mail ani niczego z Twoich notatek.</p>
+
+      <h2>Gdy udostępniasz</h2>
+      <p>Jeśli eksportujesz lub udostępniasz notatkę, nagranie albo podsumowanie, trafia ono tam, gdzie wybierzesz, na warunkach tej aplikacji lub usługi.</p>
+
+      <h2>Raporty o awariach</h2>
+      <p>Jeśli w ustawieniach urządzenia zgodzisz się na udostępnianie danych analitycznych twórcom aplikacji, Apple może przekazywać nam anonimowe raporty o awariach Libretty. Nie zawierają one Twoich notatek ani nagrań, a możesz je wyłączyć w Ustawienia &rsaquo; Prywatność i ochrona &rsaquo; Analityka i ulepszenia.</p>
+
+      <h2>Dzieci</h2>
+      <p>Libretta nikogo nie prosi o dane osobowe, także dzieci, i nie jest skierowana do dzieci.</p>
+
+      <h2>Ta strona internetowa</h2>
+      <p>libretta.app nie używa plików cookie, analityki ani zasobów stron trzecich. Jest udostępniana przez GitHub Pages, które rejestruje odwiedziny ze względów bezpieczeństwa zgodnie ze swoim <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">oświadczeniem o ochronie prywatności</a>.</p>
+
+      <h2>Zmiany</h2>
+      <p>Jeśli cokolwiek z opisanego na tej stronie się zmieni, zaktualizujemy ją, a data na górze ulegnie zmianie.</p>
+
+      <h2>Kontakt</h2>
+      <p>Librettę tworzy Chubby Studio. W razie pytań dotyczących prywatności napisz do nas na <a href="mailto:hello@chubby.studio">hello@chubby.studio</a>.</p>
+    </article>
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      <a href="/pl/">Strona główna</a>
+      <select class="lang" aria-label="Język" onchange="librettaPick(this.value)">
+        <option value="en" lang="en">English</option>
+        <option value="es" lang="es">Español</option>
+        <option value="ca" lang="ca">Català</option>
+        <option value="cs" lang="cs">Čeština</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="el" lang="el">Ελληνικά</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="id" lang="id">Bahasa Indonesia</option>
+        <option value="it" lang="it">Italiano</option>
+        <option value="ms" lang="ms">Bahasa Melayu</option>
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="no" lang="nb">Norsk</option>
+        <option value="pl" lang="pl" selected>Polski</option>
+        <option value="pt-br" lang="pt-BR">Português (Brasil)</option>
+        <option value="pt-pt" lang="pt-PT">Português (Portugal)</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="ru" lang="ru">Русский</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="tr" lang="tr">Türkçe</option>
+        <option value="uk" lang="uk">Українська</option>
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="ar" lang="ar">العربية</option>
+        <option value="he" lang="he">עברית</option>
+        <option value="hi" lang="hi">हिन्दी</option>
+        <option value="th" lang="th">ไทย</option>
+        <option value="ja" lang="ja">日本語</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="zh-hans" lang="zh-Hans">简体中文</option>
+        <option value="zh-hant" lang="zh-Hant">繁體中文</option>
+      </select>
+    </footer>
+  </div>
+</body>
+</html>

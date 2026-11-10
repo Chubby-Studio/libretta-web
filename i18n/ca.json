@@ -1,0 +1,71 @@
+{
+  "language_label": "Idioma",
+  "home_description": "Libretta és un quadern de veu per a iPhone, iPad i Mac: escriu, parla i grava reunions en una sola nota, transcrita i resumida al teu dispositiu.",
+  "home_lede": "Un quadern de veu. Escriu, parla i grava reunions en <strong>una sola nota</strong>, transcrita i resumida <mark>al teu dispositiu</mark>.",
+  "home_soon": "Aviat per a iPhone, iPad i Mac",
+  "privacy_link": "Privadesa",
+  "home_link": "Inici",
+  "privacy_title": "Privadesa",
+  "privacy_description": "Política de privadesa de Libretta: sense compte ni servidor propi. Les teves notes es processen al teu dispositiu i es desen a la teva carpeta.",
+  "updated": "Actualitzat el 10 de novembre del 2026",
+  "intro": "Libretta és un quadern de veu: escrius, parles i graves reunions, i l'app ho transcriu i ho resumeix. Està pensada perquè tot això passi al teu dispositiu i es desi en una carpeta que és teva.",
+  "summary": [
+    "<strong>Sense compte.</strong> Mai et demanem el nom, el correu electrònic ni una contrasenya.",
+    "<strong>Sense servidor propi.</strong> Les teves notes, l'àudio i les transcripcions no passen mai pels nostres servidors, perquè no en tenim.",
+    "<strong>Les teves notes són només teves.</strong> Res del que escrius, graves o transcrius no ens arriba a nosaltres ni a tercers, tret del text que enviïs a Private Cloud Compute si l'actives. Sense publicitat i sense seguiment entre apps."
+  ],
+  "sections": [
+    {
+      "h": "On viuen les teves notes",
+      "html": "<p>Cada nota és una carpeta amb fitxers Markdown i el seu àudio. Es desen al teu dispositiu o a la carpeta de Libretta del teu iCloud Drive, segons trobis. Si fas servir iCloud Drive, Apple sincronitza aquests fitxers entre els teus dispositius d'acord amb la seva <a href=\"https://www.apple.com/legal/privacy/\">política de privadesa</a>; nosaltres no hi tenim accés. Pots obrir-los, moure'ls o eliminar-los des de l'app Fitxers o el Finder en qualsevol moment.</p>\n<p>L'app també desa un índex de cerca i una memòria cau al dispositiu per ser més ràpida. Tots dos es reconstrueixen a partir dels teus fitxers i desapareixen quan elimines l'app.</p>"
+    },
+    {
+      "h": "Què es processa al teu dispositiu",
+      "html": "<ul>\n<li><strong>Transcripció i veus.</strong> L'àudio es transcriu i se separa per qui parla amb models que s'executen al teu dispositiu: el reconeixement de veu d'Apple i models de Desert Ant Labs.</li>\n<li><strong>Resums i preguntes.</strong> Els resums, les decisions, les tasques i les respostes a les teves preguntes els escriu Apple Intelligence al teu dispositiu.</li>\n<li><strong>Cerca.</strong> L'índex que et permet cercar a les teves notes es crea i es consulta al teu dispositiu.</li>\n</ul>"
+    },
+    {
+      "h": "Resums amb Private Cloud Compute (opcional)",
+      "html": "<p>Libretta té un ajust per escriure els resums amb Private Cloud Compute, el model d'Apple que s'executa als seus servidors. Està <strong>desactivat per defecte</strong>. Si l'actives, el text de la transcripció que es resumeix s'envia a Private Cloud Compute; l'àudio no. Apple ha dissenyat aquest servei perquè processi la sol·licitud sense desar-la i sense que ningú, ni Apple ni nosaltres, pugui veure-la. L'app marca cada resum escrit fora del teu dispositiu, i pots demanar que s'amaguin les dades personals abans d'enviar el text.</p>"
+    },
+    {
+      "h": "Descàrregues de models",
+      "html": "<p>La primera vegada que la fas servir, Libretta descarrega els models de transcripció de Desert Ant Labs, i el sistema descarrega els models de veu d'Apple. Són descàrregues de fitxers: el servidor que els lliura veu l'adreça IP de la teva connexió, com en qualsevol descàrrega, però no rep cap nota, àudio ni dada teva.</p>"
+    },
+    {
+      "h": "Permisos que demana l'app",
+      "html": "<p>Cada permís es demana només quan fas servir la funció que el necessita, i el pots retirar a Configuració en qualsevol moment.</p>\n<ul>\n<li><strong>Micròfon.</strong> Per gravar les teves notes i reunions. Només grava quan tu ho demanes, i es veu en pantalla mentre grava.</li>\n<li><strong>Calendari.</strong> Per mostrar-te les reunions i preparar-les com a notes. L'iOS només ofereix accés complet, però Libretta només llegeix: mai crea, canvia ni elimina esdeveniments.</li>\n<li><strong>Contactes.</strong> Per posar nom i correu electrònic a qui parla en una reunió. Allò que triïs es desa a la teva nota.</li>\n<li><strong>Notificacions.</strong> Per avisar-te abans d'una reunió. Es programen al teu dispositiu.</li>\n<li><strong>Àudio del sistema (Mac).</strong> Per gravar el so de les teves videotrucades juntament amb el teu micròfon.</li>\n</ul>\n<p>Res del que l'app llegeix del teu calendari o dels teus contactes surt del teu dispositiu, tret del que escriguis a les teves notes i sincronitzis amb el teu iCloud Drive.</p>"
+    },
+    {
+      "h": "Estadístiques d'ús",
+      "html": "<p>Per saber quines funcions es fan servir i què falla, Libretta envia estadístiques d'ús anònimes a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servei pensat per a la privadesa. Cada senyal diu quina pantalla o funció s'ha fet servir, juntament amb la versió de l'app i del sistema, el model de dispositiu i l'idioma. L'identificador d'usuari es xifra al teu dispositiu abans d'enviar-se, TelemetryDeck no desa la teva adreça IP, i cap senyal porta el contingut de les teves notes, l'àudio, les transcripcions, el calendari ni els contactes. No s'utilitzen per a publicitat ni es combinen amb dades d'altres apps.</p>"
+    },
+    {
+      "h": "Compres",
+      "html": "<p>Si compres alguna cosa a Libretta, Apple gestiona el pagament i nosaltres no veiem mai les teves dades de pagament. Per saber què tens desbloquejat fem servir <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, que rep un identificador anònim creat per l'app, la informació de la compra que proporciona Apple i dades tècniques del dispositiu. No rep el teu nom, el teu correu electrònic ni res de les teves notes.</p>"
+    },
+    {
+      "h": "Quan comparteixes",
+      "html": "<p>Si exportes o comparteixes una nota, un enregistrament o un resum, va allà on triïs, amb les condicions d'aquella app o servei.</p>"
+    },
+    {
+      "h": "Informes d'errors",
+      "html": "<p>Si als ajustos del dispositiu acceptes compartir analítiques amb els desenvolupadors d'apps, Apple ens pot fer arribar informes d'errors anònims de Libretta. No contenen cap de les teves notes ni àudio, i els pots desactivar a Configuració &rsaquo; Privadesa i seguretat &rsaquo; Analítiques i millores.</p>"
+    },
+    {
+      "h": "Menors",
+      "html": "<p>Libretta no demana dades personals a ningú, tampoc als menors, i no s'adreça a menors.</p>"
+    },
+    {
+      "h": "Aquest web",
+      "html": "<p>libretta.app no fa servir cookies, analítiques ni recursos de tercers. Es serveix des de GitHub Pages, que registra les visites per motius de seguretat segons la seva <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declaració de privadesa</a>.</p>"
+    },
+    {
+      "h": "Canvis",
+      "html": "<p>Si canvia res del que descriu aquesta pàgina, l'actualitzarem i canviarà la data de dalt.</p>"
+    },
+    {
+      "h": "Contacte",
+      "html": "<p>Libretta l'ha feta Chubby Studio. Per a qualsevol pregunta sobre privadesa, escriu-nos a <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

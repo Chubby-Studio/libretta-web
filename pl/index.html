@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pl" dir="ltr" data-code="pl" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libretta</title>
+  <meta name="description" content="Libretta to głosowy notatnik na iPhone'a, iPada i Maca: pisz, mów i nagrywaj spotkania w jednej notatce, transkrybowanej i podsumowywanej na Twoim urządzeniu.">
+  <link rel="canonical" href="https://libretta.app/pl/">
+  <link rel="alternate" hreflang="en" href="https://libretta.app/">
+  <link rel="alternate" hreflang="es" href="https://libretta.app/es/">
+  <link rel="alternate" hreflang="ca" href="https://libretta.app/ca/">
+  <link rel="alternate" hreflang="cs" href="https://libretta.app/cs/">
+  <link rel="alternate" hreflang="da" href="https://libretta.app/da/">
+  <link rel="alternate" hreflang="de" href="https://libretta.app/de/">
+  <link rel="alternate" hreflang="el" href="https://libretta.app/el/">
+  <link rel="alternate" hreflang="fi" href="https://libretta.app/fi/">
+  <link rel="alternate" hreflang="fr" href="https://libretta.app/fr/">
+  <link rel="alternate" hreflang="hr" href="https://libretta.app/hr/">
+  <link rel="alternate" hreflang="hu" href="https://libretta.app/hu/">
+  <link rel="alternate" hreflang="id" href="https://libretta.app/id/">
+  <link rel="alternate" hreflang="it" href="https://libretta.app/it/">
+  <link rel="alternate" hreflang="ms" href="https://libretta.app/ms/">
+  <link rel="alternate" hreflang="nl" href="https://libretta.app/nl/">
+  <link rel="alternate" hreflang="nb" href="https://libretta.app/no/">
+  <link rel="alternate" hreflang="pl" href="https://libretta.app/pl/">
+  <link rel="alternate" hreflang="pt-BR" href="https://libretta.app/pt-br/">
+  <link rel="alternate" hreflang="pt-PT" href="https://libretta.app/pt-pt/">
+  <link rel="alternate" hreflang="ro" href="https://libretta.app/ro/">
+  <link rel="alternate" hreflang="ru" href="https://libretta.app/ru/">
+  <link rel="alternate" hreflang="sk" href="https://libretta.app/sk/">
+  <link rel="alternate" hreflang="sv" href="https://libretta.app/sv/">
+  <link rel="alternate" hreflang="tr" href="https://libretta.app/tr/">
+  <link rel="alternate" hreflang="uk" href="https://libretta.app/uk/">
+  <link rel="alternate" hreflang="vi" href="https://libretta.app/vi/">
+  <link rel="alternate" hreflang="ar" href="https://libretta.app/ar/">
+  <link rel="alternate" hreflang="he" href="https://libretta.app/he/">
+  <link rel="alternate" hreflang="hi" href="https://libretta.app/hi/">
+  <link rel="alternate" hreflang="th" href="https://libretta.app/th/">
+  <link rel="alternate" hreflang="ja" href="https://libretta.app/ja/">
+  <link rel="alternate" hreflang="ko" href="https://libretta.app/ko/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://libretta.app/zh-hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://libretta.app/zh-hant/">
+  <link rel="alternate" hreflang="x-default" href="https://libretta.app/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script>
+(function () {
+  var codes = ["en", "es", "ca", "cs", "da", "de", "el", "fi", "fr", "hr", "hu", "id", "it", "ms", "nl", "no", "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sv", "tr", "uk", "vi", "ar", "he", "hi", "th", "ja", "ko", "zh-hans", "zh-hant"];
+  var here = document.documentElement.getAttribute("data-code");
+  var page = document.documentElement.getAttribute("data-page");
+  var chosen = null;
+  try { chosen = localStorage.getItem("lang"); } catch (e) {}
+  function match(tag) {
+    tag = tag.toLowerCase();
+    if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
+    if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
+    var primary = tag.split("-")[0];
+    if (primary === "nb" || primary === "nn") primary = "no";
+    return codes.indexOf(primary) >= 0 ? primary : null;
+  }
+  var want = chosen && codes.indexOf(chosen) >= 0 ? chosen : null;
+  if (!want) {
+    var tags = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < tags.length && !want; i++) want = match(tags[i]);
+  }
+  if (here === "en" && want && want !== "en") {
+    location.replace("/" + want + "/" + (page === "privacy" ? "privacy/" : "") + location.hash);
+  }
+  window.librettaPick = function (code) {
+    try { localStorage.setItem("lang", code); } catch (e) {}
+    location.href = (code === "en" ? "/" : "/" + code + "/") + (page === "privacy" ? "privacy/" : "");
+  };
+})();
+</script>
+</head>
+<body>
+  <div class="wrap">
+    <main class="hero">
+      <img class="icon" src="/assets/icon-512.png" alt="" width="120" height="120">
+      <h1 class="wordmark">
+        <picture>
+          <source srcset="/assets/wordmark-negativo.svg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/wordmark.svg" alt="Libretta" width="320" height="74">
+        </picture>
+      </h1>
+      <p class="lede">Głosowy notatnik. Pisz, mów i nagrywaj spotkania w <strong>jednej notatce</strong>, transkrybowanej i podsumowywanej <mark>na Twoim urządzeniu</mark>.</p>
+      <p class="label">Wkrótce na iPhone'a, iPada i Maca</p>
+    </main>
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      <a href="/pl/privacy/">Prywatność</a>
+      <select class="lang" aria-label="Język" onchange="librettaPick(this.value)">
+        <option value="en" lang="en">English</option>
+        <option value="es" lang="es">Español</option>
+        <option value="ca" lang="ca">Català</option>
+        <option value="cs" lang="cs">Čeština</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="el" lang="el">Ελληνικά</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="fr" lang="fr">Français</option>
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="id" lang="id">Bahasa Indonesia</option>
+        <option value="it" lang="it">Italiano</option>
+        <option value="ms" lang="ms">Bahasa Melayu</option>
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="no" lang="nb">Norsk</option>
+        <option value="pl" lang="pl" selected>Polski</option>
+        <option value="pt-br" lang="pt-BR">Português (Brasil)</option>
+        <option value="pt-pt" lang="pt-PT">Português (Portugal)</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="ru" lang="ru">Русский</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="tr" lang="tr">Türkçe</option>
+        <option value="uk" lang="uk">Українська</option>
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="ar" lang="ar">العربية</option>
+        <option value="he" lang="he">עברית</option>
+        <option value="hi" lang="hi">हिन्दी</option>
+        <option value="th" lang="th">ไทย</option>
+        <option value="ja" lang="ja">日本語</option>
+        <option value="ko" lang="ko">한국어</option>
+        <option value="zh-hans" lang="zh-Hans">简体中文</option>
+        <option value="zh-hant" lang="zh-Hant">繁體中文</option>
+      </select>
+    </footer>
+  </div>
+</body>
+</html>

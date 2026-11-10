@@ -1,0 +1,71 @@
+{
+  "language_label": "Nyelv",
+  "home_description": "A Libretta egy hangjegyzetfüzet iPhone-ra, iPadre és Macre: írj, beszélj és rögzíts megbeszéléseket egyetlen jegyzetben, amelyet az eszközödön írnak át és foglalnak össze.",
+  "home_lede": "Egy hangjegyzetfüzet. Írj, beszélj és rögzíts megbeszéléseket <strong>egyetlen jegyzetben</strong>, amelyet <mark>az eszközödön</mark> írnak át és foglalnak össze.",
+  "home_soon": "Hamarosan iPhone-ra, iPadre és Macre",
+  "privacy_link": "Adatvédelem",
+  "home_link": "Főoldal",
+  "privacy_title": "Adatvédelem",
+  "privacy_description": "A Libretta adatvédelmi irányelvei: nincs fiók, és nincs saját szerverünk. A jegyzeteidet az eszközöd dolgozza fel, és a te mappádban tárolódnak.",
+  "updated": "Frissítve: 2026. november 10.",
+  "intro": "A Libretta egy hangjegyzetfüzet: írsz, beszélsz és megbeszéléseket rögzítesz, az app pedig átírja és összefoglalja őket. Úgy készült, hogy mindez az eszközödön történjen, és egy olyan mappában tárolódjon, amely a tiéd.",
+  "summary": [
+    "<strong>Nincs fiók.</strong> Soha nem kérjük a neved, az e-mail-címed vagy a jelszavad.",
+    "<strong>Nincs saját szerverünk.</strong> A jegyzeteid, a hangfelvételeid és az átirataid soha nem haladnak át a mi szervereinken, mert nekünk nincs ilyenünk.",
+    "<strong>A jegyzeteid csak a tieid.</strong> Semmi, amit írsz, rögzítesz vagy átíratsz, nem jut el hozzánk vagy harmadik félhez, kivéve azt a szöveget, amelyet a Private Cloud Compute-nak küldesz, ha bekapcsolod. Nincs reklám, és nincs appok közötti követés."
+  ],
+  "sections": [
+    {
+      "h": "Hol vannak a jegyzeteid",
+      "html": "<p>Minden jegyzet egy mappa Markdown-fájlokkal és a hozzá tartozó hanggal. Az eszközödön vagy az iCloud Drive-od Libretta mappájában tárolódnak, ahogyan te választod. Ha az iCloud Drive-ot használod, az Apple az <a href=\"https://www.apple.com/legal/privacy/\">adatvédelmi irányelvei</a> szerint szinkronizálja ezeket a fájlokat az eszközeid között; nekünk nincs hozzáférésünk hozzájuk. A Fájlok appból vagy a Finderből bármikor megnyithatod, áthelyezheted vagy törölheted őket.</p>\n<p>Az app a gyorsabb működésért egy keresési indexet és egy gyorsítótárat is tart az eszközön. Mindkettő a fájljaidból épül újra, és az app törlésekor eltűnik.</p>"
+    },
+    {
+      "h": "Mi dolgozódik fel az eszközödön",
+      "html": "<ul>\n<li><strong>Átírás és hangok.</strong> A hangot olyan modellek írják át és bontják beszélők szerint, amelyek az eszközödön futnak: az Apple beszédfelismerése és a Desert Ant Labs modelljei.</li>\n<li><strong>Összefoglalók és kérdések.</strong> Az összefoglalókat, a döntéseket, a feladatokat és a kérdéseidre adott válaszokat az Apple Intelligence írja az eszközödön.</li>\n<li><strong>Keresés.</strong> A jegyzeteid közötti keresést lehetővé tévő index az eszközödön épül fel és az eszközödön kérdezhető le.</li>\n</ul>"
+    },
+    {
+      "h": "Összefoglalók a Private Cloud Compute segítségével (opcionális)",
+      "html": "<p>A Libretta egyik beállításával az összefoglalókat a Private Cloud Compute írja, az Apple szervereken futó modellje. Alapértelmezés szerint <strong>ki van kapcsolva</strong>. Ha bekapcsolod, az összefoglalandó átirat szövege a Private Cloud Compute-nak kerül elküldésre; a hang nem. Az Apple úgy tervezte a szolgáltatást, hogy a kérést tárolás nélkül dolgozza fel, és senki, sem az Apple, sem mi, ne láthassa. Az app megjelöli minden olyan összefoglalót, amelyet az eszközödön kívül írtak, és kérheted, hogy a szöveg elküldése előtt rejtse el a személyes adatokat.</p>"
+    },
+    {
+      "h": "Modellek letöltése",
+      "html": "<p>Az első használatkor a Libretta letölti az átíró modelleket a Desert Ant Labstól, a rendszer pedig letölti az Apple beszédmodelljeit. Ezek fájlletöltések: a szerver, amely kiszolgálja őket, látja a kapcsolatod IP-címét, mint bármely letöltésnél, de nem kap semmilyen jegyzetet, hangot vagy adatot tőled.</p>"
+    },
+    {
+      "h": "Az app által kért engedélyek",
+      "html": "<p>Minden engedélyt csak akkor kér az app, amikor az azt igénylő funkciót használod, és a Beállításokban bármikor visszavonhatod.</p>\n<ul>\n<li><strong>Mikrofon.</strong> A jegyzeteid és a megbeszéléseid rögzítéséhez. Csak akkor rögzít, amikor te kéred, és a rögzítés alatt látszik a képernyőn.</li>\n<li><strong>Naptár.</strong> A megbeszéléseid megjelenítéséhez és jegyzetként való előkészítéséhez. Az iOS csak teljes hozzáférést kínál, de a Libretta kizárólag olvas: soha nem hoz létre, nem módosít és nem töröl eseményeket.</li>\n<li><strong>Névjegyek.</strong> Hogy nevet és e-mail-címet rendelhess ahhoz, aki egy megbeszélésen beszél. Amit kiválasztasz, az a jegyzetedben tárolódik.</li>\n<li><strong>Értesítések.</strong> Hogy a megbeszélés előtt emlékeztessen. Az eszközödön ütemeződnek.</li>\n<li><strong>Rendszerhang (Mac).</strong> A videóhívásaid hangjának rögzítéséhez a mikrofonod mellett.</li>\n</ul>\n<p>Semmi, amit az app a naptáradból vagy a névjegyeidből olvas, nem hagyja el az eszközödet, kivéve azt, amit te írsz a jegyzeteidbe, és szinkronizálsz az iCloud Drive-oddal.</p>"
+    },
+    {
+      "h": "Használati statisztikák",
+      "html": "<p>Hogy megtudjuk, mely funkciókat használják, és mi romlik el, a Libretta névtelen használati statisztikákat küld a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a> szolgáltatásnak, amelyet az adatvédelmet szem előtt tartva építettek. Minden jelzés megmondja, melyik képernyőt vagy funkciót használták, az app és a rendszer verziójával, az eszköz modelljével és a nyelvvel együtt. A felhasználóazonosítót az eszközödön hasheljük, mielőtt elküldenénk, a TelemetryDeck nem tárolja az IP-címedet, és egyetlen jelzés sem tartalmazza a jegyzeteid, a hangfelvételeid, az átirataid, a naptárad vagy a névjegyeid tartalmát. Nem használjuk őket reklámra, és nem kapcsoljuk össze más appok adataival.</p>"
+    },
+    {
+      "h": "Vásárlások",
+      "html": "<p>Ha valamit megveszel a Librettában, a fizetést az Apple kezeli, és mi soha nem látjuk a fizetési adataidat. Hogy tudjuk, mit oldottál fel, a <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a> szolgáltatást használjuk, amely egy, az app által létrehozott névtelen azonosítót, az Apple által megadott vásárlási információkat és az eszköz technikai adatait kapja meg. Nem kapja meg a nevedet, az e-mail-címedet, sem semmit a jegyzeteidből.</p>"
+    },
+    {
+      "h": "Amikor megosztasz",
+      "html": "<p>Ha exportálsz vagy megosztasz egy jegyzetet, egy felvételt vagy egy összefoglalót, az oda kerül, ahová te választod, az adott app vagy szolgáltatás feltételei szerint.</p>"
+    },
+    {
+      "h": "Összeomlási jelentések",
+      "html": "<p>Ha az eszközöd beállításaiban beleegyezel, hogy az analitikai adatokat megosszák az alkalmazásfejlesztőkkel, az Apple névtelen összeomlási jelentéseket továbbíthat nekünk a Librettáról. Ezek nem tartalmaznak jegyzeteket vagy hangot, és kikapcsolhatod őket a Beállítások &rsaquo; Adatvédelem és biztonság &rsaquo; Analitika és fejlesztések menüpontban.</p>"
+    },
+    {
+      "h": "Gyermekek",
+      "html": "<p>A Libretta senkitől nem kér személyes adatot, a gyermekektől sem, és nem gyermekeknek szól.</p>"
+    },
+    {
+      "h": "Ez a weboldal",
+      "html": "<p>A libretta.app nem használ sütiket, analitikát vagy harmadik féltől származó erőforrásokat. A GitHub Pagesről szolgáljuk ki, amely biztonsági okokból naplózza a látogatásokat az <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">adatvédelmi nyilatkozata</a> szerint.</p>"
+    },
+    {
+      "h": "Változások",
+      "html": "<p>Ha az ezen az oldalon leírtak bármelyike megváltozik, frissítjük az oldalt, és a tetején lévő dátum is megváltozik.</p>"
+    },
+    {
+      "h": "Kapcsolat",
+      "html": "<p>A Librettát a Chubby Studio készíti. Ha bármi kérdésed van az adatvédelemmel kapcsolatban, írj nekünk a <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a> címre.</p>"
+    }
+  ]
+}

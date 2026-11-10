@@ -1,0 +1,71 @@
+{
+  "language_label": "Sprog",
+  "home_description": "Libretta er en stemmenotesbog til iPhone, iPad og Mac: skriv, tal og optag møder i én note, transskriberet og opsummeret på din enhed.",
+  "home_lede": "En stemmenotesbog. Skriv, tal og optag møder i <strong>én note</strong>, transskriberet og opsummeret <mark>på din enhed</mark>.",
+  "home_soon": "Kommer snart til iPhone, iPad og Mac",
+  "privacy_link": "Anonymitet",
+  "home_link": "Hjem",
+  "privacy_title": "Anonymitet",
+  "privacy_description": "Libretta og anonymitet: ingen konto og ingen egen server. Dine noter behandles på din enhed og gemmes i din mappe.",
+  "updated": "Opdateret 10. november 2026",
+  "intro": "Libretta er en stemmenotesbog: du skriver, taler og optager møder, og appen transskriberer og opsummerer dem. Den er bygget, så alt det sker på din enhed og gemmes i en mappe, der tilhører dig.",
+  "summary": [
+    "<strong>Ingen konto.</strong> Vi spørger aldrig efter dit navn, din e-mail eller en adgangskode.",
+    "<strong>Ingen egen server.</strong> Dine noter, din lyd og dine transskriptioner passerer aldrig gennem vores servere, for vi har ingen.",
+    "<strong>Dine noter er kun dine.</strong> Intet af det, du skriver, optager eller transskriberer, når os eller tredjeparter, bortset fra den tekst, du sender til Private Cloud Compute, hvis du slår det til. Ingen reklamer og ingen sporing på tværs af apps."
+  ],
+  "sections": [
+    {
+      "h": "Hvor dine noter bor",
+      "html": "<p>Hver note er en mappe med Markdown-filer og tilhørende lyd. De gemmes på din enhed eller i Libretta-mappen på dit iCloud Drive, alt efter hvad du vælger. Hvis du bruger iCloud Drive, synkroniserer Apple filerne mellem dine enheder i henhold til sin <a href=\"https://www.apple.com/legal/privacy/\">fortrolighedspolitik</a>; vi har ikke adgang til dem. Du kan til enhver tid åbne, flytte eller slette dem fra appen Filer eller Finder.</p>\n<p>Appen gemmer også et søgeindeks og en cache på enheden for at være hurtigere. Begge genopbygges ud fra dine filer og forsvinder, når du sletter appen.</p>"
+    },
+    {
+      "h": "Hvad der behandles på din enhed",
+      "html": "<ul>\n<li><strong>Transskription og stemmer.</strong> Lyd transskriberes og opdeles efter taler med modeller, der kører på din enhed: Apples talegenkendelse og modeller fra Desert Ant Labs.</li>\n<li><strong>Resuméer og spørgsmål.</strong> Resuméer, beslutninger, opgaver og svarene på dine spørgsmål skrives af Apple Intelligence på din enhed.</li>\n<li><strong>Søgning.</strong> Indekset, der lader dig søge i dine noter, bygges og forespørges på din enhed.</li>\n</ul>"
+    },
+    {
+      "h": "Resuméer med Private Cloud Compute (valgfrit)",
+      "html": "<p>Libretta har en indstilling til at skrive resuméer med Private Cloud Compute, Apples model, der kører på Apples servere. Den er <strong>slået fra som standard</strong>. Hvis du slår den til, sendes den transskriptionstekst, der opsummeres, til Private Cloud Compute; lyden gør ikke. Apple har designet tjenesten til at behandle anmodningen uden at gemme den og uden at nogen, hverken Apple eller vi, kan se den. Appen markerer hvert resumé, der er skrevet uden for din enhed, og du kan bede den skjule personlige oplysninger, før teksten sendes.</p>"
+    },
+    {
+      "h": "Download af modeller",
+      "html": "<p>Første gang du bruger appen, henter Libretta transskriptionsmodellerne fra Desert Ant Labs, og systemet henter Apples talemodeller. Det er fildownloads: serveren, der leverer dem, ser IP-adressen på din forbindelse, som ved enhver download, men modtager ingen af dine noter, ingen lyd og ingen data.</p>"
+    },
+    {
+      "h": "Tilladelser, appen beder om",
+      "html": "<p>Hver tilladelse bliver kun bedt om, når du bruger den funktion, der har brug for den, og du kan til enhver tid trække den tilbage i Indstillinger.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Til at optage dine noter og møder. Den optager kun, når du beder om det, og det vises på skærmen under optagelsen.</li>\n<li><strong>Kalender.</strong> Til at vise dine møder og forberede dem som noter. iOS tilbyder kun fuld adgang, men Libretta læser kun: den opretter, ændrer eller sletter aldrig begivenheder.</li>\n<li><strong>Kontakter.</strong> Til at sætte navn og e-mail på dem, der taler i et møde. Det, du vælger, gemmes i din note.</li>\n<li><strong>Underretninger.</strong> Til at minde dig om et møde, før det starter. De planlægges på din enhed.</li>\n<li><strong>Systemlyd (Mac).</strong> Til at optage lyden fra dine videoopkald sammen med din mikrofon.</li>\n</ul>\n<p>Intet af det, appen læser fra din kalender eller dine kontakter, forlader din enhed, bortset fra det, du selv skriver i dine noter og synkroniserer med dit iCloud Drive.</p>"
+    },
+    {
+      "h": "Brugsstatistik",
+      "html": "<p>For at lære, hvilke funktioner der bruges, og hvad der går i stykker, sender Libretta anonym brugsstatistik til <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, en tjeneste bygget med fokus på anonymitet. Hvert signal fortæller, hvilken skærm eller funktion der blev brugt, sammen med app- og systemversion, enhedsmodel og sprog. Brugeridentifikatoren hashes på din enhed, før den sendes, TelemetryDeck gemmer ikke din IP-adresse, og intet signal indeholder dine noter, din lyd, dine transskriptioner, din kalender eller dine kontakter. Statistikken bruges ikke til reklamer og kombineres ikke med data fra andre apps.</p>"
+    },
+    {
+      "h": "Køb",
+      "html": "<p>Hvis du køber noget i Libretta, håndterer Apple betalingen, og vi ser aldrig dine betalingsoplysninger. For at vide, hvad du har låst op, bruger vi <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, som modtager en anonym identifikator oprettet af appen, de købsoplysninger, Apple giver, og tekniske oplysninger om enheden. Den modtager ikke dit navn, din e-mail eller noget fra dine noter.</p>"
+    },
+    {
+      "h": "Når du deler",
+      "html": "<p>Hvis du eksporterer eller deler en note, en optagelse eller et resumé, går det derhen, du vælger, på den apps eller tjenestes vilkår.</p>"
+    },
+    {
+      "h": "Nedbrudsrapporter",
+      "html": "<p>Hvis du i din enheds indstillinger accepterer at dele analyse med appudviklere, kan Apple sende os anonyme nedbrudsrapporter fra Libretta. De indeholder ingen af dine noter eller din lyd, og du kan slå dem fra i Indstillinger &rsaquo; Anonymitet og sikkerhed &rsaquo; Analyse og forbedringer.</p>"
+    },
+    {
+      "h": "Børn",
+      "html": "<p>Libretta beder ingen om personlige oplysninger, børn inklusive, og er ikke rettet mod børn.</p>"
+    },
+    {
+      "h": "Dette websted",
+      "html": "<p>libretta.app bruger ingen cookies, analyse eller ressourcer fra tredjeparter. Det leveres fra GitHub Pages, som logger besøg af sikkerhedshensyn i henhold til sin <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">erklæring om fortrolighed</a>.</p>"
+    },
+    {
+      "h": "Ændringer",
+      "html": "<p>Hvis noget af det, der beskrives på denne side, ændrer sig, opdaterer vi den, og datoen øverst ændres.</p>"
+    },
+    {
+      "h": "Kontakt",
+      "html": "<p>Libretta er lavet af Chubby Studio. Hvis du har spørgsmål om anonymitet, skriv til os på <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}

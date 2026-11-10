@@ -1,0 +1,71 @@
+{
+  "language_label": "Idioma",
+  "home_description": "Libretta es un cuaderno de voz para iPhone, iPad y Mac: escribe, habla y graba reuniones en una sola nota, transcrita y resumida en tu dispositivo.",
+  "home_lede": "Un cuaderno de voz. Escribe, habla y graba reuniones en <strong>una sola nota</strong>, transcrita y resumida <mark>en tu dispositivo</mark>.",
+  "home_soon": "Próximamente para iPhone, iPad y Mac",
+  "privacy_link": "Privacidad",
+  "home_link": "Inicio",
+  "privacy_title": "Privacidad",
+  "privacy_description": "Política de privacidad de Libretta: sin cuenta ni servidor propio. Tus notas se procesan en tu dispositivo y se guardan en tu carpeta.",
+  "updated": "Actualizada el 10 de noviembre de 2026",
+  "intro": "Libretta es un cuaderno de voz: escribes, hablas y grabas reuniones, y la app lo transcribe y lo resume. Está pensada para que todo eso ocurra en tu dispositivo y se guarde en una carpeta que es tuya.",
+  "summary": [
+    "<strong>No hay cuenta.</strong> No te pedimos nombre, email ni contraseña.",
+    "<strong>No hay servidor propio.</strong> Tus notas, tu audio y tus transcripciones nunca pasan por nuestros servidores, porque no tenemos.",
+    "<strong>Tus notas son solo tuyas.</strong> Nada de lo que escribes, grabas o transcribes llega a nosotros ni a terceros, salvo el texto que envíes a Private Cloud Compute si lo activas. Sin publicidad y sin rastreo entre apps."
+  ],
+  "sections": [
+    {
+      "h": "Dónde viven tus notas",
+      "html": "<p>Cada nota es una carpeta con archivos Markdown y su audio. Se guardan en tu dispositivo o en la carpeta de Libretta de tu iCloud Drive, según elijas. Si usas iCloud Drive, Apple sincroniza esos archivos entre tus dispositivos según su <a href=\"https://www.apple.com/es/legal/privacy/\">política de privacidad</a>; nosotros no tenemos acceso a ellos. Puedes abrirlos, moverlos o borrarlos desde la app Archivos o el Finder cuando quieras.</p>\n<p>La app guarda además un índice de búsqueda y una caché en el propio dispositivo para ir más rápido. Se reconstruyen a partir de tus archivos y desaparecen al borrar la app.</p>"
+    },
+    {
+      "h": "Qué se procesa en tu dispositivo",
+      "html": "<ul>\n<li><strong>Transcripción y voces.</strong> El audio se transcribe y se separa por quien habla con modelos que se ejecutan en tu dispositivo: el reconocimiento de voz de Apple y modelos de Desert Ant Labs.</li>\n<li><strong>Resúmenes y preguntas.</strong> Los resúmenes, las decisiones, las tareas y las respuestas a tus preguntas los genera Apple Intelligence en tu dispositivo.</li>\n<li><strong>Búsqueda.</strong> El índice que te permite buscar en tus notas se crea y se consulta en tu dispositivo.</li>\n</ul>"
+    },
+    {
+      "h": "Resúmenes con Private Cloud Compute (opcional)",
+      "html": "<p>Libretta tiene un ajuste para escribir los resúmenes con Private Cloud Compute, el modelo de Apple que se ejecuta en sus servidores. Está <strong>desactivado por defecto</strong>. Si lo activas, el texto de la transcripción que se resume se envía a Private Cloud Compute; el audio no. Apple diseñó ese servicio para que procese la petición sin guardarla y sin que nadie, ni Apple ni nosotros, pueda verla. La app marca cada resumen generado fuera de tu dispositivo, y puedes pedir que se oculten los datos personales antes de enviar el texto.</p>"
+    },
+    {
+      "h": "Descargas de modelos",
+      "html": "<p>La primera vez que la usas, Libretta descarga los modelos de transcripción de Desert Ant Labs, y el sistema descarga los modelos de voz de Apple. Son descargas de archivos: el servidor que los entrega ve la dirección IP de tu conexión, como en cualquier descarga, pero no recibe ninguna nota, audio ni dato tuyo.</p>"
+    },
+    {
+      "h": "Permisos que pide la app",
+      "html": "<p>Cada permiso se pide solo cuando usas la función que lo necesita, y puedes retirarlo en Ajustes cuando quieras.</p>\n<ul>\n<li><strong>Micrófono.</strong> Para grabar tus notas y reuniones. Solo graba cuando tú lo pides, y se ve en pantalla mientras graba.</li>\n<li><strong>Calendario.</strong> Para mostrarte tus reuniones y prepararlas como notas. iOS solo ofrece acceso completo, pero Libretta únicamente lee: nunca crea, cambia ni borra eventos.</li>\n<li><strong>Contactos.</strong> Para poner nombre y email a quien habla en una reunión. Lo que eliges se guarda en tu nota.</li>\n<li><strong>Notificaciones.</strong> Para avisarte antes de una reunión. Se programan en tu dispositivo.</li>\n<li><strong>Audio del sistema (Mac).</strong> Para grabar el sonido de tus videollamadas junto con tu micrófono.</li>\n</ul>\n<p>Nada de lo que la app lee de tu calendario o tus contactos sale de tu dispositivo, salvo lo que tú escribas en tus notas y sincronices con tu iCloud Drive.</p>"
+    },
+    {
+      "h": "Estadísticas de uso",
+      "html": "<p>Para saber qué funciones se usan y qué falla, Libretta envía estadísticas de uso anónimas a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servicio pensado para la privacidad. Cada señal dice qué pantalla o función se usó, junto con la versión de la app y del sistema, el modelo de dispositivo y el idioma. El identificador de usuario se cifra en tu dispositivo antes de enviarse, TelemetryDeck no guarda tu dirección IP y ninguna señal lleva el contenido de tus notas, tu audio, tus transcripciones, tu calendario ni tus contactos. No se usan para publicidad ni se cruzan con datos de otras apps.</p>"
+    },
+    {
+      "h": "Compras",
+      "html": "<p>Si compras algo en Libretta, el pago lo gestiona Apple y nosotros nunca vemos tus datos de pago. Para saber qué tienes desbloqueado usamos <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, que recibe un identificador anónimo que crea la app, la información de la compra que da Apple y datos técnicos del dispositivo. No recibe tu nombre, tu email ni nada de tus notas.</p>"
+    },
+    {
+      "h": "Cuando compartes",
+      "html": "<p>Si exportas o compartes una nota, un audio o un resumen, va adonde tú elijas y con las condiciones de esa app o servicio.</p>"
+    },
+    {
+      "h": "Informes de fallos",
+      "html": "<p>Si en los ajustes de tu dispositivo aceptas compartir análisis con los desarrolladores, Apple puede hacernos llegar informes de fallos anónimos de Libretta. No contienen tus notas ni tu audio, y se desactivan en Ajustes &rsaquo; Privacidad y seguridad &rsaquo; Análisis y mejoras.</p>"
+    },
+    {
+      "h": "Menores",
+      "html": "<p>Libretta no pide datos personales a nadie, tampoco a menores, y no está dirigida especialmente a ellos.</p>"
+    },
+    {
+      "h": "Esta web",
+      "html": "<p>libretta.app no usa cookies, analítica ni recursos de terceros. Se sirve desde GitHub Pages, que registra las visitas por motivos de seguridad según su <a href=\"https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement\">declaración de privacidad</a>.</p>"
+    },
+    {
+      "h": "Cambios",
+      "html": "<p>Si cambia algo de lo que cuenta esta página, la actualizaremos y cambiará la fecha de arriba.</p>"
+    },
+    {
+      "h": "Contacto",
+      "html": "<p>Libretta la hace Chubby Studio. Para cualquier pregunta sobre privacidad, escríbenos a <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ]
+}
