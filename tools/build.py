@@ -99,6 +99,17 @@ def head(t, code, lang, direction, page, title, description):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title}</title>
   <meta name="description" content="{description}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Libretta">
+  <meta property="og:title" content="{title}">
+  <meta property="og:description" content="{description}">
+  <meta property="og:url" content="{SITE}{path(code, page)}">
+  <meta property="og:locale" content="{lang.replace("-", "_")}">
+  <meta property="og:image" content="{SITE}/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Libretta">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="{SITE}{path(code, page)}">
 {alternates}
   <link rel="alternate" hreflang="x-default" href="{SITE}{path("en", page)}">
