@@ -27,10 +27,10 @@
   :root {
     --paper: #0A0A0A;
     --ink: #FFFFFF;
-    --grey-700: #D4D4D8;
+    --grey-700: #C7C7CC;
     --grey-500: #8E8E93;
     --grey-300: #3A3A3C;
-    --grey-100: #1B1B1D;
+    --grey-100: #2C2C2E;
   }
 }
 
@@ -66,7 +66,8 @@ header.bar {
 }
 header.bar a { color: var(--grey-500); text-decoration: none; }
 header.bar a:hover { color: var(--ink); }
-header.bar .home { display: flex; align-items: center; gap: 0.5rem; color: var(--ink); }
+header.bar .home { display: flex; align-items: center; gap: 0.6rem; color: var(--ink); }
+header.bar .home .wm { width: 78px; height: auto; display: block; }
 header.bar .home img { width: 1.75rem; height: 1.75rem; }
 
 .label {
@@ -87,7 +88,7 @@ header.bar .home img { width: 1.75rem; height: 1.75rem; }
   padding: 3rem 0;
 }
 .hero .icon { width: 7.5rem; height: 7.5rem; margin-bottom: 2.5rem; }
-.hero .wordmark { width: min(20rem, 80vw); height: auto; margin: 0 0 1.5rem; }
+.hero .wordmark { width: min(20rem, 80vw); height: auto; margin: 0 0 2.5rem; }
 .hero .wordmark img { width: 100%; height: auto; display: block; }
 .hero p.lede {
   font-size: clamp(1.25rem, 3.5vw, 1.5rem);
