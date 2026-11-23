@@ -1,5 +1,5 @@
-// The 34 languages of the site: the 25 of the app, plus Turkish, Hindi, the second Portuguese
-// and the five non-Latin languages kept while their transcription is sorted out.
+// The 38 languages of the site: the 25 the app is translated into, plus the ones it can
+// transcribe with Apple's speech model, plus Hindi and the second Portuguese.
 // The order is the order of the menu.
 // English lives at the root; every other language under /<code>/.
 
@@ -26,8 +26,10 @@ export const LANGUAGES: Language[] = [
   { code: "it", hreflang: "it", name: "Italiano", direction: "ltr" },
   { code: "lt", hreflang: "lt", name: "Lietuvių", direction: "ltr" },
   { code: "lv", hreflang: "lv", name: "Latviešu", direction: "ltr" },
+  { code: "ms", hreflang: "ms", name: "Bahasa Melayu", direction: "ltr" },
   { code: "mt", hreflang: "mt", name: "Malti", direction: "ltr" },
   { code: "nl", hreflang: "nl", name: "Nederlands", direction: "ltr" },
+  { code: "no", hreflang: "nb", name: "Norsk", direction: "ltr" },
   { code: "pl", hreflang: "pl", name: "Polski", direction: "ltr" },
   { code: "pt-br", hreflang: "pt-BR", name: "Português (Brasil)", direction: "ltr" },
   { code: "pt-pt", hreflang: "pt-PT", name: "Português (Portugal)", direction: "ltr" },
@@ -38,9 +40,11 @@ export const LANGUAGES: Language[] = [
   { code: "sv", hreflang: "sv", name: "Svenska", direction: "ltr" },
   { code: "tr", hreflang: "tr", name: "Türkçe", direction: "ltr" },
   { code: "uk", hreflang: "uk", name: "Українська", direction: "ltr" },
+  { code: "vi", hreflang: "vi", name: "Tiếng Việt", direction: "ltr" },
   { code: "ar", hreflang: "ar", name: "العربية", direction: "rtl" },
   { code: "he", hreflang: "he", name: "עברית", direction: "rtl" },
   { code: "hi", hreflang: "hi", name: "हिन्दी", direction: "ltr" },
+  { code: "th", hreflang: "th", name: "ไทย", direction: "ltr" },
   { code: "ja", hreflang: "ja", name: "日本語", direction: "ltr" },
   { code: "ko", hreflang: "ko", name: "한국어", direction: "ltr" },
   { code: "zh-hans", hreflang: "zh-Hans", name: "简体中文", direction: "ltr" },
