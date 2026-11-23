@@ -1,0 +1,81 @@
+{
+  "language_label": "Jezik",
+  "home_description": "Libretta je glasovna beležnica za iPhone, iPad in Mac: pišite, govorite in snemajte sestanke v eni beležki, ki se prepiše in povzame na vaši napravi.",
+  "home_lede": "Glasovna beležnica. Pišite, govorite in snemajte sestanke v <strong>eni beležki</strong>, prepisani in povzeti <mark>na vaši napravi</mark>.",
+  "home_soon": "Kmalu za iPhone, iPad in Mac",
+  "privacy_link": "Zasebnost",
+  "home_link": "Domov",
+  "privacy_title": "Zasebnost",
+  "privacy_description": "Pravilnik o zasebnosti aplikacije Libretta: brez računa in brez lastnega strežnika. Vaše beležke se obdelajo na napravi in shranijo v vašo mapo.",
+  "updated": "Posodobljeno 23. novembra 2026",
+  "intro": "Libretta je glasovna beležnica: pišete, govorite in snemate sestanke, aplikacija pa jih prepiše in povzame. Zasnovana je tako, da se vse to zgodi na vaši napravi in ostane shranjeno v mapi, ki je vaša.",
+  "summary": [
+    "<strong>Brez računa.</strong> Nikoli ne zahtevamo imena, e-poštnega naslova ali gesla.",
+    "<strong>Brez lastnega strežnika.</strong> Vaše beležke, zvok in prepisi nikoli ne gredo skozi naše strežnike, ker jih nimamo.",
+    "<strong>Vaše beležke so samo vaše.</strong> Nič od tega, kar napišete, posnamete ali prepišete, ne pride do nas ali do tretjih oseb, razen besedila, ki ga pošljete v Private Cloud Compute, če to vklopite. Brez oglasov in brez sledenja med aplikacijami."
+  ],
+  "sections": [
+    {
+      "h": "Kje so vaše beležke",
+      "html": "<p>Vsaka beležka je mapa z datotekami Markdown in njenim zvokom. Shranjene so na vaši napravi ali v mapi Libretta na vašem iCloud Drive, kakor izberete. Če uporabljate iCloud Drive, Apple te datoteke sinhronizira med vašimi napravami v skladu s svojim <a href=\"https://www.apple.com/legal/privacy/\">pravilnikom o zasebnosti</a>; mi do njih nimamo dostopa. Kadar koli jih lahko odprete, premaknete ali izbrišete v aplikaciji Datoteke ali v Finderju.</p>\n<p>Aplikacija na napravi hrani tudi iskalni indeks in predpomnilnik, da deluje hitreje. Oba se ponovno zgradita iz vaših datotek in izgineta, ko izbrišete aplikacijo.</p>"
+    },
+    {
+      "h": "Kaj se obdela na vaši napravi",
+      "html": "<ul>\n<li><strong>Prepis in glasovi.</strong> Zvok se prepiše in razdeli po govorcih z modeli, ki tečejo na vaši napravi: Applovim prepoznavanjem govora in modeli podjetja Desert Ant Labs.</li>\n<li><strong>Povzetki in vprašanja.</strong> Povzetke, odločitve, naloge in odgovore na vaša vprašanja piše Apple Intelligence na vaši napravi.</li>\n<li><strong>Iskanje.</strong> Indeks, s katerim iščete po svojih beležkah, se zgradi in uporablja na vaši napravi.</li>\n</ul>"
+    },
+    {
+      "h": "Povzetki s Private Cloud Compute (neobvezno)",
+      "html": "<p>Libretta ima nastavitev za pisanje povzetkov s Private Cloud Compute, Applovim modelom, ki teče na njegovih strežnikih. Ta je <strong>privzeto izklopljena</strong>. Če jo vklopite, se besedilo prepisa, ki se povzema, pošlje v Private Cloud Compute; zvok se ne pošlje. Apple je storitev zasnoval tako, da zahtevo obdela, ne da bi jo shranil, in ne da bi jo kdor koli, ne Apple ne mi, lahko videl. Aplikacija označi vsak povzetek, napisan zunaj vaše naprave, in lahko jo prosite, da pred pošiljanjem besedila skrije osebne podatke.</p>"
+    },
+    {
+      "h": "Prenos modelov",
+      "html": "<p>Ob prvi uporabi Libretta prenese modele za prepis podjetja Desert Ant Labs, sistem pa prenese Applove govorne modele. To so prenosi datotek: strežnik, ki jih dostavi, vidi IP-naslov vaše povezave, kot pri vsakem prenosu, ne prejme pa nobene vaše beležke, zvoka ali podatkov.</p>"
+    },
+    {
+      "h": "Dovoljenja, ki jih aplikacija zahteva",
+      "html": "<p>Vsako dovoljenje se zahteva šele, ko uporabite funkcijo, ki ga potrebuje, in ga lahko kadar koli prekličete v Nastavitvah.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Za snemanje vaših beležk in sestankov. Snema samo, ko to zahtevate, in to prikaže na zaslonu, dokler snema.</li>\n<li><strong>Koledar.</strong> Za prikaz vaših sestankov in njihovo pripravo kot beležk. iOS ponuja samo poln dostop, vendar Libretta samo bere: nikoli ne ustvari, spremeni ali izbriše dogodka.</li>\n<li><strong>Stiki.</strong> Za povezavo imena in e-poštnega naslova z vsakim, ki govori na sestanku. Kar izberete, se zapiše v vašo beležko.</li>\n<li><strong>Obvestila.</strong> Za opomnik pred sestankom. Načrtujejo se na vaši napravi.</li>\n<li><strong>Sistemski zvok (Mac).</strong> Za snemanje zvoka vaših videoklicev skupaj z mikrofonom.</li>\n</ul>\n<p>Nič, kar aplikacija prebere iz vašega koledarja ali stikov, ne zapusti vaše naprave, razen tega, kar napišete v svoje beležke in sinhronizirate z vašim iCloud Drive.</p>"
+    },
+    {
+      "h": "Statistika uporabe",
+      "html": "<p>Da bi izvedeli, katere funkcije se uporabljajo in kaj se pokvari, Libretta pošilja anonimno statistiko uporabe storitvi <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ki je zasnovana z mislijo na zasebnost. Vsak signal pove, kateri zaslon ali funkcija je bila uporabljena, skupaj z različico aplikacije in sistema, modelom naprave in jezikom. Identifikator uporabnika se zgosti na vaši napravi, preden se pošlje, TelemetryDeck ne shranjuje vašega IP-naslova in noben signal ne vsebuje vsebine vaših beležk, zvoka, prepisov, koledarja ali stikov. Ne uporabljajo se za oglaševanje in se ne združujejo s podatki iz drugih aplikacij.</p>"
+    },
+    {
+      "h": "Nakupi",
+      "html": "<p>Če v aplikaciji Libretta kaj kupite, plačilo obdela Apple in vaših plačilnih podatkov nikoli ne vidimo. Da vemo, kaj ste odklenili, uporabljamo <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, ki prejme anonimni identifikator, ki ga ustvari aplikacija, podatke o nakupu, ki jih posreduje Apple, in tehnične podatke o napravi. Ne prejme vašega imena, e-poštnega naslova ali česar koli iz vaših beležk.</p>"
+    },
+    {
+      "h": "Ko delite",
+      "html": "<p>Če izvozite ali delite beležko, posnetek ali povzetek, gre tja, kamor izberete, pod pogoji te aplikacije ali storitve.</p>"
+    },
+    {
+      "h": "Poročila o zrušitvah",
+      "html": "<p>Če ste v nastavitvah naprave privolili v deljenje analitike z razvijalci aplikacij, nam lahko Apple posreduje anonimna poročila o zrušitvah aplikacije Libretta. Ne vsebujejo nobene vaše beležke ali zvoka in jih lahko izklopite v Nastavitve &rsaquo; Zasebnost in varnost &rsaquo; Analitika in izboljšave.</p>"
+    },
+    {
+      "h": "Otroci",
+      "html": "<p>Libretta od nikogar, tudi od otrok, ne zahteva osebnih podatkov in ni namenjena otrokom.</p>"
+    },
+    {
+      "h": "To spletno mesto",
+      "html": "<p>libretta.app streže GitHub Pages, ki iz varnostnih razlogov beleži obiske v skladu s svojo <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">izjavo o zasebnosti</a>.</p>\n<p>Če to sprejmete v obvestilu o piškotkih, spletno mesto uporablja tudi Google Analytics za štetje obiskov in ogled, katere strani se berejo. Google tedaj nastavi piškotke ter prejme vaš IP-naslov in podatke o brskalniku v skladu s svojim <a href=\"https://policies.google.com/privacy?hl=sl\">pravilnikom o zasebnosti</a>. Če zavrnete, se ne naloži nobena analitika in ne nastavi noben piškotek. Svojo izbiro lahko kadar koli spremenite s povezavo »Piškotki« na dnu vsake strani.</p>"
+    },
+    {
+      "h": "Spremembe",
+      "html": "<p>Če se kaj od opisanega na tej strani spremeni, jo bomo posodobili in datum na vrhu se bo spremenil.</p>"
+    },
+    {
+      "h": "Stik",
+      "html": "<p>Libretta je delo studia Chubby Studio. Za vsako vprašanje o zasebnosti nam pišite na <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ],
+  "blog": "Blog",
+  "blog_description": "Novice in ideje ekipe Libretta.",
+  "blog_all": "Vse objave",
+  "notice_link": "Oglejte si to stran v slovenščini",
+  "notice_close": "Zapri",
+  "home_title": "Libretta: glasovne beležke",
+  "cookie_text": "Radi bi uporabljali piškotke Google Analytics, da bi šteli obiske tega spletnega mesta. Nič se ne naloži, dokler ne sprejmete.",
+  "cookie_accept": "Sprejmi",
+  "cookie_reject": "Zavrni",
+  "cookie_link": "Piškotki"
+}

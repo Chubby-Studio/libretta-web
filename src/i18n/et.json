@@ -1,0 +1,81 @@
+{
+  "language_label": "Keel",
+  "home_description": "Libretta on häälmärkmik iPhone'ile, iPadile ja Macile: kirjutage, rääkige ja salvestage koosolekuid ühte märkmesse, mis transkribeeritakse ja võetakse kokku teie seadmes.",
+  "home_lede": "Häälmärkmik. Kirjutage, rääkige ja salvestage koosolekuid <strong>ühte märkmesse</strong>, mis transkribeeritakse ja võetakse kokku <mark>teie seadmes</mark>.",
+  "home_soon": "Varsti iPhone'ile, iPadile ja Macile",
+  "privacy_link": "Privaatsus",
+  "home_link": "Avaleht",
+  "privacy_title": "Privaatsus",
+  "privacy_description": "Libretta privaatsuspoliitika: ilma kontota ja ilma oma serverita. Teie märkmeid töödeldakse seadmes ja hoitakse teie enda kaustas.",
+  "updated": "Uuendatud 23. novembril 2026",
+  "intro": "Libretta on häälmärkmik: te kirjutate, räägite ja salvestate koosolekuid ning rakendus transkribeerib ja võtab need kokku. See on loodud nii, et kõik see toimub teie seadmes ja jääb kausta, mis kuulub teile.",
+  "summary": [
+    "<strong>Ilma kontota.</strong> Me ei küsi kunagi nime, e-posti aadressi ega parooli.",
+    "<strong>Ilma oma serverita.</strong> Teie märkmed, heli ja transkriptsioonid ei liigu kunagi läbi meie serverite, sest meil neid ei ole.",
+    "<strong>Teie märkmed on ainult teie omad.</strong> Mitte miski sellest, mida kirjutate, salvestate või transkribeerite, ei jõua meieni ega kolmandate osapoolteni, välja arvatud tekst, mille saadate Private Cloud Compute'i, kui selle sisse lülitate. Ilma reklaamideta ja ilma rakendusteülese jälgimiseta."
+  ],
+  "sections": [
+    {
+      "h": "Kus teie märkmed asuvad",
+      "html": "<p>Iga märge on kaust Markdowni failide ja selle heliga. Need on salvestatud teie seadmesse või teie iCloud Drive'i kausta Libretta, nagu ise valite. Kui kasutate iCloud Drive'i, sünkroonib Apple neid faile teie seadmete vahel vastavalt oma <a href=\"https://www.apple.com/legal/privacy/\">privaatsuspoliitikale</a>; meil puudub neile juurdepääs. Saate neid igal ajal avada, teisaldada või kustutada rakenduses Failid või Finderis.</p>\n<p>Rakendus hoiab seadmes ka otsinguindeksit ja vahemälu, et töötada kiiremini. Mõlemad luuakse teie failidest uuesti ja kaovad, kui rakenduse kustutate.</p>"
+    },
+    {
+      "h": "Mida teie seadmes töödeldakse",
+      "html": "<ul>\n<li><strong>Transkriptsioon ja hääled.</strong> Heli transkribeeritakse ja jagatakse kõnelejate kaupa mudelitega, mis töötavad teie seadmes: Apple'i kõnetuvastus ja Desert Ant Labsi mudelid.</li>\n<li><strong>Kokkuvõtted ja küsimused.</strong> Kokkuvõtted, otsused, ülesanded ja vastused teie küsimustele kirjutab Apple Intelligence teie seadmes.</li>\n<li><strong>Otsing.</strong> Indeks, millega oma märkmetest otsite, luuakse ja seda kasutatakse teie seadmes.</li>\n</ul>"
+    },
+    {
+      "h": "Kokkuvõtted Private Cloud Compute'iga (valikuline)",
+      "html": "<p>Librettal on seade kokkuvõtete kirjutamiseks Private Cloud Compute'iga, Apple'i mudeliga, mis töötab tema serverites. See on <strong>vaikimisi välja lülitatud</strong>. Kui selle sisse lülitate, saadetakse kokkuvõetava transkriptsiooni tekst Private Cloud Compute'i; heli ei saadeta. Apple on teenuse loonud nii, et see töötleb päringut seda salvestamata ja ilma et keegi, ei Apple ega meie, seda näeks. Rakendus märgib iga väljaspool teie seadet kirjutatud kokkuvõtte ja võite paluda tal enne teksti saatmist isikuandmed peita.</p>"
+    },
+    {
+      "h": "Mudelite allalaadimine",
+      "html": "<p>Esimesel kasutamisel laadib Libretta alla Desert Ant Labsi transkriptsioonimudelid ja süsteem laadib alla Apple'i kõnemudelid. Need on failide allalaadimised: neid edastav server näeb teie ühenduse IP-aadressi nagu iga allalaadimise puhul, kuid ei saa ühtegi teie märget, heli ega andmeid.</p>"
+    },
+    {
+      "h": "Load, mida rakendus küsib",
+      "html": "<p>Iga luba küsitakse alles siis, kui kasutate funktsiooni, mis seda vajab, ja selle saab igal ajal seadetes tühistada.</p>\n<ul>\n<li><strong>Mikrofon.</strong> Teie märkmete ja koosolekute salvestamiseks. See salvestab ainult siis, kui seda palute, ja näitab seda salvestamise ajal ekraanil.</li>\n<li><strong>Kalender.</strong> Teie koosolekute näitamiseks ja nende ettevalmistamiseks märkmetena. iOS pakub ainult täielikku juurdepääsu, kuid Libretta ainult loeb: see ei loo, muuda ega kustuta kunagi sündmusi.</li>\n<li><strong>Kontaktid.</strong> Nime ja e-posti aadressi sidumiseks igaühega, kes koosolekul räägib. Teie valik kirjutatakse teie märkmesse.</li>\n<li><strong>Märguanded.</strong> Meeldetuletuseks enne koosolekut. Need ajastatakse teie seadmes.</li>\n<li><strong>Süsteemi heli (Mac).</strong> Teie videokõnede heli salvestamiseks koos mikrofoniga.</li>\n</ul>\n<p>Mitte miski, mida rakendus teie kalendrist või kontaktidest loeb, ei lahku teie seadmest, välja arvatud see, mida kirjutate oma märkmetesse ja sünkroonite oma iCloud Drive'iga.</p>"
+    },
+    {
+      "h": "Kasutusstatistika",
+      "html": "<p>Et teada saada, milliseid funktsioone kasutatakse ja mis katki läheb, saadab Libretta anonüümset kasutusstatistikat teenusele <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, mis on loodud privaatsust silmas pidades. Iga signaal ütleb, millist ekraani või funktsiooni kasutati, koos rakenduse ja süsteemi versiooni, seadme mudeli ja keelega. Kasutaja identifikaator räsitakse teie seadmes enne saatmist, TelemetryDeck ei salvesta teie IP-aadressi ja ükski signaal ei sisalda teie märkmete, heli, transkriptsioonide, kalendri ega kontaktide sisu. Neid ei kasutata reklaamiks ega kombineerita teiste rakenduste andmetega.</p>"
+    },
+    {
+      "h": "Ostud",
+      "html": "<p>Kui ostate Librettas midagi, töötleb makset Apple ja me ei näe kunagi teie makseandmeid. Et teada, mille olete avanud, kasutame teenust <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, mis saab rakenduse loodud anonüümse identifikaatori, Apple'i edastatud ostuteabe ja seadme tehnilised andmed. See ei saa teie nime, e-posti aadressi ega midagi teie märkmetest.</p>"
+    },
+    {
+      "h": "Kui jagate",
+      "html": "<p>Kui ekspordite või jagate märget, salvestist või kokkuvõtet, läheb see sinna, kuhu valite, selle rakenduse või teenuse tingimustel.</p>"
+    },
+    {
+      "h": "Krahhiaruanded",
+      "html": "<p>Kui olete oma seadme seadetes nõustunud jagama analüüsiandmeid rakenduste arendajatega, võib Apple meile edastada Libretta anonüümseid krahhiaruandeid. Need ei sisalda ühtegi teie märget ega heli ning saate need välja lülitada jaotises Seaded &rsaquo; Privaatsus ja turvalisus &rsaquo; Analüüs ja täiustused.</p>"
+    },
+    {
+      "h": "Lapsed",
+      "html": "<p>Libretta ei küsi kelleltki isikuandmeid, ka mitte lastelt, ega ole suunatud lastele.</p>"
+    },
+    {
+      "h": "See veebisait",
+      "html": "<p>libretta.app-i teenindab GitHub Pages, mis turvalisuse huvides logib külastusi vastavalt oma <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">privaatsusavaldusele</a>.</p>\n<p>Kui nõustute sellega küpsiseteates, kasutab sait ka Google Analyticsit, et loendada külastusi ja näha, milliseid lehti loetakse. Siis seab Google küpsised ning saab teie IP-aadressi ja brauseri andmed vastavalt oma <a href=\"https://policies.google.com/privacy?hl=et\">privaatsuspoliitikale</a>. Kui keeldute, ei laadita mingit analüütikat ega seata ühtegi küpsist. Saate oma valikut igal ajal muuta iga lehe allosas oleva lingi „Küpsised“ kaudu.</p>"
+    },
+    {
+      "h": "Muudatused",
+      "html": "<p>Kui midagi sellel lehel kirjeldatust muutub, uuendame seda ja ülaosas olev kuupäev muutub.</p>"
+    },
+    {
+      "h": "Kontakt",
+      "html": "<p>Libretta on loonud Chubby Studio. Privaatsusega seotud küsimuste korral kirjutage meile aadressil <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ],
+  "blog": "Blogi",
+  "blog_description": "Uudised ja mõtted Libretta meeskonnalt.",
+  "blog_all": "Kõik postitused",
+  "notice_link": "Vaadake seda lehte eesti keeles",
+  "notice_close": "Sulge",
+  "home_title": "Libretta: häälmärkmed",
+  "cookie_text": "Soovime kasutada Google Analyticsi küpsiseid, et loendada selle saidi külastusi. Midagi ei laadita enne, kui olete nõustunud.",
+  "cookie_accept": "Nõustun",
+  "cookie_reject": "Keeldun",
+  "cookie_link": "Küpsised"
+}

@@ -1,0 +1,81 @@
+{
+  "language_label": "Kalba",
+  "home_description": "Libretta yra balso užrašų knygelė, skirta iPhone, iPad ir Mac: rašykite, kalbėkite ir įrašykite susitikimus į vieną užrašą, kuris transkribuojamas ir apibendrinamas jūsų įrenginyje.",
+  "home_lede": "Balso užrašų knygelė. Rašykite, kalbėkite ir įrašykite susitikimus į <strong>vieną užrašą</strong>, transkribuojamą ir apibendrinamą <mark>jūsų įrenginyje</mark>.",
+  "home_soon": "Netrukus iPhone, iPad ir Mac",
+  "privacy_link": "Privatumas",
+  "home_link": "Pradžia",
+  "privacy_title": "Privatumas",
+  "privacy_description": "Libretta privatumo politika: be paskyros ir be savo serverio. Jūsų užrašai apdorojami įrenginyje ir saugomi jūsų aplanke.",
+  "updated": "Atnaujinta 2026 m. lapkričio 23 d.",
+  "intro": "Libretta yra balso užrašų knygelė: jūs rašote, kalbate ir įrašote susitikimus, o programa juos transkribuoja ir apibendrina. Ji sukurta taip, kad visa tai vyktų jūsų įrenginyje ir liktų aplanke, kuris priklauso jums.",
+  "summary": [
+    "<strong>Be paskyros.</strong> Niekada neprašome vardo, el. pašto adreso ar slaptažodžio.",
+    "<strong>Be savo serverio.</strong> Jūsų užrašai, garso įrašai ir transkripcijos niekada nekeliauja per mūsų serverius, nes jų neturime.",
+    "<strong>Jūsų užrašai priklauso tik jums.</strong> Niekas iš to, ką rašote, įrašote ar transkribuojate, nepasiekia nei mūsų, nei trečiųjų šalių, išskyrus tekstą, kurį siunčiate į Private Cloud Compute, jei tai įjungiate. Be reklamų ir be sekimo tarp programų."
+  ],
+  "sections": [
+    {
+      "h": "Kur yra jūsų užrašai",
+      "html": "<p>Kiekvienas užrašas yra aplankas su Markdown failais ir jo garso įrašu. Jie saugomi jūsų įrenginyje arba aplanke Libretta jūsų iCloud Drive, kaip pasirinksite. Jei naudojate iCloud Drive, Apple sinchronizuoja šiuos failus tarp jūsų įrenginių pagal savo <a href=\"https://www.apple.com/legal/privacy/\">privatumo politiką</a>; mes prie jų prieigos neturime. Bet kada galite juos atidaryti, perkelti ar ištrinti programoje Failai arba Finder.</p>\n<p>Programa įrenginyje taip pat laiko paieškos indeksą ir talpyklą, kad veiktų greičiau. Abu iš naujo sukuriami iš jūsų failų ir išnyksta, kai ištrinate programą.</p>"
+    },
+    {
+      "h": "Kas apdorojama jūsų įrenginyje",
+      "html": "<ul>\n<li><strong>Transkripcija ir balsai.</strong> Garsas transkribuojamas ir suskirstomas pagal kalbėtojus modeliais, veikiančiais jūsų įrenginyje: Apple kalbos atpažinimu ir Desert Ant Labs modeliais.</li>\n<li><strong>Santraukos ir klausimai.</strong> Santraukas, sprendimus, užduotis ir atsakymus į jūsų klausimus rašo Apple Intelligence jūsų įrenginyje.</li>\n<li><strong>Paieška.</strong> Indeksas, kuriuo ieškote savo užrašuose, sukuriamas ir naudojamas jūsų įrenginyje.</li>\n</ul>"
+    },
+    {
+      "h": "Santraukos su Private Cloud Compute (pasirinktinai)",
+      "html": "<p>Libretta turi nustatymą santraukoms rašyti su Private Cloud Compute, Apple modeliu, veikiančiu jos serveriuose. Jis <strong>pagal numatytuosius nustatymus išjungtas</strong>. Jei jį įjungsite, apibendrinamos transkripcijos tekstas siunčiamas į Private Cloud Compute; garsas nesiunčiamas. Apple sukūrė paslaugą taip, kad ji apdorotų užklausą jos nesaugodama ir niekam, nei Apple, nei mums, jos nematant. Programa pažymi kiekvieną ne jūsų įrenginyje parašytą santrauką, ir galite paprašyti jos prieš siunčiant tekstą paslėpti asmens duomenis.</p>"
+    },
+    {
+      "h": "Modelių atsisiuntimas",
+      "html": "<p>Pirmą kartą naudojant Libretta atsisiunčia Desert Ant Labs transkripcijos modelius, o sistema atsisiunčia Apple kalbos modelius. Tai failų atsisiuntimai: juos pateikiantis serveris mato jūsų ryšio IP adresą, kaip ir per bet kurį atsisiuntimą, bet negauna nė vieno jūsų užrašo, garso įrašo ar duomenų.</p>"
+    },
+    {
+      "h": "Leidimai, kurių prašo programa",
+      "html": "<p>Kiekvieno leidimo prašoma tik tada, kai naudojate jam reikalingą funkciją, ir bet kada galite jį atšaukti nustatymuose.</p>\n<ul>\n<li><strong>Mikrofonas.</strong> Jūsų užrašams ir susitikimams įrašyti. Įrašo tik tada, kai paprašote, ir įrašydama tai rodo ekrane.</li>\n<li><strong>Kalendorius.</strong> Jūsų susitikimams rodyti ir paruošti juos kaip užrašus. iOS siūlo tik visišką prieigą, bet Libretta tik skaito: ji niekada nekuria, nekeičia ir netrina įvykių.</li>\n<li><strong>Kontaktai.</strong> Vardui ir el. pašto adresui susieti su kiekvienu, kuris kalba susitikime. Tai, ką pasirenkate, įrašoma į jūsų užrašą.</li>\n<li><strong>Pranešimai.</strong> Priminti jums prieš susitikimą. Jie suplanuojami jūsų įrenginyje.</li>\n<li><strong>Sistemos garsas (Mac).</strong> Jūsų vaizdo skambučių garsui įrašyti kartu su mikrofonu.</li>\n</ul>\n<p>Niekas, ką programa perskaito iš jūsų kalendoriaus ar kontaktų, nepalieka jūsų įrenginio, išskyrus tai, ką įrašote į savo užrašus ir sinchronizuojate su savo iCloud Drive.</p>"
+    },
+    {
+      "h": "Naudojimo statistika",
+      "html": "<p>Kad sužinotume, kurios funkcijos naudojamos ir kas sugenda, Libretta siunčia anoniminę naudojimo statistiką į <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, paslaugą, sukurtą galvojant apie privatumą. Kiekvienas signalas nurodo, kuris ekranas ar funkcija buvo naudota, kartu su programos ir sistemos versija, įrenginio modeliu ir kalba. Naudotojo identifikatorius prieš išsiunčiant jūsų įrenginyje paverčiamas maišos reikšme, TelemetryDeck nesaugo jūsų IP adreso, ir joks signalas neturi jūsų užrašų, garso įrašų, transkripcijų, kalendoriaus ar kontaktų turinio. Jie nenaudojami reklamai ir nesujungiami su kitų programų duomenimis.</p>"
+    },
+    {
+      "h": "Pirkiniai",
+      "html": "<p>Jei ką nors perkate Libretta, mokėjimą apdoroja Apple, ir mes niekada nematome jūsų mokėjimo duomenų. Kad žinotume, ką atrakinote, naudojame <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, kuri gauna programos sukurtą anoniminį identifikatorių, Apple pateiktą pirkimo informaciją ir techninius įrenginio duomenis. Ji negauna jūsų vardo, el. pašto adreso ar nieko iš jūsų užrašų.</p>"
+    },
+    {
+      "h": "Kai bendrinate",
+      "html": "<p>Jei eksportuojate ar bendrinate užrašą, įrašą ar santrauką, jis keliauja ten, kur pasirenkate, pagal tos programos ar paslaugos sąlygas.</p>"
+    },
+    {
+      "h": "Strigčių ataskaitos",
+      "html": "<p>Jei įrenginio nustatymuose sutikote bendrinti analizės duomenis su programų kūrėjais, Apple gali mums perduoti anonimines Libretta strigčių ataskaitas. Jose nėra nė vieno jūsų užrašo ar garso įrašo, ir galite jas išjungti skiltyje Nustatymai &rsaquo; Privatumas ir sauga &rsaquo; Analizė ir patobulinimai.</p>"
+    },
+    {
+      "h": "Vaikai",
+      "html": "<p>Libretta niekieno, taip pat ir vaikų, neprašo asmens duomenų ir nėra skirta vaikams.</p>"
+    },
+    {
+      "h": "Ši svetainė",
+      "html": "<p>libretta.app aptarnauja GitHub Pages, kuri saugumo sumetimais registruoja apsilankymus pagal savo <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">privatumo pareiškimą</a>.</p>\n<p>Jei sutinkate su tuo pranešime apie slapukus, svetainė taip pat naudoja „Google Analytics“, kad skaičiuotų apsilankymus ir matytų, kurie puslapiai skaitomi. Tada Google nustato slapukus ir gauna jūsų IP adresą bei naršyklės duomenis pagal savo <a href=\"https://policies.google.com/privacy?hl=lt\">privatumo politiką</a>. Jei atsisakote, neįkeliama jokia analizė ir nenustatomas joks slapukas. Savo pasirinkimą galite bet kada pakeisti per nuorodą „Slapukai“ kiekvieno puslapio apačioje.</p>"
+    },
+    {
+      "h": "Pakeitimai",
+      "html": "<p>Jei kas nors, kas aprašyta šiame puslapyje, pasikeis, jį atnaujinsime, ir data viršuje pasikeis.</p>"
+    },
+    {
+      "h": "Kontaktai",
+      "html": "<p>Libretta sukūrė Chubby Studio. Kilus bet kokiam klausimui apie privatumą, rašykite mums adresu <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ],
+  "blog": "Tinklaraštis",
+  "blog_description": "Libretta komandos naujienos ir idėjos.",
+  "blog_all": "Visi įrašai",
+  "notice_link": "Žiūrėti šį puslapį lietuviškai",
+  "notice_close": "Uždaryti",
+  "home_title": "Libretta: balso užrašai",
+  "cookie_text": "Norėtume naudoti „Google Analytics“ slapukus, kad skaičiuotume šios svetainės lankymus. Niekas neįkeliama, kol nesutinkate.",
+  "cookie_accept": "Sutinku",
+  "cookie_reject": "Atsisakau",
+  "cookie_link": "Slapukai"
+}
