@@ -1,4 +1,4 @@
-// Renders tools/og.html into assets/og.png at 1200x630 with WebKit.
+// Renders tools/og.html into public/assets/og.png at 1200x630 with WebKit.
 // Run from the repository root: swift tools/snapshot.swift
 import AppKit
 import WebKit
@@ -32,6 +32,6 @@ final class Renderer: NSObject, WKNavigationDelegate {
 
 let root = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
 let app = NSApplication.shared
-let renderer = Renderer(page: root.appendingPathComponent("tools/og.html"), output: root.appendingPathComponent("assets/og.png"))
+let renderer = Renderer(page: root.appendingPathComponent("tools/og.html"), output: root.appendingPathComponent("public/assets/og.png"))
 DispatchQueue.main.asyncAfter(deadline: .now() + 20) { print("timed out"); exit(1) }
 app.run()

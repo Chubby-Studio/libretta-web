@@ -1,0 +1,14 @@
+---
+// GitHub Pages serves this page for any address that does not exist.
+import Base from "../layouts/Base.astro";
+import Bar from "../components/Bar.astro";
+---
+<Base code="en" page="404" title="Page not found · Libretta" description="This page does not exist." path="/404.html" alternates={[]} noindex>
+  <Bar code="en" />
+
+  <article>
+    <p class="label">404</p>
+    <h1>Page not found</h1>
+    <p>This page does not exist, or it moved. <a href="/">Go to the home page</a>.</p>
+  </article>
+</Base>
