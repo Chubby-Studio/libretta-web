@@ -7,7 +7,7 @@
   "home_link": "Domov",
   "privacy_title": "Súkromie",
   "privacy_description": "Zásady ochrany súkromia aplikácie Libretta: bez účtu a bez vlastného servera. Vaše poznámky sa spracúvajú vo vašom zariadení a ukladajú sa do vášho priečinka.",
-  "updated": "Aktualizované 10. novembra 2026",
+  "updated": "Aktualizované 23. novembra 2026",
   "intro": "Libretta je hlasový zápisník: píšete, hovoríte a nahrávate stretnutia a aplikácia ich prepíše a zhrnie. Je navrhnutá tak, aby sa to všetko dialo vo vašom zariadení a ukladalo do priečinka, ktorý patrí vám.",
   "summary": [
     "<strong>Bez účtu.</strong> Nikdy sa vás nepýtame na meno, e-mail ani heslo.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Tento web",
-      "html": "<p>libretta.app nepoužíva súbory cookie, analytiku ani zdroje tretích strán. Poskytuje sa cez GitHub Pages, ktorý z bezpečnostných dôvodov zaznamenáva návštevy podľa svojho <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">vyhlásenia o ochrane osobných údajov</a>.</p>"
+      "html": "<p>libretta.app beží na GitHub Pages, ktoré z bezpečnostných dôvodov zaznamenáva návštevy podľa svojho <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">vyhlásenia o ochrane osobných údajov</a>.</p>\n<p>Ak to prijmete v oznámení o súboroch cookie, web navyše používa Google Analytics na počítanie návštev a zistenie, ktoré stránky sa čítajú. Google potom ukladá súbory cookie a dostáva vašu IP adresu a údaje o prehliadači podľa svojich <a href=\"https://policies.google.com/privacy?hl=sk\">zásad ochrany súkromia</a>. Ak to odmietnete, nenačíta sa žiadna analytika ani sa neuloží žiadny súbor cookie. Svoju voľbu môžete kedykoľvek zmeniť odkazom Cookies v päte každej stránky.</p>"
     },
     {
       "h": "Zmeny",
@@ -73,5 +73,9 @@
   "blog_all": "Všetky články",
   "notice_link": "Zobraziť túto stránku v slovenčine",
   "notice_close": "Zavrieť",
-  "home_title": "Libretta: Hlasové poznámky"
+  "home_title": "Libretta: Hlasové poznámky",
+  "cookie_text": "Radi by sme používali súbory cookie Google Analytics na počítanie návštev tohto webu. Bez vášho súhlasu sa nič nenačíta.",
+  "cookie_accept": "Prijať",
+  "cookie_reject": "Odmietnuť",
+  "cookie_link": "Cookies"
 }

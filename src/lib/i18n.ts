@@ -66,6 +66,10 @@ export interface Texts {
   blog_all: string;
   notice_link: string;
   notice_close: string;
+  cookie_text: string;
+  cookie_accept: string;
+  cookie_reject: string;
+  cookie_link: string;
 }
 
 const files = import.meta.glob<Texts>("../i18n/*.json", { eager: true, import: "default" });

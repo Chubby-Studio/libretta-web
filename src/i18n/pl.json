@@ -7,7 +7,7 @@
   "home_link": "Strona główna",
   "privacy_title": "Prywatność",
   "privacy_description": "Polityka prywatności Libretty: bez konta i bez własnego serwera. Twoje notatki są przetwarzane na Twoim urządzeniu i przechowywane w Twoim folderze.",
-  "updated": "Zaktualizowano 10 listopada 2026",
+  "updated": "Zaktualizowano 23 listopada 2026",
   "intro": "Libretta to głosowy notatnik: piszesz, mówisz i nagrywasz spotkania, a aplikacja je transkrybuje i podsumowuje. Została zaprojektowana tak, aby to wszystko działo się na Twoim urządzeniu i było zapisywane w folderze, który należy do Ciebie.",
   "summary": [
     "<strong>Bez konta.</strong> Nigdy nie prosimy o imię, adres e-mail ani hasło.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Ta strona internetowa",
-      "html": "<p>libretta.app nie używa plików cookie, analityki ani zasobów stron trzecich. Jest udostępniana przez GitHub Pages, które rejestruje odwiedziny ze względów bezpieczeństwa zgodnie ze swoim <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">oświadczeniem o ochronie prywatności</a>.</p>"
+      "html": "<p>libretta.app jest udostępniana przez GitHub Pages, które ze względów bezpieczeństwa rejestruje wizyty zgodnie ze swoim <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">oświadczeniem o ochronie prywatności</a>.</p>\n<p>Jeśli zaakceptujesz to w komunikacie o plikach cookie, witryna korzysta też z Google Analytics, aby liczyć wizyty i sprawdzać, które strony są czytane. Google zapisuje wtedy pliki cookie i otrzymuje Twój adres IP oraz dane przeglądarki zgodnie ze swoją <a href=\"https://policies.google.com/privacy?hl=pl\">polityką prywatności</a>. Jeśli odmówisz, żadna analityka nie zostanie załadowana ani żaden plik cookie zapisany. Swój wybór możesz zmienić w każdej chwili za pomocą linku Cookies na dole każdej strony.</p>"
     },
     {
       "h": "Zmiany",
@@ -73,5 +73,9 @@
   "blog_all": "Wszystkie wpisy",
   "notice_link": "Zobacz tę stronę po polsku",
   "notice_close": "Zamknij",
-  "home_title": "Libretta: Notatki głosowe"
+  "home_title": "Libretta: Notatki głosowe",
+  "cookie_text": "Chcielibyśmy używać plików cookie Google Analytics do liczenia wizyt w tej witrynie. Bez Twojej zgody nic nie zostanie załadowane.",
+  "cookie_accept": "Akceptuję",
+  "cookie_reject": "Odrzucam",
+  "cookie_link": "Cookies"
 }

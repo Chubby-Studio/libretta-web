@@ -7,7 +7,7 @@
   "home_link": "Hjem",
   "privacy_title": "Personvern",
   "privacy_description": "Personvernerklæringen til Libretta: ingen konto og ingen egen server. Notatene dine behandles på enheten din og lagres i mappen din.",
-  "updated": "Oppdatert 10. november 2026",
+  "updated": "Oppdatert 23. november 2026",
   "intro": "Libretta er en stemmenotatbok: du skriver, snakker og tar opp møter, og appen transkriberer og oppsummerer dem. Den er laget slik at alt dette skjer på enheten din og lagres i en mappe som tilhører deg.",
   "summary": [
     "<strong>Ingen konto.</strong> Vi ber aldri om navn, e-post eller passord.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Dette nettstedet",
-      "html": "<p>libretta.app bruker ingen informasjonskapsler, analyse eller ressurser fra tredjeparter. Det leveres fra GitHub Pages, som logger besøk av sikkerhetshensyn i henhold til <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">personvernerklæringen sin</a>.</p>"
+      "html": "<p>libretta.app leveres fra GitHub Pages, som logger besøk av sikkerhetshensyn i henhold til sin <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">personvernerklæringen sin</a>.</p>\n<p>Hvis du godtar det i cookievarselet, bruker nettstedet også Google Analytics til å telle besøk og se hvilke sider som leses. Google lagrer da informasjonskapsler og mottar IP-adressen din og nettleseropplysninger i henhold til sin <a href=\"https://policies.google.com/privacy?hl=no\">personvernerklæring</a>. Hvis du avslår, lastes ingen analyse og ingen informasjonskapsel lagres. Du kan når som helst endre valget ditt med lenken Informasjonskapsler nederst på hver side.</p>"
     },
     {
       "h": "Endringer",
@@ -73,5 +73,9 @@
   "blog_all": "Alle innlegg",
   "notice_link": "Se denne siden på norsk",
   "notice_close": "Lukk",
-  "home_title": "Libretta: Talenotater & Memoer"
+  "home_title": "Libretta: Talenotater & Memoer",
+  "cookie_text": "Vi vil gjerne bruke informasjonskapsler fra Google Analytics til å telle besøk på dette nettstedet. Ingenting lastes med mindre du godtar.",
+  "cookie_accept": "Godta",
+  "cookie_reject": "Avslå",
+  "cookie_link": "Informasjonskapsler"
 }

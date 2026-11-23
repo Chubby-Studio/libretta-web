@@ -7,7 +7,7 @@
   "home_link": "דף הבית",
   "privacy_title": "פרטיות",
   "privacy_description": "מדיניות הפרטיות של Libretta: בלי חשבון ובלי שרת משלנו. ההערות שלכם מעובדות במכשיר ונשמרות בתיקייה שלכם.",
-  "updated": "עודכן ב-10 בנובמבר 2026",
+  "updated": "עודכן ב-23 בנובמבר 2026",
   "intro": "Libretta היא מחברת קולית: אתם כותבים, מדברים ומקליטים פגישות, והאפליקציה מתמללת ומסכמת אותן. היא בנויה כך שכל זה קורה במכשיר שלכם ונשמר בתיקייה שהיא שלכם.",
   "summary": [
     "<strong>בלי חשבון.</strong> אנחנו אף פעם לא מבקשים את שמכם, את כתובת האימייל שלכם או סיסמה.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "אתר זה",
-      "html": "<p>libretta.app לא משתמש בעוגיות, בניתוח נתונים או במשאבים של צדדים שלישיים. הוא מוגש מ-GitHub Pages, שמתעדת ביקורים לצורכי אבטחה לפי <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">הצהרת הפרטיות</a> שלה.</p>"
+      "html": "<p>libretta.app מוגש מ-GitHub Pages, שרושם ביקורים מטעמי אבטחה בהתאם ל<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">הצהרת הפרטיות</a> שלו.</p>\n<p>אם תאשרו זאת בהודעת העוגיות, האתר משתמש גם ב-Google Analytics כדי לספור ביקורים ולראות אילו דפים נקראים. Google שומרת אז עוגיות ומקבלת את כתובת ה-IP שלכם ופרטי הדפדפן בהתאם ל<a href=\"https://policies.google.com/privacy?hl=he\">מדיניות הפרטיות</a> שלה. אם תסרבו, לא נטען שום כלי ניתוח ולא נשמרת שום עוגייה. אפשר לשנות את הבחירה בכל עת דרך הקישור „עוגיות” בתחתית כל דף.</p>"
     },
     {
       "h": "שינויים",
@@ -73,5 +73,9 @@
   "blog_all": "כל הפוסטים",
   "notice_link": "הצגת הדף בעברית",
   "notice_close": "סגירה",
-  "home_title": "Libretta: הערות קוליות"
+  "home_title": "Libretta: הערות קוליות",
+  "cookie_text": "נשמח להשתמש בעוגיות של Google Analytics כדי לספור ביקורים באתר הזה. שום דבר לא נטען בלי הסכמתכם.",
+  "cookie_accept": "אישור",
+  "cookie_reject": "דחייה",
+  "cookie_link": "עוגיות"
 }

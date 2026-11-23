@@ -7,7 +7,7 @@
   "home_link": "Beranda",
   "privacy_title": "Privasi",
   "privacy_description": "Kebijakan privasi Libretta: tanpa akun dan tanpa server sendiri. Catatan Anda diproses di perangkat Anda dan disimpan di folder Anda.",
-  "updated": "Diperbarui 10 November 2026",
+  "updated": "Diperbarui 23 November 2026",
   "intro": "Libretta adalah buku catatan suara: Anda menulis, berbicara, dan merekam rapat, lalu app mentranskripsikan dan meringkasnya. App ini dirancang agar semua itu terjadi di perangkat Anda dan disimpan di folder milik Anda.",
   "summary": [
     "<strong>Tanpa akun.</strong> Kami tidak pernah meminta nama, email, atau kata sandi Anda.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Situs web ini",
-      "html": "<p>libretta.app tidak menggunakan cookie, analitik, atau sumber daya pihak ketiga. Situs ini disajikan dari GitHub Pages, yang mencatat kunjungan untuk keperluan keamanan sesuai <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">pernyataan privasinya</a>.</p>"
+      "html": "<p>libretta.app disajikan dari GitHub Pages, yang mencatat kunjungan demi keamanan sesuai <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">pernyataan privasinya</a>-nya.</p>\n<p>Jika Anda menyetujuinya di pemberitahuan cookie, situs ini juga menggunakan Google Analytics untuk menghitung kunjungan dan melihat halaman mana yang dibaca. Google kemudian memasang cookie dan menerima alamat IP serta data browser Anda sesuai <a href=\"https://policies.google.com/privacy?hl=id\">kebijakan privasi</a>-nya. Jika Anda menolak, tidak ada analitik yang dimuat dan tidak ada cookie yang dipasang. Anda dapat mengubah pilihan kapan saja melalui tautan Cookie di bagian bawah setiap halaman.</p>"
     },
     {
       "h": "Perubahan",
@@ -73,5 +73,9 @@
   "blog_all": "Semua artikel",
   "notice_link": "Lihat halaman ini dalam Bahasa Indonesia",
   "notice_close": "Tutup",
-  "home_title": "Libretta: Catatan Suara"
+  "home_title": "Libretta: Catatan Suara",
+  "cookie_text": "Kami ingin menggunakan cookie Google Analytics untuk menghitung kunjungan ke situs ini. Tidak ada yang dimuat kecuali Anda setuju.",
+  "cookie_accept": "Setuju",
+  "cookie_reject": "Tolak",
+  "cookie_link": "Cookie"
 }

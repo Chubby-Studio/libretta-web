@@ -7,7 +7,7 @@
   "home_link": "Főoldal",
   "privacy_title": "Adatvédelem",
   "privacy_description": "A Libretta adatvédelmi irányelvei: nincs fiók, és nincs saját szerverünk. A jegyzeteidet az eszközöd dolgozza fel, és a te mappádban tárolódnak.",
-  "updated": "Frissítve: 2026. november 10.",
+  "updated": "Frissítve: 2026. november 23.",
   "intro": "A Libretta egy hangjegyzetfüzet: írsz, beszélsz és megbeszéléseket rögzítesz, az app pedig átírja és összefoglalja őket. Úgy készült, hogy mindez az eszközödön történjen, és egy olyan mappában tárolódjon, amely a tiéd.",
   "summary": [
     "<strong>Nincs fiók.</strong> Soha nem kérjük a neved, az e-mail-címed vagy a jelszavad.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Ez a weboldal",
-      "html": "<p>A libretta.app nem használ sütiket, analitikát vagy harmadik féltől származó erőforrásokat. A GitHub Pagesről szolgáljuk ki, amely biztonsági okokból naplózza a látogatásokat az <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">adatvédelmi nyilatkozata</a> szerint.</p>"
+      "html": "<p>A libretta.app a GitHub Pages szolgáltatásról érhető el, amely biztonsági okokból naplózza a látogatásokat a saját <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">adatvédelmi nyilatkozata</a> szerint.</p>\n<p>Ha a sütikről szóló értesítésben elfogadod, a webhely a Google Analyticset is használja a látogatások számlálására és annak megismerésére, mely oldalakat olvassák. A Google ekkor sütiket helyez el, és megkapja az IP-címedet és a böngésződ adatait a saját <a href=\"https://policies.google.com/privacy?hl=hu\">adatvédelmi irányelvei</a> szerint. Ha elutasítod, semmilyen analitika nem töltődik be, és nem kerül elhelyezésre süti. A döntésedet bármikor megváltoztathatod minden oldal alján a Sütik hivatkozással.</p>"
     },
     {
       "h": "Változások",
@@ -73,5 +73,9 @@
   "blog_all": "Összes bejegyzés",
   "notice_link": "Az oldal megtekintése magyarul",
   "notice_close": "Bezárás",
-  "home_title": "Libretta: Hangjegyzetek"
+  "home_title": "Libretta: Hangjegyzetek",
+  "cookie_text": "Szeretnénk a Google Analytics sütijeit használni a webhely látogatásainak számlálására. Elfogadás nélkül semmi sem töltődik be.",
+  "cookie_accept": "Elfogadom",
+  "cookie_reject": "Elutasítom",
+  "cookie_link": "Sütik"
 }

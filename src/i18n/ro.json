@@ -7,7 +7,7 @@
   "home_link": "Acasă",
   "privacy_title": "Confidențialitate",
   "privacy_description": "Politica de confidențialitate Libretta: fără cont și fără server propriu. Notele tale sunt procesate pe dispozitivul tău și păstrate în folderul tău.",
-  "updated": "Actualizat la 10 noiembrie 2026",
+  "updated": "Actualizat la 23 noiembrie 2026",
   "intro": "Libretta este un caiet vocal: scrii, vorbești și înregistrezi ședințe, iar aplicația le transcrie și le rezumă. Este făcută astfel încât toate acestea să se întâmple pe dispozitivul tău și să fie păstrate într-un folder care îți aparține.",
   "summary": [
     "<strong>Fără cont.</strong> Nu îți cerem niciodată numele, e-mailul sau o parolă.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Acest site",
-      "html": "<p>libretta.app nu folosește cookie-uri, analiză sau resurse de la terți. Este servit prin GitHub Pages, care înregistrează vizitele din motive de securitate conform <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declarației sale de confidențialitate</a>.</p>"
+      "html": "<p>libretta.app este servit de GitHub Pages, care înregistrează vizitele din motive de securitate conform <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declarației sale de confidențialitate</a> sale.</p>\n<p>Dacă accepți în notificarea despre cookie-uri, site-ul folosește și Google Analytics pentru a număra vizitele și a vedea ce pagini sunt citite. Google plasează atunci cookie-uri și primește adresa ta IP și date despre browser conform <a href=\"https://policies.google.com/privacy?hl=ro\">politicii de confidențialitate</a> sale. Dacă refuzi, nu se încarcă nicio analiză și nu se plasează niciun cookie. Îți poți schimba alegerea oricând din linkul Cookie-uri din subsolul fiecărei pagini.</p>"
     },
     {
       "h": "Modificări",
@@ -73,5 +73,9 @@
   "blog_all": "Toate articolele",
   "notice_link": "Vezi această pagină în română",
   "notice_close": "Închide",
-  "home_title": "Libretta: Notițe vocale"
+  "home_title": "Libretta: Notițe vocale",
+  "cookie_text": "Am dori să folosim cookie-uri Google Analytics pentru a număra vizitele pe acest site. Nu se încarcă nimic dacă nu accepți.",
+  "cookie_accept": "Accept",
+  "cookie_reject": "Refuz",
+  "cookie_link": "Cookie-uri"
 }

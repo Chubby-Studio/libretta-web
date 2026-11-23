@@ -7,7 +7,7 @@
   "home_link": "Hem",
   "privacy_title": "Integritet",
   "privacy_description": "Integritetspolicy för Libretta: inget konto och ingen egen server. Dina anteckningar bearbetas på din enhet och sparas i din mapp.",
-  "updated": "Uppdaterad den 10 november 2026",
+  "updated": "Uppdaterad den 23 november 2026",
   "intro": "Libretta är en röstanteckningsbok: du skriver, pratar och spelar in möten, och appen transkriberar och sammanfattar dem. Den är byggd så att allt detta sker på din enhet och sparas i en mapp som tillhör dig.",
   "summary": [
     "<strong>Inget konto.</strong> Vi ber aldrig om ditt namn, din e-postadress eller ett lösenord.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Den här webbplatsen",
-      "html": "<p>libretta.app använder inga cookies, ingen analys och inga resurser från tredje part. Den levereras från GitHub Pages, som loggar besök av säkerhetsskäl enligt sitt <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">integritetsmeddelande</a>.</p>"
+      "html": "<p>libretta.app levereras från GitHub Pages, som loggar besök av säkerhetsskäl enligt sin <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">integritetsmeddelande</a>.</p>\n<p>Om du godkänner det i cookiemeddelandet använder webbplatsen också Google Analytics för att räkna besök och se vilka sidor som läses. Google sätter då cookies och tar emot din IP-adress och webbläsaruppgifter enligt sin <a href=\"https://policies.google.com/privacy?hl=sv\">integritetspolicy</a>. Om du avböjer laddas ingen analys och ingen cookie sätts. Du kan när som helst ändra ditt val via länken Cookies längst ned på varje sida.</p>"
     },
     {
       "h": "Ändringar",
@@ -73,5 +73,9 @@
   "blog_all": "Alla inlägg",
   "notice_link": "Visa den här sidan på svenska",
   "notice_close": "Stäng",
-  "home_title": "Libretta: Röstanteckningar"
+  "home_title": "Libretta: Röstanteckningar",
+  "cookie_text": "Vi vill gärna använda cookies från Google Analytics för att räkna besök på den här webbplatsen. Inget laddas om du inte godkänner.",
+  "cookie_accept": "Godkänn",
+  "cookie_reject": "Avböj",
+  "cookie_link": "Cookies"
 }

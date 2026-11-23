@@ -7,7 +7,7 @@
   "home_link": "Trang chủ",
   "privacy_title": "Quyền riêng tư",
   "privacy_description": "Chính sách quyền riêng tư của Libretta: không cần tài khoản và không có máy chủ riêng. Ghi chú của bạn được xử lý trên thiết bị của bạn và lưu trong thư mục của bạn.",
-  "updated": "Cập nhật ngày 10 tháng 11 năm 2026",
+  "updated": "Cập nhật ngày 23 tháng 11 năm 2026",
   "intro": "Libretta là một cuốn sổ tay giọng nói: bạn viết, nói và ghi âm cuộc họp, còn ứng dụng sẽ chép lời và tóm tắt. Ứng dụng được thiết kế để mọi việc này diễn ra trên thiết bị của bạn và được lưu trong một thư mục thuộc về bạn.",
   "summary": [
     "<strong>Không cần tài khoản.</strong> Chúng tôi không bao giờ hỏi tên, email hay mật khẩu của bạn.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Trang web này",
-      "html": "<p>libretta.app không dùng cookie, phân tích hay tài nguyên của bên thứ ba. Trang được phục vụ từ GitHub Pages, nơi ghi nhật ký lượt truy cập vì lý do bảo mật theo <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">tuyên bố về quyền riêng tư</a> của họ.</p>"
+      "html": "<p>libretta.app được phục vụ từ GitHub Pages, nơi ghi lại lượt truy cập vì lý do bảo mật theo <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">tuyên bố về quyền riêng tư</a> của họ.</p>\n<p>Nếu bạn chấp nhận trong thông báo cookie, trang web cũng dùng Google Analytics để đếm lượt truy cập và xem những trang nào được đọc. Khi đó Google đặt cookie và nhận địa chỉ IP cùng thông tin trình duyệt của bạn theo <a href=\"https://policies.google.com/privacy?hl=vi\">chính sách quyền riêng tư</a> của Google. Nếu bạn từ chối, không có công cụ phân tích nào được tải và không có cookie nào được đặt. Bạn có thể thay đổi lựa chọn bất cứ lúc nào qua liên kết Cookie ở cuối mỗi trang.</p>"
     },
     {
       "h": "Thay đổi",
@@ -73,5 +73,9 @@
   "blog_all": "Tất cả bài viết",
   "notice_link": "Xem trang này bằng tiếng Việt",
   "notice_close": "Đóng",
-  "home_title": "Libretta: Ghi chú giọng nói"
+  "home_title": "Libretta: Ghi chú giọng nói",
+  "cookie_text": "Chúng tôi muốn dùng cookie của Google Analytics để đếm lượt truy cập trang web này. Không có gì được tải nếu bạn không chấp nhận.",
+  "cookie_accept": "Chấp nhận",
+  "cookie_reject": "Từ chối",
+  "cookie_link": "Cookie"
 }

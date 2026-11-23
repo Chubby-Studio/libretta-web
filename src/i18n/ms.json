@@ -7,7 +7,7 @@
   "home_link": "Laman Utama",
   "privacy_title": "Privasi",
   "privacy_description": "Dasar privasi Libretta: tiada akaun dan tiada pelayan sendiri. Nota anda diproses pada peranti anda dan disimpan dalam folder anda.",
-  "updated": "Dikemas kini 10 November 2026",
+  "updated": "Dikemas kini 23 November 2026",
   "intro": "Libretta ialah buku nota suara: anda menulis, bercakap dan merakam mesyuarat, dan app ini mentranskripsi serta meringkaskannya. App ini direka supaya semua itu berlaku pada peranti anda dan disimpan dalam folder yang menjadi milik anda.",
   "summary": [
     "<strong>Tiada akaun.</strong> Kami tidak pernah meminta nama, e-mel atau kata laluan anda.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Laman web ini",
-      "html": "<p>libretta.app tidak menggunakan kuki, analitis atau sumber pihak ketiga. Ia disajikan daripada GitHub Pages, yang merekodkan lawatan atas sebab keselamatan mengikut <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">kenyataan privasinya</a>.</p>"
+      "html": "<p>libretta.app disajikan dari GitHub Pages, yang merekodkan lawatan untuk keselamatan menurut <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">kenyataan privasinya</a>nya.</p>\n<p>Jika anda menerimanya dalam notis kuki, laman web ini juga menggunakan Google Analytics untuk mengira lawatan dan melihat halaman yang dibaca. Google kemudian memasang kuki dan menerima alamat IP serta butiran pelayar anda menurut <a href=\"https://policies.google.com/privacy?hl=ms\">dasar privasi</a>nya. Jika anda menolak, tiada analitik dimuatkan dan tiada kuki dipasang. Anda boleh menukar pilihan anda pada bila-bila masa melalui pautan Kuki di bahagian bawah setiap halaman.</p>"
     },
     {
       "h": "Perubahan",
@@ -73,5 +73,9 @@
   "blog_all": "Semua artikel",
   "notice_link": "Lihat halaman ini dalam Bahasa Melayu",
   "notice_close": "Tutup",
-  "home_title": "Libretta: Nota Suara"
+  "home_title": "Libretta: Nota Suara",
+  "cookie_text": "Kami ingin menggunakan kuki Google Analytics untuk mengira lawatan ke laman web ini. Tiada apa-apa dimuatkan melainkan anda bersetuju.",
+  "cookie_accept": "Terima",
+  "cookie_reject": "Tolak",
+  "cookie_link": "Kuki"
 }

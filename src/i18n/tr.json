@@ -7,7 +7,7 @@
   "home_link": "Ana Sayfa",
   "privacy_title": "Gizlilik",
   "privacy_description": "Libretta gizlilik politikası: hesap yok, kendi sunucumuz yok. Notların cihazında işlenir ve klasöründe saklanır.",
-  "updated": "10 Kasım 2026 tarihinde güncellendi",
+  "updated": "23 Kasım 2026 tarihinde güncellendi",
   "intro": "Libretta bir sesli defterdir: yazarsın, konuşursun, toplantıları kaydedersin; uygulama da bunları yazıya döker ve özetler. Hepsi cihazında gerçekleşecek ve sana ait bir klasörde saklanacak şekilde tasarlanmıştır.",
   "summary": [
     "<strong>Hesap yok.</strong> Senden hiçbir zaman adını, e-postanı veya parolanı istemeyiz.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Bu web sitesi",
-      "html": "<p>libretta.app çerez, analiz veya üçüncü taraf kaynakları kullanmaz. Güvenlik amacıyla ziyaretleri <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">gizlilik bildirimi</a> kapsamında kaydeden GitHub Pages üzerinden sunulur.</p>"
+      "html": "<p>libretta.app, ziyaretleri güvenlik amacıyla kendi <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">gizlilik bildirimi</a> uyarınca kaydeden GitHub Pages üzerinden sunulur.</p>\n<p>Çerez bildiriminde kabul ederseniz site, ziyaretleri saymak ve hangi sayfaların okunduğunu görmek için Google Analytics de kullanır. Google bu durumda çerezler yerleştirir ve IP adresinizi ile tarayıcı bilgilerinizi kendi <a href=\"https://policies.google.com/privacy?hl=tr\">gizlilik politikası</a> uyarınca alır. Reddederseniz hiçbir analiz yüklenmez ve hiçbir çerez yerleştirilmez. Seçiminizi her sayfanın altındaki Çerezler bağlantısından istediğiniz zaman değiştirebilirsiniz.</p>"
     },
     {
       "h": "Değişiklikler",
@@ -73,5 +73,9 @@
   "blog_all": "Tüm yazılar",
   "notice_link": "Bu sayfayı Türkçe görüntüle",
   "notice_close": "Kapat",
-  "home_title": "Libretta: Sesli Notlar"
+  "home_title": "Libretta: Sesli Notlar",
+  "cookie_text": "Bu sitenin ziyaretlerini saymak için Google Analytics çerezlerini kullanmak istiyoruz. Kabul etmezseniz hiçbir şey yüklenmez.",
+  "cookie_accept": "Kabul et",
+  "cookie_reject": "Reddet",
+  "cookie_link": "Çerezler"
 }

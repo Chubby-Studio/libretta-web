@@ -7,7 +7,7 @@
   "home_link": "Inicio",
   "privacy_title": "Privacidad",
   "privacy_description": "Política de privacidad de Libretta: sin cuenta ni servidor propio. Tus notas se procesan en tu dispositivo y se guardan en tu carpeta.",
-  "updated": "Actualizada el 10 de noviembre de 2026",
+  "updated": "Actualizada el 23 de noviembre de 2026",
   "intro": "Libretta es un cuaderno de voz: escribes, hablas y grabas reuniones, y la app lo transcribe y lo resume. Está pensada para que todo eso ocurra en tu dispositivo y se guarde en una carpeta que es tuya.",
   "summary": [
     "<strong>No hay cuenta.</strong> No te pedimos nombre, email ni contraseña.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Esta web",
-      "html": "<p>libretta.app no usa cookies, analítica ni recursos de terceros. Se sirve desde GitHub Pages, que registra las visitas por motivos de seguridad según su <a href=\"https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement\">declaración de privacidad</a>.</p>"
+      "html": "<p>libretta.app se sirve desde GitHub Pages, que registra las visitas por motivos de seguridad según su <a href=\"https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement\">declaración de privacidad</a>.</p>\n<p>Si lo aceptas en el aviso de cookies, la web usa también Google Analytics para contar las visitas y ver qué páginas se leen. Google instala entonces cookies y recibe tu dirección IP y datos del navegador según su <a href=\"https://policies.google.com/privacy?hl=es\">política de privacidad</a>. Si lo rechazas, no se carga ninguna analítica ni se instala ninguna cookie. Puedes cambiar tu elección cuando quieras con el enlace Cookies del pie de cada página.</p>"
     },
     {
       "h": "Cambios",
@@ -73,5 +73,9 @@
   "blog_all": "Todos los artículos",
   "notice_link": "Ver esta página en español",
   "notice_close": "Cerrar",
-  "home_title": "Libretta: Notas de Voz"
+  "home_title": "Libretta: Notas de Voz",
+  "cookie_text": "Nos gustaría usar cookies de Google Analytics para contar las visitas a esta web. No se carga nada si no aceptas.",
+  "cookie_accept": "Aceptar",
+  "cookie_reject": "Rechazar",
+  "cookie_link": "Cookies"
 }
