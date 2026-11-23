@@ -20,6 +20,7 @@ const families = {
   ko: '"Apple SD Gothic Neo", "Noto Sans KR"',
   "zh-hans": '"PingFang SC", "Noto Sans SC"',
   "zh-hant": '"PingFang TC", "Noto Sans TC"',
+  "zh-hk": '"PingFang HK", "Noto Sans TC"',
   ar: '"SF Arabic", "Geeza Pro", "Noto Sans Arabic"',
   he: '"SF Hebrew", "Noto Sans Hebrew"',
   th: '"Thonburi", "Noto Sans Thai"',

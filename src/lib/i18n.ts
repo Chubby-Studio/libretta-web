@@ -1,5 +1,5 @@
-// The 40 languages of the site: the 25 the app is translated into, plus the ones it can
-// transcribe with Apple's speech model, plus the second Portuguese.
+// The 41 languages of the site: the 25 the app is translated into, plus the ones it can
+// transcribe with Apple's speech model (Cantonese as Hong Kong Chinese), plus the second Portuguese.
 // The order is the order of the menu.
 // English lives at the root; every other language under /<code>/.
 
@@ -51,6 +51,7 @@ export const LANGUAGES: Language[] = [
   { code: "ko", hreflang: "ko", name: "한국어", direction: "ltr" },
   { code: "zh-hans", hreflang: "zh-Hans", name: "简体中文", direction: "ltr" },
   { code: "zh-hant", hreflang: "zh-Hant", name: "繁體中文", direction: "ltr" },
+  { code: "zh-hk", hreflang: "zh-HK", name: "繁體中文（香港）", direction: "ltr" },
 ];
 
 export const SITE = "https://libretta.app";
