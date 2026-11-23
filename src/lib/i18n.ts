@@ -1,5 +1,5 @@
-// The 38 languages of the site: the 25 the app is translated into, plus the ones it can
-// transcribe with Apple's speech model, plus Hindi and the second Portuguese.
+// The 41 languages of the site: the 25 the app is translated into, plus the ones it can
+// transcribe with Apple's speech model (Cantonese as Hong Kong Chinese), plus the second Portuguese.
 // The order is the order of the menu.
 // English lives at the root; every other language under /<code>/.
 
@@ -14,6 +14,7 @@ export const LANGUAGES: Language[] = [
   { code: "en", hreflang: "en", name: "English", direction: "ltr" },
   { code: "es", hreflang: "es", name: "Español", direction: "ltr" },
   { code: "bg", hreflang: "bg", name: "Български", direction: "ltr" },
+  { code: "ca", hreflang: "ca", name: "Català", direction: "ltr" },
   { code: "cs", hreflang: "cs", name: "Čeština", direction: "ltr" },
   { code: "da", hreflang: "da", name: "Dansk", direction: "ltr" },
   { code: "de", hreflang: "de", name: "Deutsch", direction: "ltr" },
@@ -23,6 +24,7 @@ export const LANGUAGES: Language[] = [
   { code: "fr", hreflang: "fr", name: "Français", direction: "ltr" },
   { code: "hr", hreflang: "hr", name: "Hrvatski", direction: "ltr" },
   { code: "hu", hreflang: "hu", name: "Magyar", direction: "ltr" },
+  { code: "id", hreflang: "id", name: "Bahasa Indonesia", direction: "ltr" },
   { code: "it", hreflang: "it", name: "Italiano", direction: "ltr" },
   { code: "lt", hreflang: "lt", name: "Lietuvių", direction: "ltr" },
   { code: "lv", hreflang: "lv", name: "Latviešu", direction: "ltr" },
@@ -49,6 +51,7 @@ export const LANGUAGES: Language[] = [
   { code: "ko", hreflang: "ko", name: "한국어", direction: "ltr" },
   { code: "zh-hans", hreflang: "zh-Hans", name: "简体中文", direction: "ltr" },
   { code: "zh-hant", hreflang: "zh-Hant", name: "繁體中文", direction: "ltr" },
+  { code: "zh-hk", hreflang: "zh-HK", name: "繁體中文（香港）", direction: "ltr" },
 ];
 
 export const SITE = "https://libretta.app";
