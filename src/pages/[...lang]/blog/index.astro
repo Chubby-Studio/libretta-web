@@ -1,0 +1,62 @@
+---
+import Base from "../../../layouts/Base.astro";
+import Bar from "../../../components/Bar.astro";
+import { SITE, language, localized, routeParam, codeFromParam, texts } from "../../../lib/i18n";
+import { blogLanguages, postsIn } from "../../../lib/blog";
+import { breadcrumbs, organization } from "../../../lib/schema";
+
+export async function getStaticPaths() {
+  return (await blogLanguages()).map((code) => ({ params: { lang: routeParam(code) } }));
+}
+
+const code = codeFromParam(Astro.params.lang);
+const t = texts(code);
+const list = await postsIn(code);
+const inLanguage = language(code).hreflang;
+const format = new Intl.DateTimeFormat(inLanguage, { dateStyle: "long", timeZone: "UTC" });
+const path = localized(code, "blog/");
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Blog",
+      name: `${t.blog} · Libretta`,
+      description: t.blog_description,
+      url: SITE + path,
+      inLanguage,
+      publisher: organization,
+      blogPost: list.map((p) => ({ "@type": "BlogPosting", headline: p.entry.data.title, url: SITE + p.path, datePublished: p.entry.data.date.toISOString() })),
+    },
+    breadcrumbs([
+      { name: "Libretta", path: localized(code) },
+      { name: t.blog, path },
+    ]),
+  ],
+};
+---
+<Base
+  code={code}
+  page="blog"
+  title={`${t.blog} · Libretta`}
+  description={t.blog_description}
+  path={path}
+  alternates={(await blogLanguages()).map((c) => ({ code: c, path: localized(c, "blog/") }))}
+  jsonLd={jsonLd}
+>
+  <Bar code={code} />
+
+  <article class="blog">
+    <h1>{t.blog}</h1>
+    <p>{t.blog_description}</p>
+
+    <ol class="posts">
+      {list.map((p) => (
+        <li>
+          <time class="label" datetime={p.entry.data.date.toISOString()}>{format.format(p.entry.data.date)}</time>
+          <h2><a href={p.path}>{p.entry.data.title}</a></h2>
+          <p>{p.entry.data.description}</p>
+        </li>
+      ))}
+    </ol>
+  </article>
+</Base>

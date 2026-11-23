@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import Bar from "../../components/Bar.astro";
+import { LANGUAGES, localized, routeParam, codeFromParam, texts } from "../../lib/i18n";
+import { breadcrumbs } from "../../lib/schema";
+
+export function getStaticPaths() {
+  return LANGUAGES.map((l) => ({ params: { lang: routeParam(l.code) } }));
+}
+
+const code = codeFromParam(Astro.params.lang);
+const t = texts(code);
+const jsonLd = {
+  "@context": "https://schema.org",
+  ...breadcrumbs([
+    { name: "Libretta", path: localized(code) },
+    { name: t.privacy_title, path: localized(code, "privacy/") },
+  ]),
+};
+---
+<Base
+  code={code}
+  page="privacy"
+  title={`${t.privacy_title} · Libretta`}
+  description={t.privacy_description}
+  path={localized(code, "privacy/")}
+  alternates={LANGUAGES.map((l) => ({ code: l.code, path: localized(l.code, "privacy/") }))}
+  jsonLd={jsonLd}
+>
+  <Bar code={code} />
+
+  <article>
+    <p class="label">{t.updated}</p>
+    <h1>{t.privacy_title}</h1>
+    <p set:html={t.intro} />
+
+    <div class="summary">
+      <ul>
+        {t.summary.map((item) => <li set:html={item} />)}
+      </ul>
+    </div>
+
+    {t.sections.map((s) => (
+      <>
+        <h2>{s.h}</h2>
+        <Fragment set:html={s.html} />
+      </>
+    ))}
+  </article>
+</Base>

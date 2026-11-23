@@ -1,0 +1,13 @@
+---
+// The small header of inner pages: icon and wordmark back to the home of the language.
+import { localized } from "../lib/i18n";
+
+interface Props {
+  code: string;
+}
+
+const { code } = Astro.props;
+---
+<header class="bar">
+  <a class="home" href={localized(code)}><img src="/assets/icon-512.png" alt="" width="28" height="28"><picture><source srcset="/assets/wordmark-pequeno-negativo.svg" media="(prefers-color-scheme: dark)"><img class="wm" src="/assets/wordmark-pequeno.svg" alt="Libretta" width="78" height="18"></picture></a>
+</header>

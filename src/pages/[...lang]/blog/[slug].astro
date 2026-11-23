@@ -1,0 +1,72 @@
+---
+import { render } from "astro:content";
+import { getImage } from "astro:assets";
+import Base from "../../../layouts/Base.astro";
+import Bar from "../../../components/Bar.astro";
+import { SITE, language, localized, routeParam, texts } from "../../../lib/i18n";
+import { posts, translations, type Post } from "../../../lib/blog";
+import { breadcrumbs, organization } from "../../../lib/schema";
+
+export async function getStaticPaths() {
+  return (await posts()).map((post) => ({ params: { lang: routeParam(post.code), slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props as { post: Post };
+const { code, path, entry } = post;
+const t = texts(code);
+const { title, description, date, updated } = entry.data;
+const { Content } = await render(entry);
+const inLanguage = language(code).hreflang;
+const format = new Intl.DateTimeFormat(inLanguage, { dateStyle: "long", timeZone: "UTC" });
+const alternates = (await translations(post)).map((p) => ({ code: p.code, path: p.path }));
+
+const cover = entry.data.image ? await getImage({ src: entry.data.image, width: 1200, format: "jpg" }) : undefined;
+const image = cover
+  ? { src: cover.src, width: Number(cover.attributes.width), height: Number(cover.attributes.height), alt: entry.data.imageAlt ?? title }
+  : undefined;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      headline: title,
+      description,
+      inLanguage,
+      datePublished: date.toISOString(),
+      dateModified: (updated ?? date).toISOString(),
+      mainEntityOfPage: SITE + path,
+      image: SITE + (image?.src ?? `/assets/og/${code}.png`),
+      author: organization,
+      publisher: organization,
+    },
+    breadcrumbs([
+      { name: "Libretta", path: localized(code) },
+      { name: t.blog, path: localized(code, "blog/") },
+      { name: title, path },
+    ]),
+  ],
+};
+---
+<Base
+  code={code}
+  page="post"
+  title={`${title} · Libretta`}
+  description={description}
+  path={path}
+  alternates={alternates}
+  ogType="article"
+  image={image}
+  published={date}
+  modified={updated}
+  jsonLd={jsonLd}
+>
+  <Bar code={code} />
+
+  <article class="post">
+    <p class="label"><a href={localized(code, "blog/")}>{t.blog}</a> · <time datetime={date.toISOString()}>{format.format(date)}</time></p>
+    <h1>{title}</h1>
+    <Content />
+    <p class="all"><a href={localized(code, "blog/")}>{t.blog_all}</a></p>
+  </article>
+</Base>

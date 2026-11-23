@@ -1,0 +1,84 @@
+---
+// The document shell of every page: SEO head, header, footer with the language menu.
+import { LANGUAGES, SITE, language, texts, localized } from "../lib/i18n";
+import { blogLanguages } from "../lib/blog";
+import { APP_STORE_ID } from "../lib/store";
+
+export interface Alternate {
+  code: string;
+  path: string;
+}
+
+interface Props {
+  code: string;
+  title: string;
+  description: string;
+  path: string;
+  alternates: Alternate[];
+  page: "home" | "privacy" | "blog" | "post" | "404";
+  ogType?: "website" | "article";
+  image?: { src: string; width: number; height: number; alt: string };
+  published?: Date;
+  modified?: Date;
+  jsonLd?: object;
+  noindex?: boolean;
+}
+
+const { code, title, description, path, alternates, page, ogType = "website", published, modified, jsonLd, noindex = false } = Astro.props;
+const image = Astro.props.image ?? { src: `/assets/og/${code}.png`, width: 1200, height: 630, alt: "Libretta" };
+const lang = language(code);
+const t = texts(code);
+const url = SITE + path;
+const xDefault = alternates.find((a) => a.code === "en");
+const hasBlog = (await blogLanguages()).includes(code);
+const absolute = (src: string) => (src.startsWith("http") ? src : SITE + src);
+---
+<!doctype html>
+<html lang={lang.hreflang} dir={lang.direction} data-code={code} data-page={page}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  {noindex && <meta name="robots" content="noindex">}
+  <meta property="og:type" content={ogType}>
+  <meta property="og:site_name" content="Libretta">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={url}>
+  <meta property="og:locale" content={lang.hreflang.replace("-", "_")}>
+  <meta property="og:image" content={absolute(image.src)}>
+  <meta property="og:image:width" content={String(image.width)}>
+  <meta property="og:image:height" content={String(image.height)}>
+  <meta property="og:image:alt" content={image.alt}>
+  {published && <meta property="article:published_time" content={published.toISOString()}>}
+  {modified && <meta property="article:modified_time" content={modified.toISOString()}>}
+  <meta name="twitter:card" content="summary_large_image">
+  {APP_STORE_ID && <meta name="apple-itunes-app" content={`app-id=${APP_STORE_ID}`}>}
+  {!noindex && <link rel="canonical" href={url}>}
+  {alternates.map((a) => <link rel="alternate" hreflang={language(a.code).hreflang} href={SITE + a.path}>)}
+  {xDefault && <link rel="alternate" hreflang="x-default" href={SITE + xDefault.path}>}
+  {hasBlog && <link rel="alternate" type="application/rss+xml" title={`${t.blog} · Libretta`} href={SITE + localized(code, "blog/rss.xml")}>}
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/style.css">
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  <script src="/assets/language.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <slot />
+
+    <footer>
+      <span>© 2026 Chubby Studio</span>
+      {page !== "home" && <a href={localized(code)}>{t.home_link}</a>}
+      {hasBlog && page !== "blog" && <a href={localized(code, "blog/")}>{t.blog}</a>}
+      {page !== "privacy" && <a href={localized(code, "privacy/")}>{t.privacy_link}</a>}
+      <select class="lang" aria-label={t.language_label} onchange="librettaPick(this.value)">
+        {LANGUAGES.map((l) => <option value={l.code} lang={l.hreflang} selected={l.code === code}>{l.name}</option>)}
+      </select>
+    </footer>
+  </div>
+</body>
+</html>
