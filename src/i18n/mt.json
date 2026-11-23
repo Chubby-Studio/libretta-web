@@ -1,0 +1,81 @@
+{
+  "language_label": "Lingwa",
+  "home_description": "Libretta hija notebook bil-vuċi għall-iPhone, l-iPad u l-Mac: ikteb, tkellem u rrekordja laqgħat f'nota waħda, traskritta u mqassra fuq l-apparat tiegħek.",
+  "home_lede": "Notebook bil-vuċi. Ikteb, tkellem u rrekordja laqgħat f'<strong>nota waħda</strong>, traskritta u mqassra <mark>fuq l-apparat tiegħek</mark>.",
+  "home_soon": "Dalwaqt għall-iPhone, l-iPad u l-Mac",
+  "privacy_link": "Privatezza",
+  "home_link": "Paġna ewlenija",
+  "privacy_title": "Privatezza",
+  "privacy_description": "Il-politika tal-privatezza ta' Libretta: l-ebda kont u l-ebda server tagħna. In-noti tiegħek jiġu pproċessati fuq l-apparat u jinżammu f'folder tiegħek.",
+  "updated": "Aġġornata fit-23 ta' Novembru 2026",
+  "intro": "Libretta hija notebook bil-vuċi: tikteb, titkellem u tirrekordja laqgħat, u l-app tittraskrivihom u tqassarhom. Hija mfassla biex dan kollu jseħħ fuq l-apparat tiegħek u jibqa' f'folder li hu tiegħek.",
+  "summary": [
+    "<strong>L-ebda kont.</strong> Qatt ma nitolbuk isem, indirizz tal-email jew password.",
+    "<strong>L-ebda server tagħna.</strong> In-noti, l-awdjo u t-traskrizzjonijiet tiegħek qatt ma jgħaddu mis-servers tagħna, għax m'għandniex.",
+    "<strong>In-noti tiegħek huma tiegħek biss.</strong> Xejn minn dak li tikteb, tirrekordja jew tittraskrivi ma jasal għandna jew għand terzi, ħlief it-test li tibgħat lil Private Cloud Compute jekk tixgħelu. L-ebda reklam u l-ebda traċċar bejn l-apps."
+  ],
+  "sections": [
+    {
+      "h": "Fejn jinsabu n-noti tiegħek",
+      "html": "<p>Kull nota hija folder b'fajls Markdown u l-awdjo tagħha. Jinħażnu fuq l-apparat tiegħek jew fil-folder Libretta tal-iCloud Drive tiegħek, kif tagħżel int. Jekk tuża l-iCloud Drive, Apple tissinkronizza dawn il-fajls bejn l-apparati tiegħek skont il-<a href=\"https://www.apple.com/legal/privacy/\">politika tal-privatezza</a> tagħha; aħna m'għandniex aċċess għalihom. Tista' tiftaħhom, iċċaqlaqhom jew tħassarhom mill-app Files jew mill-Finder meta trid.</p>\n<p>L-app iżżomm ukoll indiċi tat-tfittxija u cache fuq l-apparat biex taħdem aktar malajr. It-tnejn jinbnew mill-ġdid mill-fajls tiegħek u jisparixxu meta tħassar l-app.</p>"
+    },
+    {
+      "h": "X'jiġi pproċessat fuq l-apparat tiegħek",
+      "html": "<ul>\n<li><strong>Traskrizzjoni u vuċijiet.</strong> L-awdjo jiġi traskritt u maqsum skont min qed jitkellem b'mudelli li jaħdmu fuq l-apparat tiegħek: ir-rikonoxximent tad-diskors ta' Apple u mudelli ta' Desert Ant Labs.</li>\n<li><strong>Sommarji u mistoqsijiet.</strong> Is-sommarji, id-deċiżjonijiet, il-kompiti u t-tweġibiet għall-mistoqsijiet tiegħek jinkitbu minn Apple Intelligence fuq l-apparat tiegħek.</li>\n<li><strong>Tfittxija.</strong> L-indiċi li bih tfittex fin-noti tiegħek jinbena u jintuża fuq l-apparat tiegħek.</li>\n</ul>"
+    },
+    {
+      "h": "Sommarji b'Private Cloud Compute (fakultattiv)",
+      "html": "<p>Libretta għandha settings biex tikteb sommarji b'Private Cloud Compute, il-mudell ta' Apple li jaħdem fuq is-servers tagħha. Huwa <strong>mitfi awtomatikament</strong>. Jekk tixgħelu, it-test tat-traskrizzjoni li qed titqassar jintbagħat lil Private Cloud Compute; l-awdjo ma jintbagħatx. Apple fasslet is-servizz biex jipproċessa t-talba mingħajr ma jaħżinha u mingħajr ma ħadd, la Apple u lanqas aħna, ma jista' jaraha. L-app timmarka kull sommarju miktub barra mill-apparat tiegħek, u tista' titlobha taħbi d-data personali qabel ma jintbagħat it-test.</p>"
+    },
+    {
+      "h": "It-tniżżil tal-mudelli",
+      "html": "<p>L-ewwel darba li tużaha, Libretta tniżżel il-mudelli tat-traskrizzjoni ta' Desert Ant Labs, u s-sistema tniżżel il-mudelli tad-diskors ta' Apple. Dawn huma tniżżil ta' fajls: is-server li jagħtihom jara l-indirizz IP tal-konnessjoni tiegħek, bħal f'kull tniżżil, iżda ma jirċievi l-ebda nota, awdjo jew data tiegħek.</p>"
+    },
+    {
+      "h": "Il-permessi li titlob l-app",
+      "html": "<p>Kull permess jintalab biss meta tuża l-funzjoni li teħtieġu, u tista' tirtirah fis-Settings meta trid.</p>\n<ul>\n<li><strong>Mikrofonu.</strong> Biex tirrekordja n-noti u l-laqgħat tiegħek. Tirrekordja biss meta titlobha u turi dan fuq l-iskrin waqt li tkun qed tirrekordja.</li>\n<li><strong>Kalendarju.</strong> Biex turi l-laqgħat tiegħek u tħejjihom bħala noti. L-iOS joffri biss aċċess sħiħ, iżda Libretta taqra biss: qatt ma toħloq, tibdel jew tħassar avvenimenti.</li>\n<li><strong>Kuntatti.</strong> Biex torbot isem u email ma' kull min jitkellem f'laqgħa. Dak li tagħżel jinkiteb fin-nota tiegħek.</li>\n<li><strong>Notifiki.</strong> Biex tfakkrek qabel laqgħa. Jiġu skedati fuq l-apparat tiegħek.</li>\n<li><strong>Awdjo tas-sistema (Mac).</strong> Biex tirrekordja l-ħoss tal-vidjosejħiet tiegħek flimkien mal-mikrofonu.</li>\n</ul>\n<p>Xejn minn dak li l-app taqra mill-kalendarju jew mill-kuntatti tiegħek ma joħroġ mill-apparat tiegħek, ħlief dak li tikteb fin-noti tiegħek u tissinkronizza mal-iCloud Drive tiegħek.</p>"
+    },
+    {
+      "h": "Statistika tal-użu",
+      "html": "<p>Biex nitgħallmu liema funzjonijiet jintużaw u x'jinkiser, Libretta tibgħat statistika anonima tal-użu lil <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, servizz maħluq bil-privatezza f'moħħu. Kull sinjal jgħid liema skrin jew funzjoni ntużat, flimkien mal-verżjoni tal-app u tas-sistema, il-mudell tal-apparat u l-lingwa. L-identifikatur tal-utent jiġi hashed fuq l-apparat tiegħek qabel ma jintbagħat, TelemetryDeck ma jaħżinx l-indirizz IP tiegħek, u l-ebda sinjal ma fih il-kontenut tan-noti, l-awdjo, it-traskrizzjonijiet, il-kalendarju jew il-kuntatti tiegħek. Ma jintużawx għar-reklamar u ma jingħaqdux ma' data minn apps oħra.</p>"
+    },
+    {
+      "h": "Xiri",
+      "html": "<p>Jekk tixtri xi ħaġa f'Libretta, Apple tipproċessa l-ħlas u aħna qatt ma naraw id-dettalji tal-ħlas tiegħek. Biex inkunu nafu x'fetaħt, nużaw <a href=\"https://www.revenuecat.com/privacy/\">RevenueCat</a>, li jirċievi identifikatur anonimu maħluq mill-app, l-informazzjoni tax-xiri mogħtija minn Apple u data teknika tal-apparat. Ma jirċevix ismek, l-email tiegħek jew xi ħaġa min-noti tiegħek.</p>"
+    },
+    {
+      "h": "Meta taqsam",
+      "html": "<p>Jekk tesporta jew taqsam nota, rekording jew sommarju, imur fejn tagħżel int, skont it-termini ta' dik l-app jew dak is-servizz.</p>"
+    },
+    {
+      "h": "Rapporti tal-ħabtiet",
+      "html": "<p>Jekk aċċettajt fis-settings tal-apparat tiegħek li taqsam l-analitika mal-iżviluppaturi tal-apps, Apple tista' tgħaddilna rapporti anonimi tal-ħabtiet ta' Libretta. Ma fihom l-ebda nota jew awdjo tiegħek, u tista' titfihom f'Settings &rsaquo; Privacy &amp; Security &rsaquo; Analytics &amp; Improvements.</p>"
+    },
+    {
+      "h": "Tfal",
+      "html": "<p>Libretta ma titlob data personali minn ħadd, inklużi t-tfal, u mhijiex immirata lejn it-tfal.</p>"
+    },
+    {
+      "h": "Dan is-sit",
+      "html": "<p>libretta.app jiġi servut minn GitHub Pages, li jirreġistra ż-żjarat għal raġunijiet ta' sigurtà skont id-<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">dikjarazzjoni tal-privatezza</a> tiegħu.</p>\n<p>Jekk taċċettah fl-avviż tal-cookies, is-sit juża wkoll Google Analytics biex jgħodd iż-żjarat u jara liema paġni jinqraw. Imbagħad Google tqiegħed cookies u tirċievi l-indirizz IP tiegħek u data tal-browser skont il-<a href=\"https://policies.google.com/privacy?hl=mt\">politika tal-privatezza</a> tagħha. Jekk tirrifjuta, l-ebda analitika ma titgħabba u l-ebda cookie ma titqiegħed. Tista' tibdel l-għażla tiegħek meta trid bil-link «Cookies» fil-qiegħ ta' kull paġna.</p>"
+    },
+    {
+      "h": "Bidliet",
+      "html": "<p>Jekk xi ħaġa deskritta f'din il-paġna tinbidel, naġġornawha u d-data fin-naħa ta' fuq tinbidel.</p>"
+    },
+    {
+      "h": "Kuntatt",
+      "html": "<p>Libretta hija magħmula minn Chubby Studio. Għal kull mistoqsija dwar il-privatezza, iktbilna fuq <a href=\"mailto:hello@chubby.studio\">hello@chubby.studio</a>.</p>"
+    }
+  ],
+  "blog": "Blog",
+  "blog_description": "Aħbarijiet u ideat mit-tim ta' Libretta.",
+  "blog_all": "L-artikli kollha",
+  "notice_link": "Ara din il-paġna bil-Malti",
+  "notice_close": "Agħlaq",
+  "home_title": "Libretta: Noti bil-Vuċi",
+  "cookie_text": "Nixtiequ nużaw il-cookies ta' Google Analytics biex ngħoddu ż-żjarat f'dan is-sit. Xejn ma jitgħabba sakemm ma taċċettax.",
+  "cookie_accept": "Naċċetta",
+  "cookie_reject": "Nirrifjuta",
+  "cookie_link": "Cookies"
+}

@@ -1,6 +1,6 @@
 # libretta.app
 
-Web de Libretta, hecha con [Astro](https://astro.build) y servida con GitHub Pages en https://libretta.app, en los 34 idiomas de FitWoody en el App Store. Cada push a `main` la compila y la publica con `.github/workflows/deploy.yml`.
+Web de Libretta, hecha con [Astro](https://astro.build) y servida con GitHub Pages en https://libretta.app, en 34 idiomas: los 25 de la app más turco, hindi, el segundo portugués, árabe, hebreo, japonés, coreano y los dos chinos. Las páginas de los idiomas retirados (catalán, noruego, indonesio, malayo, vietnamita y tailandés) redirigen a las inglesas. Cada push a `main` la compila y la publica con `.github/workflows/deploy.yml`.
 
 ## Trabajar en local
 

@@ -48,7 +48,6 @@ export const GET: APIRoute = () => {
     if (tag.indexOf("zh") === 0) return /hant|-tw|-hk|-mo/.test(tag) ? "zh-hant" : "zh-hans";
     if (tag.indexOf("pt") === 0) return tag === "pt-br" || tag === "pt" ? "pt-br" : "pt-pt";
     var primary = tag.split("-")[0];
-    if (primary === "nb" || primary === "nn") primary = "no";
     return S[primary] ? primary : null;
   }
   function languageNotice() {
