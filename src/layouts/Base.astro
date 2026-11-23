@@ -3,6 +3,7 @@
 import { LANGUAGES, SITE, language, texts, localized } from "../lib/i18n";
 import { blogLanguages } from "../lib/blog";
 import { APP_STORE_ID } from "../lib/store";
+import { GTM_ID } from "../lib/analytics";
 
 export interface Alternate {
   code: string;
@@ -64,7 +65,7 @@ const absolute = (src: string) => (src.startsWith("http") ? src : SITE + src);
   <link rel="preload" href="/assets/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/style.css">
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
-  <script src="/assets/language.js" defer></script>
+  <script src="/assets/site.js" defer></script>
 </head>
 <body>
   <div class="wrap">
@@ -75,6 +76,7 @@ const absolute = (src: string) => (src.startsWith("http") ? src : SITE + src);
       {page !== "home" && <a href={localized(code)}>{t.home_link}</a>}
       {hasBlog && page !== "blog" && <a href={localized(code, "blog/")}>{t.blog}</a>}
       {page !== "privacy" && <a href={localized(code, "privacy/")}>{t.privacy_link}</a>}
+      {GTM_ID && <button type="button" class="link" onclick="librettaCookies()">{t.cookie_link}</button>}
       <select class="lang" aria-label={t.language_label} onchange="librettaPick(this.value)">
         {LANGUAGES.map((l) => <option value={l.code} lang={l.hreflang} selected={l.code === code}>{l.name}</option>)}
       </select>

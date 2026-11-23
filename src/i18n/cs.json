@@ -7,7 +7,7 @@
   "home_link": "Domů",
   "privacy_title": "Soukromí",
   "privacy_description": "Zásady ochrany soukromí Libretty: žádný účet a žádný vlastní server. Vaše poznámky se zpracovávají ve vašem zařízení a ukládají do vaší složky.",
-  "updated": "Aktualizováno 10. listopadu 2026",
+  "updated": "Aktualizováno 23. listopadu 2026",
   "intro": "Libretta je hlasový zápisník: píšete, mluvíte a nahráváte schůzky a aplikace je přepisuje a shrnuje. Je postavená tak, aby se to všechno dělo ve vašem zařízení a ukládalo do složky, která patří vám.",
   "summary": [
     "<strong>Žádný účet.</strong> Nikdy se neptáme na vaše jméno, e-mail ani heslo.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Tento web",
-      "html": "<p>libretta.app nepoužívá cookies, analytiku ani zdroje třetích stran. Je poskytován z GitHub Pages, které z bezpečnostních důvodů zaznamenávají návštěvy podle svého <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">prohlášení o ochraně soukromí</a>.</p>"
+      "html": "<p>libretta.app běží na GitHub Pages, které z bezpečnostních důvodů zaznamenává návštěvy podle svého <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">prohlášení o ochraně soukromí</a>.</p>\n<p>Pokud to přijmete v oznámení o cookies, web navíc používá Google Analytics k počítání návštěv a zjištění, které stránky se čtou. Google pak ukládá cookies a dostává vaši IP adresu a údaje o prohlížeči podle svých <a href=\"https://policies.google.com/privacy?hl=cs\">zásad ochrany osobních údajů</a>. Pokud to odmítnete, nenačte se žádná analytika ani se neuloží žádný soubor cookie. Svou volbu můžete kdykoli změnit odkazem Cookies v zápatí každé stránky.</p>"
     },
     {
       "h": "Změny",
@@ -73,5 +73,9 @@
   "blog_all": "Všechny články",
   "notice_link": "Zobrazit tuto stránku v češtině",
   "notice_close": "Zavřít",
-  "home_title": "Libretta: Hlasové poznámky"
+  "home_title": "Libretta: Hlasové poznámky",
+  "cookie_text": "Rádi bychom používali cookies Google Analytics k počítání návštěv tohoto webu. Bez vašeho souhlasu se nic nenačte.",
+  "cookie_accept": "Přijmout",
+  "cookie_reject": "Odmítnout",
+  "cookie_link": "Cookies"
 }

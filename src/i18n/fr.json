@@ -7,7 +7,7 @@
   "home_link": "Accueil",
   "privacy_title": "Confidentialité",
   "privacy_description": "Politique de confidentialité de Libretta : pas de compte et pas de serveur propre. Vos notes sont traitées sur votre appareil et enregistrées dans votre dossier.",
-  "updated": "Mis à jour le 10 novembre 2026",
+  "updated": "Mis à jour le 23 novembre 2026",
   "intro": "Libretta est un carnet vocal : vous écrivez, vous parlez et vous enregistrez des réunions, et l'app les transcrit et les résume. Elle est conçue pour que tout cela se passe sur votre appareil et soit enregistré dans un dossier qui vous appartient.",
   "summary": [
     "<strong>Pas de compte.</strong> Nous ne vous demandons jamais votre nom, votre adresse e-mail ni un mot de passe.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Ce site web",
-      "html": "<p>libretta.app n'utilise ni cookies, ni outils d'analyse, ni ressources tierces. Il est servi par GitHub Pages, qui enregistre les visites pour des raisons de sécurité conformément à sa <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité</a>.</p>"
+      "html": "<p>libretta.app est servi par GitHub Pages, qui enregistre les visites pour des raisons de sécurité selon sa <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">déclaration de confidentialité</a>.</p>\n<p>Si vous l'acceptez dans l'avis relatif aux cookies, le site utilise aussi Google Analytics pour compter les visites et voir quelles pages sont lues. Google dépose alors des cookies et reçoit votre adresse IP et des informations sur votre navigateur selon sa <a href=\"https://policies.google.com/privacy?hl=fr\">politique de confidentialité</a>. Si vous refusez, aucune mesure d'audience n'est chargée et aucun cookie n'est déposé. Vous pouvez modifier votre choix à tout moment avec le lien Cookies en bas de chaque page.</p>"
     },
     {
       "h": "Modifications",
@@ -73,5 +73,9 @@
   "blog_all": "Tous les articles",
   "notice_link": "Voir cette page en français",
   "notice_close": "Fermer",
-  "home_title": "Libretta : Dictaphone & Notes"
+  "home_title": "Libretta : Dictaphone & Notes",
+  "cookie_text": "Nous aimerions utiliser des cookies Google Analytics pour compter les visites sur ce site. Rien n'est chargé sans votre accord.",
+  "cookie_accept": "Accepter",
+  "cookie_reject": "Refuser",
+  "cookie_link": "Cookies"
 }

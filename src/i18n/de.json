@@ -7,7 +7,7 @@
   "home_link": "Start",
   "privacy_title": "Datenschutz",
   "privacy_description": "Datenschutzerklärung von Libretta: kein Account und kein eigener Server. Deine Notizen werden auf deinem Gerät verarbeitet und in deinem Ordner gespeichert.",
-  "updated": "Aktualisiert am 10. November 2026",
+  "updated": "Aktualisiert am 23. November 2026",
   "intro": "Libretta ist ein Sprachnotizbuch: Du schreibst, sprichst und nimmst Meetings auf, und die App transkribiert und fasst sie zusammen. Sie ist so gebaut, dass das alles auf deinem Gerät geschieht und in einem Ordner gespeichert wird, der dir gehört.",
   "summary": [
     "<strong>Kein Account.</strong> Wir fragen nie nach deinem Namen, deiner E-Mail-Adresse oder einem Passwort.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Diese Website",
-      "html": "<p>libretta.app verwendet keine Cookies, keine Analyse und keine Ressourcen von Dritten. Sie wird über GitHub Pages ausgeliefert, das Besuche aus Sicherheitsgründen gemäß seiner <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung</a> protokolliert.</p>"
+      "html": "<p>libretta.app wird über GitHub Pages ausgeliefert, das Besuche aus Sicherheitsgründen gemäß seiner <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">Datenschutzerklärung</a> protokolliert.</p>\n<p>Wenn du es im Cookie-Hinweis akzeptierst, nutzt die Website außerdem Google Analytics, um Besuche zu zählen und zu sehen, welche Seiten gelesen werden. Google setzt dann Cookies und erhält deine IP-Adresse und Browserdaten gemäß seiner <a href=\"https://policies.google.com/privacy?hl=de\">Datenschutzerklärung</a>. Wenn du ablehnst, wird keine Analyse geladen und kein Cookie gesetzt. Du kannst deine Wahl jederzeit über den Link Cookies unten auf jeder Seite ändern.</p>"
     },
     {
       "h": "Änderungen",
@@ -73,5 +73,9 @@
   "blog_all": "Alle Beiträge",
   "notice_link": "Diese Seite auf Deutsch ansehen",
   "notice_close": "Schließen",
-  "home_title": "Libretta: Sprachmemos, Notizen"
+  "home_title": "Libretta: Sprachmemos, Notizen",
+  "cookie_text": "Wir würden gern Cookies von Google Analytics verwenden, um Besuche auf dieser Website zu zählen. Ohne deine Zustimmung wird nichts geladen.",
+  "cookie_accept": "Akzeptieren",
+  "cookie_reject": "Ablehnen",
+  "cookie_link": "Cookies"
 }

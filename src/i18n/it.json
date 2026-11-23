@@ -7,7 +7,7 @@
   "home_link": "Home",
   "privacy_title": "Privacy",
   "privacy_description": "Informativa sulla privacy di Libretta: nessun account e nessun server nostro. Le tue note vengono elaborate sul tuo dispositivo e salvate nella tua cartella.",
-  "updated": "Aggiornata il 10 novembre 2026",
+  "updated": "Aggiornata il 23 novembre 2026",
   "intro": "Libretta è un taccuino vocale: scrivi, parli e registri riunioni, e l'app le trascrive e le riassume. È pensata perché tutto questo avvenga sul tuo dispositivo e venga salvato in una cartella che è tua.",
   "summary": [
     "<strong>Nessun account.</strong> Non ti chiediamo mai nome, email o password.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Questo sito web",
-      "html": "<p>libretta.app non usa cookie, analisi né risorse di terze parti. È servito da GitHub Pages, che registra le visite per motivi di sicurezza secondo la sua <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">informativa sulla privacy</a>.</p>"
+      "html": "<p>libretta.app è servito da GitHub Pages, che registra le visite per motivi di sicurezza secondo la sua <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">informativa sulla privacy</a>.</p>\n<p>Se lo accetti nell'avviso sui cookie, il sito usa anche Google Analytics per contare le visite e vedere quali pagine vengono lette. Google installa allora dei cookie e riceve il tuo indirizzo IP e i dati del browser secondo la sua <a href=\"https://policies.google.com/privacy?hl=it\">informativa sulla privacy</a>. Se rifiuti, non viene caricata alcuna analisi né installato alcun cookie. Puoi cambiare la tua scelta in qualsiasi momento con il link Cookie in fondo a ogni pagina.</p>"
     },
     {
       "h": "Modifiche",
@@ -73,5 +73,9 @@
   "blog_all": "Tutti gli articoli",
   "notice_link": "Vedi questa pagina in italiano",
   "notice_close": "Chiudi",
-  "home_title": "Libretta: Memo Vocali e Note"
+  "home_title": "Libretta: Memo Vocali e Note",
+  "cookie_text": "Vorremmo usare i cookie di Google Analytics per contare le visite a questo sito. Non viene caricato nulla se non accetti.",
+  "cookie_accept": "Accetta",
+  "cookie_reject": "Rifiuta",
+  "cookie_link": "Cookie"
 }

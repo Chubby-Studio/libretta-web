@@ -7,7 +7,7 @@
   "home_link": "ホーム",
   "privacy_title": "プライバシー",
   "privacy_description": "Librettaのプライバシーポリシー：アカウントは不要で、独自のサーバもありません。ノートはお使いのデバイス上で処理され、お客様のフォルダに保存されます。",
-  "updated": "2026年11月10日更新",
+  "updated": "2026年11月23日更新",
   "intro": "Librettaは音声ノートです。書く、話す、会議を録音すると、Appが文字起こしと要約を行います。これらすべてがお使いのデバイス上で行われ、お客様自身のフォルダに保存されるように作られています。",
   "summary": [
     "<strong>アカウントは不要です。</strong>お名前、メールアドレス、パスワードをお尋ねすることはありません。",
@@ -57,7 +57,7 @@
     },
     {
       "h": "このウェブサイト",
-      "html": "<p>libretta.appは、Cookie、アナリティクス、第三者のリソースを使用していません。GitHub Pagesから配信されており、GitHub Pagesはセキュリティのためにアクセスを記録します。詳しくは<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">プライバシーに関する声明</a>をご覧ください。</p>"
+      "html": "<p>libretta.app は GitHub Pages から配信されており、GitHub Pages はセキュリティのために<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">プライバシーに関する声明</a>に従ってアクセスを記録します。</p>\n<p>Cookie の案内で同意した場合に限り、本サイトは訪問数を数え、どのページが読まれているかを知るために Google Analytics も使用します。その際 Google は Cookie を設定し、<a href=\"https://policies.google.com/privacy?hl=ja\">プライバシーポリシー</a>に従ってお客様の IP アドレスとブラウザ情報を受け取ります。拒否した場合、アナリティクスは読み込まれず、Cookie も設定されません。各ページ下部の「Cookie」リンクから、いつでも選択を変更できます。</p>"
     },
     {
       "h": "変更について",
@@ -73,5 +73,9 @@
   "blog_all": "すべての記事",
   "notice_link": "このページを日本語で表示",
   "notice_close": "閉じる",
-  "home_title": "Libretta 文字起こし・ボイスメモ・議事録"
+  "home_title": "Libretta 文字起こし・ボイスメモ・議事録",
+  "cookie_text": "このサイトの訪問数を数えるため、Google Analytics の Cookie を使用したいと考えています。同意しない限り、何も読み込まれません。",
+  "cookie_accept": "同意する",
+  "cookie_reject": "拒否する",
+  "cookie_link": "Cookie"
 }

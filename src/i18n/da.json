@@ -7,7 +7,7 @@
   "home_link": "Hjem",
   "privacy_title": "Anonymitet",
   "privacy_description": "Libretta og anonymitet: ingen konto og ingen egen server. Dine noter behandles på din enhed og gemmes i din mappe.",
-  "updated": "Opdateret 10. november 2026",
+  "updated": "Opdateret 23. november 2026",
   "intro": "Libretta er en stemmenotesbog: du skriver, taler og optager møder, og appen transskriberer og opsummerer dem. Den er bygget, så alt det sker på din enhed og gemmes i en mappe, der tilhører dig.",
   "summary": [
     "<strong>Ingen konto.</strong> Vi spørger aldrig efter dit navn, din e-mail eller en adgangskode.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Dette websted",
-      "html": "<p>libretta.app bruger ingen cookies, analyse eller ressourcer fra tredjeparter. Det leveres fra GitHub Pages, som logger besøg af sikkerhedshensyn i henhold til sin <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">erklæring om fortrolighed</a>.</p>"
+      "html": "<p>libretta.app leveres fra GitHub Pages, som logger besøg af sikkerhedshensyn i henhold til sin <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">erklæring om fortrolighed</a>.</p>\n<p>Hvis du accepterer det i cookiebeskeden, bruger webstedet også Google Analytics til at tælle besøg og se, hvilke sider der læses. Google sætter så cookies og modtager din IP-adresse og browseroplysninger i henhold til sin <a href=\"https://policies.google.com/privacy?hl=da\">privatlivspolitik</a>. Hvis du afviser, indlæses ingen analyse, og der sættes ingen cookie. Du kan når som helst ændre dit valg med linket Cookies nederst på hver side.</p>"
     },
     {
       "h": "Ændringer",
@@ -73,5 +73,9 @@
   "blog_all": "Alle indlæg",
   "notice_link": "Se denne side på dansk",
   "notice_close": "Luk",
-  "home_title": "Libretta: Stemmenoter & Memoer"
+  "home_title": "Libretta: Stemmenoter & Memoer",
+  "cookie_text": "Vi vil gerne bruge cookies fra Google Analytics til at tælle besøg på dette websted. Intet indlæses, medmindre du accepterer.",
+  "cookie_accept": "Accepter",
+  "cookie_reject": "Afvis",
+  "cookie_link": "Cookies"
 }

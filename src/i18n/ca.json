@@ -7,7 +7,7 @@
   "home_link": "Inici",
   "privacy_title": "Privadesa",
   "privacy_description": "Política de privadesa de Libretta: sense compte ni servidor propi. Les teves notes es processen al teu dispositiu i es desen a la teva carpeta.",
-  "updated": "Actualitzat el 10 de novembre del 2026",
+  "updated": "Actualitzat el 23 de novembre del 2026",
   "intro": "Libretta és un quadern de veu: escrius, parles i graves reunions, i l'app ho transcriu i ho resumeix. Està pensada perquè tot això passi al teu dispositiu i es desi en una carpeta que és teva.",
   "summary": [
     "<strong>Sense compte.</strong> Mai et demanem el nom, el correu electrònic ni una contrasenya.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Aquest web",
-      "html": "<p>libretta.app no fa servir cookies, analítiques ni recursos de tercers. Es serveix des de GitHub Pages, que registra les visites per motius de seguretat segons la seva <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declaració de privadesa</a>.</p>"
+      "html": "<p>libretta.app se serveix des de GitHub Pages, que registra les visites per motius de seguretat segons la seva <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declaració de privadesa</a>.</p>\n<p>Si ho acceptes a l'avís de galetes, el web també fa servir Google Analytics per comptar les visites i veure quines pàgines es llegeixen. Google instal·la llavors galetes i rep la teva adreça IP i dades del navegador segons la seva <a href=\"https://policies.google.com/privacy?hl=ca\">política de privadesa</a>. Si ho rebutges, no es carrega cap analítica ni s'instal·la cap galeta. Pots canviar la teva elecció quan vulguis amb l'enllaç Galetes del peu de cada pàgina.</p>"
     },
     {
       "h": "Canvis",
@@ -73,5 +73,9 @@
   "blog_all": "Tots els articles",
   "notice_link": "Mostra aquesta pàgina en català",
   "notice_close": "Tanca",
-  "home_title": "Libretta: Notes de Veu"
+  "home_title": "Libretta: Notes de Veu",
+  "cookie_text": "Ens agradaria fer servir galetes de Google Analytics per comptar les visites a aquest web. No es carrega res si no acceptes.",
+  "cookie_accept": "Accepta",
+  "cookie_reject": "Rebutja",
+  "cookie_link": "Galetes"
 }

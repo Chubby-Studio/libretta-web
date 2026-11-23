@@ -7,7 +7,7 @@
   "home_link": "Početna",
   "privacy_title": "Privatnost",
   "privacy_description": "Pravila privatnosti aplikacije Libretta: bez računa i bez vlastitog poslužitelja. Vaše se bilješke obrađuju na vašem uređaju i spremaju u vašu mapu.",
-  "updated": "Ažurirano 10. studenoga 2026.",
+  "updated": "Ažurirano 23. studenoga 2026.",
   "intro": "Libretta je glasovna bilježnica: pišete, govorite i snimate sastanke, a aplikacija ih transkribira i sažima. Napravljena je tako da se sve to odvija na vašem uređaju i sprema u mapu koja pripada vama.",
   "summary": [
     "<strong>Bez računa.</strong> Nikada ne tražimo vaše ime, e-adresu ni lozinku.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Ova web-stranica",
-      "html": "<p>libretta.app ne koristi kolačiće, analitiku ni resurse trećih strana. Poslužuje se putem GitHub Pages, koji iz sigurnosnih razloga bilježi posjete prema svojoj <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">izjavi o privatnosti</a>.</p>"
+      "html": "<p>libretta.app se poslužuje s GitHub Pagesa, koji iz sigurnosnih razloga bilježi posjete u skladu sa svojom <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">izjavi o privatnosti</a>.</p>\n<p>Ako to prihvatite u obavijesti o kolačićima, web-mjesto koristi i Google Analytics za brojanje posjeta i praćenje koje se stranice čitaju. Google tada postavlja kolačiće i prima vašu IP adresu i podatke o pregledniku u skladu sa svojim <a href=\"https://policies.google.com/privacy?hl=hr\">pravilima o privatnosti</a>. Ako to odbijete, ne učitava se nikakva analitika i ne postavlja se nijedan kolačić. Svoj izbor možete promijeniti u bilo kojem trenutku putem poveznice Kolačići na dnu svake stranice.</p>"
     },
     {
       "h": "Promjene",
@@ -73,5 +73,9 @@
   "blog_all": "Svi članci",
   "notice_link": "Prikaži ovu stranicu na hrvatskom",
   "notice_close": "Zatvori",
-  "home_title": "Libretta: Glasovne bilješke"
+  "home_title": "Libretta: Glasovne bilješke",
+  "cookie_text": "Željeli bismo koristiti kolačiće Google Analyticsa za brojanje posjeta ovom web-mjestu. Ništa se ne učitava ako ne prihvatite.",
+  "cookie_accept": "Prihvati",
+  "cookie_reject": "Odbij",
+  "cookie_link": "Kolačići"
 }

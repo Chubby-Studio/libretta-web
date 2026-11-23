@@ -7,7 +7,7 @@
   "home_link": "首頁",
   "privacy_title": "隱私權",
   "privacy_description": "Libretta 隱私權政策：不需要帳號，也沒有我們自己的伺服器。你的筆記在你的裝置上處理，並儲存在你的資料夾中。",
-  "updated": "更新日期：2026 年 11 月 10 日",
+  "updated": "更新日期：2026 年 11 月 23 日",
   "intro": "Libretta 是一款語音記事本：你可以書寫、說話、錄製會議，App 會為你轉錄並產生摘要。它的設計讓這一切都在你的裝置上完成，並儲存在屬於你的資料夾中。",
   "summary": [
     "<strong>不需要帳號。</strong>我們從不要求你提供姓名、電子郵件或密碼。",
@@ -57,7 +57,7 @@
     },
     {
       "h": "本網站",
-      "html": "<p>libretta.app 不使用 Cookie、分析工具或第三方資源。它由 GitHub Pages 提供服務，GitHub Pages 會基於安全目的，依其<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">隱私權聲明</a>記錄造訪。</p>"
+      "html": "<p>libretta.app 由 GitHub Pages 提供，GitHub Pages 基於安全考量會依其<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">隱私權聲明</a>記錄造訪。</p>\n<p>如果你在 Cookie 提示中同意，本網站也會使用 Google Analytics 統計造訪次數，並了解哪些頁面被閱讀。屆時 Google 會設定 Cookie，並依其<a href=\"https://policies.google.com/privacy?hl=zh-TW\">隱私權政策</a>接收你的 IP 位址與瀏覽器資訊。如果你拒絕，不會載入任何分析工具，也不會設定任何 Cookie。你可以隨時透過每個頁面底部的「Cookie」連結變更選擇。</p>"
     },
     {
       "h": "變更",
@@ -73,5 +73,9 @@
   "blog_all": "所有文章",
   "notice_link": "以繁體中文檢視此頁面",
   "notice_close": "關閉",
-  "home_title": "Libretta：語音筆記與轉寫"
+  "home_title": "Libretta：語音筆記與轉寫",
+  "cookie_text": "我們希望使用 Google Analytics 的 Cookie 統計本網站的造訪次數。除非你同意，否則不會載入任何內容。",
+  "cookie_accept": "同意",
+  "cookie_reject": "拒絕",
+  "cookie_link": "Cookie"
 }

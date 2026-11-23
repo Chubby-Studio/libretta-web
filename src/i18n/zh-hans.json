@@ -7,7 +7,7 @@
   "home_link": "主页",
   "privacy_title": "隐私",
   "privacy_description": "Libretta 隐私政策：无需账户，也没有我们自己的服务器。你的笔记在你的设备上处理，并存储在你的文件夹中。",
-  "updated": "更新于 2026 年 11 月 10 日",
+  "updated": "更新于 2026 年 11 月 23 日",
   "intro": "Libretta 是一款语音笔记本：你可以书写、讲话、录制会议，App 会为你转写并生成摘要。它的设计让这一切都在你的设备上完成，并存储在属于你的文件夹中。",
   "summary": [
     "<strong>无需账户。</strong>我们从不要求你提供姓名、电子邮件或密码。",
@@ -57,7 +57,7 @@
     },
     {
       "h": "本网站",
-      "html": "<p>libretta.app 不使用 Cookie、分析工具或第三方资源。它由 GitHub Pages 提供服务，GitHub Pages 会出于安全目的，根据其<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">隐私声明</a>记录访问。</p>"
+      "html": "<p>libretta.app 由 GitHub Pages 提供，GitHub Pages 出于安全考虑会依据其<a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">隐私声明</a>记录访问。</p>\n<p>如果你在 Cookie 提示中同意，本网站还会使用 Google Analytics 统计访问量并了解哪些页面被阅读。届时 Google 会设置 Cookie，并依据其<a href=\"https://policies.google.com/privacy?hl=zh-CN\">隐私政策</a>接收你的 IP 地址和浏览器信息。如果你拒绝，不会加载任何分析工具，也不会设置任何 Cookie。你可以随时通过每个页面底部的“Cookie”链接更改选择。</p>"
     },
     {
       "h": "变更",
@@ -73,5 +73,9 @@
   "blog_all": "全部文章",
   "notice_link": "以简体中文查看此页面",
   "notice_close": "关闭",
-  "home_title": "Libretta：语音笔记与转写"
+  "home_title": "Libretta：语音笔记与转写",
+  "cookie_text": "我们希望使用 Google Analytics 的 Cookie 统计本网站的访问量。除非你同意，否则不会加载任何内容。",
+  "cookie_accept": "同意",
+  "cookie_reject": "拒绝",
+  "cookie_link": "Cookie"
 }

@@ -7,7 +7,7 @@
   "home_link": "Home",
   "privacy_title": "Privacy",
   "privacy_description": "Libretta privacy policy: no account and no server of our own. Your notes are processed on your device and stored in your folder.",
-  "updated": "Updated 10 November 2026",
+  "updated": "Updated 23 November 2026",
   "intro": "Libretta is a voice notebook: you write, talk and record meetings, and the app transcribes and summarises them. It is built so that all of this happens on your device and is stored in a folder that belongs to you.",
   "summary": [
     "<strong>No account.</strong> We never ask for your name, email or a password.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "This website",
-      "html": "<p>libretta.app uses no cookies, analytics or third-party resources. It is served from GitHub Pages, which logs visits for security under its <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">privacy statement</a>.</p>"
+      "html": "<p>libretta.app is served from GitHub Pages, which logs visits for security under its <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">privacy statement</a>.</p>\n<p>If you accept it in the cookie notice, the website also uses Google Analytics to count visits and see which pages are read. Google then sets cookies and receives your IP address and browser details under its <a href=\"https://policies.google.com/privacy?hl=en\">privacy policy</a>. If you reject it, no analytics is loaded and no cookie is set. You can change your choice at any time with the Cookies link at the foot of every page.</p>"
     },
     {
       "h": "Changes",
@@ -73,5 +73,9 @@
   "blog_all": "All posts",
   "notice_link": "View this page in English",
   "notice_close": "Close",
-  "home_title": "Libretta: Voice Notes & Memos"
+  "home_title": "Libretta: Voice Notes & Memos",
+  "cookie_text": "We would like to use Google Analytics cookies to count visits to this website. Nothing is loaded unless you accept.",
+  "cookie_accept": "Accept",
+  "cookie_reject": "Reject",
+  "cookie_link": "Cookies"
 }

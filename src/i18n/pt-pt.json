@@ -7,7 +7,7 @@
   "home_link": "Início",
   "privacy_title": "Privacidade",
   "privacy_description": "Política de privacidade do Libretta: sem conta nem servidor próprio. As tuas notas são processadas no teu dispositivo e guardadas na tua pasta.",
-  "updated": "Atualizado a 10 de novembro de 2026",
+  "updated": "Atualizado a 23 de novembro de 2026",
   "intro": "O Libretta é um caderno de voz: escreves, falas e gravas reuniões, e a app transcreve-as e resume-as. Foi pensado para que tudo isto aconteça no teu dispositivo e fique guardado numa pasta que é tua.",
   "summary": [
     "<strong>Sem conta.</strong> Nunca te pedimos o nome, o email nem uma palavra-passe.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Este site",
-      "html": "<p>O libretta.app não usa cookies, análises nem recursos de terceiros. É servido a partir do GitHub Pages, que regista as visitas por motivos de segurança de acordo com a sua <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade</a>.</p>"
+      "html": "<p>O libretta.app é servido pelo GitHub Pages, que regista as visitas por motivos de segurança de acordo com a sua <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">declaração de privacidade</a>.</p>\n<p>Se aceitar no aviso de cookies, o site também usa o Google Analytics para contar as visitas e ver que páginas são lidas. A Google instala então cookies e recebe o seu endereço IP e dados do navegador de acordo com a sua <a href=\"https://policies.google.com/privacy?hl=pt-PT\">política de privacidade</a>. Se recusar, não é carregada qualquer análise nem instalado qualquer cookie. Pode alterar a sua escolha a qualquer momento através da ligação Cookies no rodapé de cada página.</p>"
     },
     {
       "h": "Alterações",
@@ -73,5 +73,9 @@
   "blog_all": "Todos os artigos",
   "notice_link": "Ver esta página em português",
   "notice_close": "Fechar",
-  "home_title": "Libretta: Notas de Voz"
+  "home_title": "Libretta: Notas de Voz",
+  "cookie_text": "Gostaríamos de usar cookies do Google Analytics para contar as visitas a este site. Nada é carregado sem o seu consentimento.",
+  "cookie_accept": "Aceitar",
+  "cookie_reject": "Recusar",
+  "cookie_link": "Cookies"
 }

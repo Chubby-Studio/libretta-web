@@ -18,6 +18,7 @@ npm run build     # la web publicada, en dist/
 - `public/`: lo que se sirve tal cual (`assets/`, `CNAME`, y `/es/privacidad/`, que redirige a `/es/privacy/`).
 - `tools/compare.py`: compara dos compilaciones (direcciones, etiquetas SEO y texto de cada página).
 - `tools/og.mjs`: las imágenes para redes de cada idioma, `public/assets/og/<idioma>.png`, con la entradilla de su JSON (`node tools/og.mjs`, necesita Playwright).
+- `src/lib/analytics.ts`: el contenedor de Google Tag Manager. Solo se carga si el visitante acepta el aviso de cookies; el enlace Cookies del pie vuelve a abrirlo.
 - `src/lib/store.ts`: el número de la ficha del App Store. Al rellenarlo salen el banner de Safari y el enlace en los datos estructurados.
 
 ## Escribir un artículo

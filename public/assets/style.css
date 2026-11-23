@@ -219,3 +219,30 @@ article li { margin: 0.4rem 0; }
   cursor: pointer;
 }
 .notice button:hover { background: rgb(128 128 128 / 0.3); }
+
+/* The cookie notice: the same dark box, with room for a sentence and two equal buttons. */
+.notice.consent { display: block; max-width: 28rem; border-radius: 1.25rem; padding: 1rem 1.25rem; }
+.notice.consent p { margin: 0 0 0.75rem; line-height: 1.4; }
+.notice.consent div { display: flex; gap: 0.5rem; }
+.notice.consent button {
+  flex: 1;
+  width: auto;
+  height: auto;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  border: 1px solid rgb(128 128 128 / 0.5);
+}
+.notice.consent button.primary { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+footer button.link {
+  font: inherit;
+  color: var(--grey-500);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+footer button.link:hover { color: var(--ink); text-decoration-color: var(--voice); }

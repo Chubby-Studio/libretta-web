@@ -7,7 +7,7 @@
   "home_link": "Etusivu",
   "privacy_title": "Tietosuoja",
   "privacy_description": "Librettan tietosuojakäytäntö: ei tiliä eikä omaa palvelinta. Muistiinpanosi käsitellään laitteellasi ja tallennetaan kansioosi.",
-  "updated": "Päivitetty 10. marraskuuta 2026",
+  "updated": "Päivitetty 23. marraskuuta 2026",
   "intro": "Libretta on äänimuistikirja: kirjoitat, puhut ja nauhoitat palavereja, ja sovellus litteroi ja tiivistää ne. Se on tehty niin, että kaikki tämä tapahtuu laitteellasi ja tallentuu kansioon, joka kuuluu sinulle.",
   "summary": [
     "<strong>Ei tiliä.</strong> Emme koskaan kysy nimeäsi, sähköpostiosoitettasi tai salasanaa.",
@@ -57,7 +57,7 @@
     },
     {
       "h": "Tämä verkkosivusto",
-      "html": "<p>libretta.app ei käytä evästeitä, analytiikkaa eikä kolmansien osapuolten resursseja. Se tarjotaan GitHub Pagesin kautta, joka kirjaa vierailut turvallisuussyistä <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">tietosuojaselosteensa</a> mukaisesti.</p>"
+      "html": "<p>libretta.app toimitetaan GitHub Pagesista, joka kirjaa käynnit turvallisuussyistä <a href=\"https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement\">tietosuojaselosteensa</a> mukaisesti.</p>\n<p>Jos hyväksyt sen evästeilmoituksessa, sivusto käyttää myös Google Analyticsia käyntien laskemiseen ja luettujen sivujen seuraamiseen. Google tallentaa silloin evästeitä ja saa IP-osoitteesi ja selaimesi tiedot <a href=\"https://policies.google.com/privacy?hl=fi\">tietosuojakäytäntönsä</a> mukaisesti. Jos hylkäät sen, analytiikkaa ei ladata eikä evästeitä tallenneta. Voit muuttaa valintaasi milloin tahansa jokaisen sivun alareunan Evästeet-linkistä.</p>"
     },
     {
       "h": "Muutokset",
@@ -73,5 +73,9 @@
   "blog_all": "Kaikki kirjoitukset",
   "notice_link": "Näytä tämä sivu suomeksi",
   "notice_close": "Sulje",
-  "home_title": "Libretta: Äänimuistiinpanot"
+  "home_title": "Libretta: Äänimuistiinpanot",
+  "cookie_text": "Haluaisimme käyttää Google Analyticsin evästeitä tämän sivuston käyntien laskemiseen. Mitään ei ladata ilman hyväksyntääsi.",
+  "cookie_accept": "Hyväksy",
+  "cookie_reject": "Hylkää",
+  "cookie_link": "Evästeet"
 }
