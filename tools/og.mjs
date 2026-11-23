@@ -22,6 +22,7 @@ const families = {
   "zh-hant": '"PingFang TC", "Noto Sans TC"',
   ar: '"SF Arabic", "Geeza Pro", "Noto Sans Arabic"',
   he: '"SF Hebrew", "Noto Sans Hebrew"',
+  th: '"Thonburi", "Noto Sans Thai"',
   hi: '"Kohinoor Devanagari", "Noto Sans Devanagari"',
 };
 const extra = (process.env.OG_FONTS ?? "").split(",").filter(Boolean).map((css) => `<link rel="stylesheet" href="${pathToFileURL(resolve(css)).href}">`).join("\n");
@@ -29,8 +30,8 @@ const extra = (process.env.OG_FONTS ?? "").split(",").filter(Boolean).map((css) 
 function page(code, lede) {
   // Long ledes and scripts with tall marks get a smaller size and more leading, so nothing collides.
   const long = lede.replace(/<[^>]+>/g, "").length > 120;
-  const tall = ["ar", "he", "hi"].includes(code);
-  const latin = !families[code] && !["el", "bg", "ru", "uk"].includes(code);
+  const tall = ["ar", "he", "hi", "th"].includes(code);
+  const latin = !families[code] && !["el", "bg", "ru", "uk", "vi"].includes(code);
   const family = `${latin ? '"Instrument Sans", ' : ""}${families[code] ?? ""}${families[code] ? ", " : ""}-apple-system, "Noto Sans", sans-serif`;
   return `<!doctype html>
 <html lang="${code}" dir="${rtl.has(code) ? "rtl" : "ltr"}">

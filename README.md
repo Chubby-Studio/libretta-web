@@ -1,6 +1,6 @@
 # libretta.app
 
-Web de Libretta, hecha con [Astro](https://astro.build) y servida con GitHub Pages en https://libretta.app, en 34 idiomas: los 25 de la app más turco, hindi, el segundo portugués, árabe, hebreo, japonés, coreano y los dos chinos. Las páginas de los idiomas retirados (catalán, noruego, indonesio, malayo, vietnamita y tailandés) redirigen a las inglesas. Cada push a `main` la compila y la publica con `.github/workflows/deploy.yml`.
+Web de Libretta, hecha con [Astro](https://astro.build) y servida con GitHub Pages en https://libretta.app, en 38 idiomas: los 25 a los que está traducida la app, los que transcribe con el modelo de voz de Apple (árabe, hebreo, japonés, coreano, los dos chinos, turco, noruego, malayo, tailandés y vietnamita), hindi y el segundo portugués. Las páginas del catalán y el indonesio, retirados, redirigen a las inglesas. Cada push a `main` la compila y la publica con `.github/workflows/deploy.yml`.
 
 ## Trabajar en local
 
