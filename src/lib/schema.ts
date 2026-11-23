@@ -1,5 +1,6 @@
 // Structured data (schema.org JSON-LD) shared by the pages.
 import { SITE } from "./i18n";
+import { appStoreURL } from "./store";
 
 export const organization = {
   "@type": "Organization",
@@ -28,6 +29,7 @@ export const app = (description: string, inLanguage: string) => ({
   applicationCategory: "ProductivityApplication",
   operatingSystem: "iOS, iPadOS, macOS",
   image: `${SITE}/assets/icon-512.png`,
+  ...(appStoreURL ? { installUrl: appStoreURL, downloadUrl: appStoreURL, sameAs: [appStoreURL] } : {}),
   publisher: { "@id": organization["@id"] },
 });
 

@@ -17,7 +17,8 @@ npm run build     # la web publicada, en dist/
 - `src/content/blog/<idioma>/<slug>.md`: los artículos. El nombre del fichero es el slug, en el idioma del artículo, y `key` une las traducciones de un mismo artículo.
 - `public/`: lo que se sirve tal cual (`assets/`, `CNAME`, y `/es/privacidad/`, que redirige a `/es/privacy/`).
 - `tools/compare.py`: compara dos compilaciones (direcciones, etiquetas SEO y texto de cada página).
-- `tools/og.html` y `tools/snapshot.swift`: la imagen para redes, `public/assets/og.png`.
+- `tools/og.mjs`: las imágenes para redes de cada idioma, `public/assets/og/<idioma>.png`, con la entradilla de su JSON (`node tools/og.mjs`, necesita Playwright).
+- `src/lib/store.ts`: el número de la ficha del App Store. Al rellenarlo salen el banner de Safari y el enlace en los datos estructurados.
 
 ## Escribir un artículo
 
@@ -38,4 +39,4 @@ El blog de un idioma, su RSS (`/<idioma>/blog/rss.xml`) y su enlace en el pie ap
 
 ## SEO
 
-Cada página lleva canonical, hreflang recíproco con x-default (en un artículo, solo hacia las traducciones que existen), título, descripción y Open Graph propios, y datos estructurados (Organization, WebSite y SoftwareApplication en la portada; Blog, BlogPosting y BreadcrumbList en el blog). `sitemap.xml` incluye las alternativas de idioma y `robots.txt` lo anuncia. No hay redirección automática por idioma: si el navegador pide otro idioma en el que existe la página, se ofrece con un aviso abajo, y la elección se guarda.
+Cada página lleva canonical, el título de la portada alineado con el nombre de la ficha (`home_title`), imagen para redes en su idioma, hreflang recíproco con x-default (en un artículo, solo hacia las traducciones que existen), título, descripción y Open Graph propios, y datos estructurados (Organization, WebSite y SoftwareApplication en la portada; Blog, BlogPosting y BreadcrumbList en el blog). `sitemap.xml` incluye las alternativas de idioma y `robots.txt` lo anuncia. No hay redirección automática por idioma: si el navegador pide otro idioma en el que existe la página, se ofrece con un aviso abajo, y la elección se guarda.

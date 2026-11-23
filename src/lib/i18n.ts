@@ -49,6 +49,7 @@ export const SITE = "https://libretta.app";
 
 export interface Texts {
   language_label: string;
+  home_title: string;
   home_description: string;
   home_lede: string;
   home_soon: string;

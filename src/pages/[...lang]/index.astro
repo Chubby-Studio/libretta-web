@@ -18,7 +18,7 @@ const jsonLd = {
 <Base
   code={code}
   page="home"
-  title="Libretta"
+  title={t.home_title}
   description={t.home_description}
   path={localized(code)}
   alternates={LANGUAGES.map((l) => ({ code: l.code, path: localized(l.code) }))}
