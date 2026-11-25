@@ -7,7 +7,7 @@
   "home_link": "Sākums",
   "privacy_title": "Privātums",
   "privacy_description": "Libretta privātuma politika: bez konta un bez sava servera. Jūsu piezīmes tiek apstrādātas ierīcē un glabātas jūsu mapē.",
-  "updated": "Atjaunināts 2026. gada 23. novembrī",
+  "updated": "Atjaunināts 2026. gada 25. novembrī",
   "intro": "Libretta ir balss piezīmju grāmatiņa: jūs rakstāt, runājat un ierakstāt sapulces, un lietotne tās transkribē un apkopo. Tā ir veidota tā, lai tas viss notiktu jūsu ierīcē un paliktu mapē, kas pieder jums.",
   "summary": [
     "<strong>Bez konta.</strong> Mēs nekad neprasām vārdu, e-pasta adresi vai paroli.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Lietošanas statistika",
-      "html": "<p>Lai uzzinātu, kuras funkcijas tiek izmantotas un kas sabojājas, Libretta sūta anonīmu lietošanas statistiku pakalpojumam <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, kas veidots, domājot par privātumu. Katrs signāls norāda, kurš ekrāns vai funkcija tika izmantota, kopā ar lietotnes un sistēmas versiju, ierīces modeli un valodu. Lietotāja identifikators tiek jaukts jūsu ierīcē pirms nosūtīšanas, TelemetryDeck neglabā jūsu IP adresi, un neviens signāls nesatur jūsu piezīmju, audio, transkripciju, kalendāra vai kontaktu saturu. Tie netiek izmantoti reklāmai un netiek apvienoti ar citu lietotņu datiem.</p>"
+      "html": "<p>Lai uzzinātu, kuras funkcijas tiek izmantotas un kas sabojājas, Libretta sūta anonīmu lietošanas statistiku pakalpojumam <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, kas veidots, domājot par privātumu. Katrs signāls norāda, kurš ekrāns vai funkcija tika izmantota, kopā ar lietotnes un sistēmas versiju, ierīces modeli un valodu. Lietotāja identifikators tiek jaukts jūsu ierīcē pirms nosūtīšanas, TelemetryDeck neglabā jūsu IP adresi, un neviens signāls nesatur jūsu piezīmju, audio, transkripciju, kalendāra vai kontaktu saturu. Tie netiek izmantoti reklāmai un netiek apvienoti ar citu lietotņu datiem.</p>\n<p>Šie signāli ietver arī jūsu ierīces aptuveno reģionu un laika joslu, kā arī aptuvenus ilgumus, piemēram, cik ilgi ilga ieraksts vai tā apstrāde, grupētus diapazonos, nevis precīzās vērtībās. Viss ir saistīts tikai ar anonīmu identifikatoru, kam jūsu ierīcē pievieno sāli un aprēķina jaucējkodu, nekad ar jūsu vārdu vai kontu. Jūsu piezīmes, audio un transkripti nekad nav daļa no šiem signāliem un ar tiem neatstāj jūsu ierīci.</p>"
     },
     {
       "h": "Pirkumi",

@@ -7,7 +7,7 @@
   "home_link": "Accueil",
   "privacy_title": "Confidentialité",
   "privacy_description": "Politique de confidentialité de Libretta : pas de compte et pas de serveur propre. Vos notes sont traitées sur votre appareil et enregistrées dans votre dossier.",
-  "updated": "Mis à jour le 23 novembre 2026",
+  "updated": "Mis à jour le 25 novembre 2026",
   "intro": "Libretta est un carnet vocal : vous écrivez, vous parlez et vous enregistrez des réunions, et l'app les transcrit et les résume. Elle est conçue pour que tout cela se passe sur votre appareil et soit enregistré dans un dossier qui vous appartient.",
   "summary": [
     "<strong>Pas de compte.</strong> Nous ne vous demandons jamais votre nom, votre adresse e-mail ni un mot de passe.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistiques d'utilisation",
-      "html": "<p>Pour savoir quelles fonctions sont utilisées et ce qui ne marche pas, Libretta envoie des statistiques d'utilisation anonymes à <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un service conçu pour respecter la confidentialité. Chaque signal indique quel écran ou quelle fonction a été utilisé, avec la version de l'app et du système, le modèle de l'appareil et la langue. L'identifiant d'utilisateur est haché sur votre appareil avant l'envoi, TelemetryDeck ne conserve pas votre adresse IP, et aucun signal ne contient le contenu de vos notes, de votre audio, de vos transcriptions, de votre calendrier ou de vos contacts. Ils ne sont pas utilisés pour la publicité ni combinés avec des données d'autres apps.</p>"
+      "html": "<p>Pour savoir quelles fonctions sont utilisées et ce qui ne marche pas, Libretta envoie des statistiques d'utilisation anonymes à <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un service conçu pour respecter la confidentialité. Chaque signal indique quel écran ou quelle fonction a été utilisé, avec la version de l'app et du système, le modèle de l'appareil et la langue. L'identifiant d'utilisateur est haché sur votre appareil avant l'envoi, TelemetryDeck ne conserve pas votre adresse IP, et aucun signal ne contient le contenu de vos notes, de votre audio, de vos transcriptions, de votre calendrier ou de vos contacts. Ils ne sont pas utilisés pour la publicité ni combinés avec des données d'autres apps.</p>\n<p>Ces signaux incluent aussi la région approximative et le fuseau horaire de votre appareil, ainsi que des durées approximatives, comme le temps qu'ont pris un enregistrement ou son traitement, regroupées en tranches plutôt qu'en valeurs exactes. Le tout est lié uniquement à un identifiant anonyme, salé et haché sur votre appareil, jamais à votre nom ni à votre compte. Vos notes, votre audio et vos transcriptions ne font jamais partie de ces signaux et ne quittent pas votre appareil par leur intermédiaire.</p>"
     },
     {
       "h": "Achats",

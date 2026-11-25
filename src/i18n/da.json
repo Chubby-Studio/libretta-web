@@ -7,7 +7,7 @@
   "home_link": "Hjem",
   "privacy_title": "Anonymitet",
   "privacy_description": "Libretta og anonymitet: ingen konto og ingen egen server. Dine noter behandles på din enhed og gemmes i din mappe.",
-  "updated": "Opdateret 23. november 2026",
+  "updated": "Opdateret 25. november 2026",
   "intro": "Libretta er en stemmenotesbog: du skriver, taler og optager møder, og appen transskriberer og opsummerer dem. Den er bygget, så alt det sker på din enhed og gemmes i en mappe, der tilhører dig.",
   "summary": [
     "<strong>Ingen konto.</strong> Vi spørger aldrig efter dit navn, din e-mail eller en adgangskode.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Brugsstatistik",
-      "html": "<p>For at lære, hvilke funktioner der bruges, og hvad der går i stykker, sender Libretta anonym brugsstatistik til <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, en tjeneste bygget med fokus på anonymitet. Hvert signal fortæller, hvilken skærm eller funktion der blev brugt, sammen med app- og systemversion, enhedsmodel og sprog. Brugeridentifikatoren hashes på din enhed, før den sendes, TelemetryDeck gemmer ikke din IP-adresse, og intet signal indeholder dine noter, din lyd, dine transskriptioner, din kalender eller dine kontakter. Statistikken bruges ikke til reklamer og kombineres ikke med data fra andre apps.</p>"
+      "html": "<p>For at lære, hvilke funktioner der bruges, og hvad der går i stykker, sender Libretta anonym brugsstatistik til <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, en tjeneste bygget med fokus på anonymitet. Hvert signal fortæller, hvilken skærm eller funktion der blev brugt, sammen med app- og systemversion, enhedsmodel og sprog. Brugeridentifikatoren hashes på din enhed, før den sendes, TelemetryDeck gemmer ikke din IP-adresse, og intet signal indeholder dine noter, din lyd, dine transskriptioner, din kalender eller dine kontakter. Statistikken bruges ikke til reklamer og kombineres ikke med data fra andre apps.</p>\n<p>Disse signaler indeholder også din enheds omtrentlige region og tidszone samt omtrentlige varigheder, for eksempel hvor lang tid en optagelse eller dens behandling tog, samlet i intervaller i stedet for nøjagtige værdier. Alt er kun knyttet til en anonym identifikator, der saltes og hashes på din enhed, aldrig til dit navn eller din konto. Dine noter, din lyd og dine transskriptioner er aldrig en del af disse signaler, og de forlader ikke din enhed gennem dem.</p>"
     },
     {
       "h": "Køb",

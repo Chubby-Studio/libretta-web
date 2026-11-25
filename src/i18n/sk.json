@@ -7,7 +7,7 @@
   "home_link": "Domov",
   "privacy_title": "Súkromie",
   "privacy_description": "Zásady ochrany súkromia aplikácie Libretta: bez účtu a bez vlastného servera. Vaše poznámky sa spracúvajú vo vašom zariadení a ukladajú sa do vášho priečinka.",
-  "updated": "Aktualizované 23. novembra 2026",
+  "updated": "Aktualizované 25. novembra 2026",
   "intro": "Libretta je hlasový zápisník: píšete, hovoríte a nahrávate stretnutia a aplikácia ich prepíše a zhrnie. Je navrhnutá tak, aby sa to všetko dialo vo vašom zariadení a ukladalo do priečinka, ktorý patrí vám.",
   "summary": [
     "<strong>Bez účtu.</strong> Nikdy sa vás nepýtame na meno, e-mail ani heslo.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Štatistiky používania",
-      "html": "<p>Aby sme vedeli, ktoré funkcie sa používajú a čo nefunguje, Libretta odosiela anonymné štatistiky používania službe <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ktorá je vytvorená s ohľadom na súkromie. Každý signál hovorí, ktorá obrazovka alebo funkcia sa použila, spolu s verziou aplikácie a systému, modelom zariadenia a jazykom. Identifikátor používateľa sa pred odoslaním vo vašom zariadení zahashuje, TelemetryDeck neukladá vašu IP adresu a žiadny signál neobsahuje obsah vašich poznámok, zvuku, prepisov, kalendára ani kontaktov. Nepoužívajú sa na reklamu a nekombinujú sa s údajmi z iných aplikácií.</p>"
+      "html": "<p>Aby sme vedeli, ktoré funkcie sa používajú a čo nefunguje, Libretta odosiela anonymné štatistiky používania službe <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ktorá je vytvorená s ohľadom na súkromie. Každý signál hovorí, ktorá obrazovka alebo funkcia sa použila, spolu s verziou aplikácie a systému, modelom zariadenia a jazykom. Identifikátor používateľa sa pred odoslaním vo vašom zariadení zahashuje, TelemetryDeck neukladá vašu IP adresu a žiadny signál neobsahuje obsah vašich poznámok, zvuku, prepisov, kalendára ani kontaktov. Nepoužívajú sa na reklamu a nekombinujú sa s údajmi z iných aplikácií.</p>\n<p>Tieto signály zahŕňajú aj približnú oblasť a časové pásmo vášho zariadenia a približné dĺžky, napríklad ako dlho trvalo nahrávanie alebo jeho spracovanie, zoskupené do rozsahov namiesto presných hodnôt. Všetko je viazané iba na anonymný identifikátor, ktorý sa na vašom zariadení osoľuje a hashuje, nikdy na vaše meno ani účet. Vaše poznámky, zvuk a prepisy nikdy nie sú súčasťou týchto signálov a ich prostredníctvom vaše zariadenie neopúšťajú.</p>"
     },
     {
       "h": "Nákupy",

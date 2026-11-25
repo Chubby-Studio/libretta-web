@@ -7,7 +7,7 @@
   "home_link": "Strona główna",
   "privacy_title": "Prywatność",
   "privacy_description": "Polityka prywatności Libretty: bez konta i bez własnego serwera. Twoje notatki są przetwarzane na Twoim urządzeniu i przechowywane w Twoim folderze.",
-  "updated": "Zaktualizowano 23 listopada 2026",
+  "updated": "Zaktualizowano 25 listopada 2026",
   "intro": "Libretta to głosowy notatnik: piszesz, mówisz i nagrywasz spotkania, a aplikacja je transkrybuje i podsumowuje. Została zaprojektowana tak, aby to wszystko działo się na Twoim urządzeniu i było zapisywane w folderze, który należy do Ciebie.",
   "summary": [
     "<strong>Bez konta.</strong> Nigdy nie prosimy o imię, adres e-mail ani hasło.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statystyki użycia",
-      "html": "<p>Aby wiedzieć, z których funkcji się korzysta i co przestaje działać, Libretta wysyła anonimowe statystyki użycia do <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, usługi stworzonej z myślą o prywatności. Każdy sygnał wskazuje, który ekran lub funkcja została użyta, wraz z wersją aplikacji i systemu, modelem urządzenia i językiem. Identyfikator użytkownika jest haszowany na Twoim urządzeniu przed wysłaniem, TelemetryDeck nie przechowuje Twojego adresu IP, a żaden sygnał nie zawiera treści Twoich notatek, nagrań, transkrypcji, kalendarza ani kontaktów. Nie są używane do reklam ani łączone z danymi z innych aplikacji.</p>"
+      "html": "<p>Aby wiedzieć, z których funkcji się korzysta i co przestaje działać, Libretta wysyła anonimowe statystyki użycia do <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, usługi stworzonej z myślą o prywatności. Każdy sygnał wskazuje, który ekran lub funkcja została użyta, wraz z wersją aplikacji i systemu, modelem urządzenia i językiem. Identyfikator użytkownika jest haszowany na Twoim urządzeniu przed wysłaniem, TelemetryDeck nie przechowuje Twojego adresu IP, a żaden sygnał nie zawiera treści Twoich notatek, nagrań, transkrypcji, kalendarza ani kontaktów. Nie są używane do reklam ani łączone z danymi z innych aplikacji.</p>\n<p>Te sygnały obejmują także przybliżony region i strefę czasową Twojego urządzenia oraz przybliżone czasy trwania, na przykład jak długo trwało nagranie lub jego przetwarzanie, zgrupowane w przedziały zamiast dokładnych wartości. Wszystko jest powiązane wyłącznie z anonimowym identyfikatorem, który na Twoim urządzeniu jest solony i haszowany, nigdy z Twoim imieniem i nazwiskiem ani kontem. Twoje notatki, nagrania i transkrypcje nigdy nie są częścią tych sygnałów i nie opuszczają przez nie Twojego urządzenia.</p>"
     },
     {
       "h": "Zakupy",

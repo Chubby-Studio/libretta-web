@@ -7,7 +7,7 @@
   "home_link": "Paġna ewlenija",
   "privacy_title": "Privatezza",
   "privacy_description": "Il-politika tal-privatezza ta' Libretta: l-ebda kont u l-ebda server tagħna. In-noti tiegħek jiġu pproċessati fuq l-apparat u jinżammu f'folder tiegħek.",
-  "updated": "Aġġornata fit-23 ta' Novembru 2026",
+  "updated": "Aġġornata fit-25 ta' Novembru 2026",
   "intro": "Libretta hija notebook bil-vuċi: tikteb, titkellem u tirrekordja laqgħat, u l-app tittraskrivihom u tqassarhom. Hija mfassla biex dan kollu jseħħ fuq l-apparat tiegħek u jibqa' f'folder li hu tiegħek.",
   "summary": [
     "<strong>L-ebda kont.</strong> Qatt ma nitolbuk isem, indirizz tal-email jew password.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistika tal-użu",
-      "html": "<p>Biex nitgħallmu liema funzjonijiet jintużaw u x'jinkiser, Libretta tibgħat statistika anonima tal-użu lil <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, servizz maħluq bil-privatezza f'moħħu. Kull sinjal jgħid liema skrin jew funzjoni ntużat, flimkien mal-verżjoni tal-app u tas-sistema, il-mudell tal-apparat u l-lingwa. L-identifikatur tal-utent jiġi hashed fuq l-apparat tiegħek qabel ma jintbagħat, TelemetryDeck ma jaħżinx l-indirizz IP tiegħek, u l-ebda sinjal ma fih il-kontenut tan-noti, l-awdjo, it-traskrizzjonijiet, il-kalendarju jew il-kuntatti tiegħek. Ma jintużawx għar-reklamar u ma jingħaqdux ma' data minn apps oħra.</p>"
+      "html": "<p>Biex nitgħallmu liema funzjonijiet jintużaw u x'jinkiser, Libretta tibgħat statistika anonima tal-użu lil <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, servizz maħluq bil-privatezza f'moħħu. Kull sinjal jgħid liema skrin jew funzjoni ntużat, flimkien mal-verżjoni tal-app u tas-sistema, il-mudell tal-apparat u l-lingwa. L-identifikatur tal-utent jiġi hashed fuq l-apparat tiegħek qabel ma jintbagħat, TelemetryDeck ma jaħżinx l-indirizz IP tiegħek, u l-ebda sinjal ma fih il-kontenut tan-noti, l-awdjo, it-traskrizzjonijiet, il-kalendarju jew il-kuntatti tiegħek. Ma jintużawx għar-reklamar u ma jingħaqdux ma' data minn apps oħra.</p>\n<p>Dawn is-sinjali jinkludu wkoll ir-reġjun approssimattiv u ż-żona tal-ħin tal-apparat tiegħek, u tul ta' żmien approssimattiv, bħal kemm ħadet ħin reġistrazzjoni jew l-ipproċessar tagħha, miġbur f'firxiet minflok valuri eżatti. Kollox huwa marbut biss ma' identifikatur anonimu li jiżdiedlu s-sal u jiġi hashjat fuq l-apparat tiegħek, qatt mal-isem jew mal-kont tiegħek. In-noti, l-awdjo u t-traskrizzjonijiet tiegħek ma jkunu qatt parti minn dawn is-sinjali u ma jhallux l-apparat tiegħek permezz tagħhom.</p>"
     },
     {
       "h": "Xiri",

@@ -7,7 +7,7 @@
   "home_link": "Etusivu",
   "privacy_title": "Tietosuoja",
   "privacy_description": "Librettan tietosuojakäytäntö: ei tiliä eikä omaa palvelinta. Muistiinpanosi käsitellään laitteellasi ja tallennetaan kansioosi.",
-  "updated": "Päivitetty 23. marraskuuta 2026",
+  "updated": "Päivitetty 25. marraskuuta 2026",
   "intro": "Libretta on äänimuistikirja: kirjoitat, puhut ja nauhoitat palavereja, ja sovellus litteroi ja tiivistää ne. Se on tehty niin, että kaikki tämä tapahtuu laitteellasi ja tallentuu kansioon, joka kuuluu sinulle.",
   "summary": [
     "<strong>Ei tiliä.</strong> Emme koskaan kysy nimeäsi, sähköpostiosoitettasi tai salasanaa.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Käyttötilastot",
-      "html": "<p>Saadakseen selville, mitä toimintoja käytetään ja mikä menee rikki, Libretta lähettää nimettömiä käyttötilastoja palveluun <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, joka on rakennettu tietosuoja edellä. Jokainen signaali kertoo, mitä näyttöä tai toimintoa käytettiin, sekä sovelluksen ja järjestelmän version, laitemallin ja kielen. Käyttäjätunniste tiivistetään (hash) laitteellasi ennen lähettämistä, TelemetryDeck ei tallenna IP-osoitettasi, eikä mikään signaali sisällä muistiinpanojesi, äänesi, litteraattiesi, kalenterisi tai yhteystietojesi sisältöä. Niitä ei käytetä mainontaan eikä yhdistetä muiden sovellusten tietoihin.</p>"
+      "html": "<p>Saadakseen selville, mitä toimintoja käytetään ja mikä menee rikki, Libretta lähettää nimettömiä käyttötilastoja palveluun <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, joka on rakennettu tietosuoja edellä. Jokainen signaali kertoo, mitä näyttöä tai toimintoa käytettiin, sekä sovelluksen ja järjestelmän version, laitemallin ja kielen. Käyttäjätunniste tiivistetään (hash) laitteellasi ennen lähettämistä, TelemetryDeck ei tallenna IP-osoitettasi, eikä mikään signaali sisällä muistiinpanojesi, äänesi, litteraattiesi, kalenterisi tai yhteystietojesi sisältöä. Niitä ei käytetä mainontaan eikä yhdistetä muiden sovellusten tietoihin.</p>\n<p>Nämä signaalit sisältävät myös laitteesi likimääräisen alueen ja aikavyöhykkeen sekä likimääräisiä kestoja, esimerkiksi kuinka kauan tallennus tai sen käsittely kesti, ryhmiteltyinä vaihteluväleihin tarkkojen arvojen sijaan. Kaikki liitetään vain nimettömään tunnisteeseen, johon lisätään suola ja josta lasketaan tiiviste laitteellasi, ei koskaan nimeesi tai tiliisi. Muistiinpanosi, äänesi ja litteraattisi eivät koskaan ole osa näitä signaaleja, eivätkä ne poistu laitteeltasi niiden mukana.</p>"
     },
     {
       "h": "Ostokset",

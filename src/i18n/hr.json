@@ -7,7 +7,7 @@
   "home_link": "Početna",
   "privacy_title": "Privatnost",
   "privacy_description": "Pravila privatnosti aplikacije Libretta: bez računa i bez vlastitog poslužitelja. Vaše se bilješke obrađuju na vašem uređaju i spremaju u vašu mapu.",
-  "updated": "Ažurirano 23. studenoga 2026.",
+  "updated": "Ažurirano 25. studenoga 2026.",
   "intro": "Libretta je glasovna bilježnica: pišete, govorite i snimate sastanke, a aplikacija ih transkribira i sažima. Napravljena je tako da se sve to odvija na vašem uređaju i sprema u mapu koja pripada vama.",
   "summary": [
     "<strong>Bez računa.</strong> Nikada ne tražimo vaše ime, e-adresu ni lozinku.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistika korištenja",
-      "html": "<p>Kako bi saznala koje se značajke koriste i što ne radi, Libretta šalje anonimnu statistiku korištenja usluzi <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, koja je izgrađena s mislima na privatnost. Svaki signal govori koji je zaslon ili značajka upotrijebljena, uz verziju aplikacije i sustava, model uređaja i jezik. Korisnički se identifikator hashira na vašem uređaju prije slanja, TelemetryDeck ne sprema vašu IP adresu, a nijedan signal ne sadrži sadržaj vaših bilježaka, zvuka, transkripata, kalendara ni kontakata. Ne koriste se za oglašavanje niti se kombiniraju s podacima iz drugih aplikacija.</p>"
+      "html": "<p>Kako bi saznala koje se značajke koriste i što ne radi, Libretta šalje anonimnu statistiku korištenja usluzi <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, koja je izgrađena s mislima na privatnost. Svaki signal govori koji je zaslon ili značajka upotrijebljena, uz verziju aplikacije i sustava, model uređaja i jezik. Korisnički se identifikator hashira na vašem uređaju prije slanja, TelemetryDeck ne sprema vašu IP adresu, a nijedan signal ne sadrži sadržaj vaših bilježaka, zvuka, transkripata, kalendara ni kontakata. Ne koriste se za oglašavanje niti se kombiniraju s podacima iz drugih aplikacija.</p>\n<p>Ti signali uključuju i približnu regiju i vremensku zonu vašeg uređaja te približna trajanja, na primjer koliko je trajalo snimanje ili njegova obrada, grupirana u raspone umjesto točnih vrijednosti. Sve je povezano samo s anonimnim identifikatorom koji se na vašem uređaju soli i hashira, nikada s vašim imenom ili računom. Vaše bilješke, zvuk i transkripti nikada nisu dio tih signala i putem njih ne napuštaju vaš uređaj.</p>"
     },
     {
       "h": "Kupnje",

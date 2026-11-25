@@ -7,7 +7,7 @@
   "home_link": "Hem",
   "privacy_title": "Integritet",
   "privacy_description": "Integritetspolicy för Libretta: inget konto och ingen egen server. Dina anteckningar bearbetas på din enhet och sparas i din mapp.",
-  "updated": "Uppdaterad den 23 november 2026",
+  "updated": "Uppdaterad den 25 november 2026",
   "intro": "Libretta är en röstanteckningsbok: du skriver, pratar och spelar in möten, och appen transkriberar och sammanfattar dem. Den är byggd så att allt detta sker på din enhet och sparas i en mapp som tillhör dig.",
   "summary": [
     "<strong>Inget konto.</strong> Vi ber aldrig om ditt namn, din e-postadress eller ett lösenord.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Användningsstatistik",
-      "html": "<p>För att veta vilka funktioner som används och vad som går sönder skickar Libretta anonym användningsstatistik till <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, en tjänst byggd för integritet. Varje signal anger vilken skärm eller funktion som användes, tillsammans med app- och systemversion, enhetsmodell och språk. Användaridentifieraren hashas på din enhet innan den skickas, TelemetryDeck lagrar inte din IP-adress och ingen signal innehåller innehållet i dina anteckningar, ditt ljud, dina transkriptioner, din kalender eller dina kontakter. De används inte för reklam och kombineras inte med data från andra appar.</p>"
+      "html": "<p>För att veta vilka funktioner som används och vad som går sönder skickar Libretta anonym användningsstatistik till <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, en tjänst byggd för integritet. Varje signal anger vilken skärm eller funktion som användes, tillsammans med app- och systemversion, enhetsmodell och språk. Användaridentifieraren hashas på din enhet innan den skickas, TelemetryDeck lagrar inte din IP-adress och ingen signal innehåller innehållet i dina anteckningar, ditt ljud, dina transkriptioner, din kalender eller dina kontakter. De används inte för reklam och kombineras inte med data från andra appar.</p>\n<p>Signalerna innehåller också enhetens ungefärliga region och tidszon samt ungefärliga tider, till exempel hur lång tid en inspelning eller dess bearbetning tog, grupperade i intervall i stället för exakta värden. Allt är bara kopplat till en anonym identifierare som saltas och hashas på din enhet, aldrig till ditt namn eller ditt konto. Dina anteckningar, ditt ljud och dina transkriptioner ingår aldrig i signalerna och lämnar inte din enhet genom dem.</p>"
     },
     {
       "h": "Köp",

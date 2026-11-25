@@ -7,7 +7,7 @@
   "home_link": "Ana Sayfa",
   "privacy_title": "Gizlilik",
   "privacy_description": "Libretta gizlilik politikası: hesap yok, kendi sunucumuz yok. Notların cihazında işlenir ve klasöründe saklanır.",
-  "updated": "23 Kasım 2026 tarihinde güncellendi",
+  "updated": "25 Kasım 2026 tarihinde güncellendi",
   "intro": "Libretta bir sesli defterdir: yazarsın, konuşursun, toplantıları kaydedersin; uygulama da bunları yazıya döker ve özetler. Hepsi cihazında gerçekleşecek ve sana ait bir klasörde saklanacak şekilde tasarlanmıştır.",
   "summary": [
     "<strong>Hesap yok.</strong> Senden hiçbir zaman adını, e-postanı veya parolanı istemeyiz.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Kullanım istatistikleri",
-      "html": "<p>Hangi özelliklerin kullanıldığını ve neyin bozulduğunu öğrenmek için Libretta, gizlilik gözetilerek geliştirilmiş bir hizmet olan <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>'e anonim kullanım istatistikleri gönderir. Her sinyal, hangi ekranın veya özelliğin kullanıldığını; uygulama ve sistem sürümünü, cihaz modelini ve dili belirtir. Kullanıcı tanımlayıcısı gönderilmeden önce cihazında karma hale getirilir, TelemetryDeck IP adresini saklamaz ve hiçbir sinyal notlarının, sesinin, dökümlerinin, takviminin veya kişilerinin içeriğini taşımaz. Reklam için kullanılmaz ve diğer uygulamalardaki verilerle birleştirilmez.</p>"
+      "html": "<p>Hangi özelliklerin kullanıldığını ve neyin bozulduğunu öğrenmek için Libretta, gizlilik gözetilerek geliştirilmiş bir hizmet olan <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>'e anonim kullanım istatistikleri gönderir. Her sinyal, hangi ekranın veya özelliğin kullanıldığını; uygulama ve sistem sürümünü, cihaz modelini ve dili belirtir. Kullanıcı tanımlayıcısı gönderilmeden önce cihazında karma hale getirilir, TelemetryDeck IP adresini saklamaz ve hiçbir sinyal notlarının, sesinin, dökümlerinin, takviminin veya kişilerinin içeriğini taşımaz. Reklam için kullanılmaz ve diğer uygulamalardaki verilerle birleştirilmez.</p>\n<p>Bu sinyaller ayrıca cihazınızın yaklaşık bölgesini ve saat dilimini, bir kaydın veya işlenmesinin ne kadar sürdüğü gibi yaklaşık süreleri de içerir; süreler kesin değerler yerine aralıklar halinde gruplanır. Bunların hepsi yalnızca cihazınızda tuzlanıp özetlenen (hash) anonim bir tanımlayıcıya bağlıdır, asla adınıza veya hesabınıza bağlanmaz. Notlarınız, sesiniz ve dökümleriniz bu sinyallerin hiçbir zaman parçası olmaz ve bunlar aracılığıyla cihazınızdan çıkmaz.</p>"
     },
     {
       "h": "Satın alımlar",

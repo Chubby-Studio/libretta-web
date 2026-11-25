@@ -7,7 +7,7 @@
   "home_link": "Domov",
   "privacy_title": "Zasebnost",
   "privacy_description": "Pravilnik o zasebnosti aplikacije Libretta: brez računa in brez lastnega strežnika. Vaše beležke se obdelajo na napravi in shranijo v vašo mapo.",
-  "updated": "Posodobljeno 23. novembra 2026",
+  "updated": "Posodobljeno 25. novembra 2026",
   "intro": "Libretta je glasovna beležnica: pišete, govorite in snemate sestanke, aplikacija pa jih prepiše in povzame. Zasnovana je tako, da se vse to zgodi na vaši napravi in ostane shranjeno v mapi, ki je vaša.",
   "summary": [
     "<strong>Brez računa.</strong> Nikoli ne zahtevamo imena, e-poštnega naslova ali gesla.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistika uporabe",
-      "html": "<p>Da bi izvedeli, katere funkcije se uporabljajo in kaj se pokvari, Libretta pošilja anonimno statistiko uporabe storitvi <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ki je zasnovana z mislijo na zasebnost. Vsak signal pove, kateri zaslon ali funkcija je bila uporabljena, skupaj z različico aplikacije in sistema, modelom naprave in jezikom. Identifikator uporabnika se zgosti na vaši napravi, preden se pošlje, TelemetryDeck ne shranjuje vašega IP-naslova in noben signal ne vsebuje vsebine vaših beležk, zvoka, prepisov, koledarja ali stikov. Ne uporabljajo se za oglaševanje in se ne združujejo s podatki iz drugih aplikacij.</p>"
+      "html": "<p>Da bi izvedeli, katere funkcije se uporabljajo in kaj se pokvari, Libretta pošilja anonimno statistiko uporabe storitvi <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, ki je zasnovana z mislijo na zasebnost. Vsak signal pove, kateri zaslon ali funkcija je bila uporabljena, skupaj z različico aplikacije in sistema, modelom naprave in jezikom. Identifikator uporabnika se zgosti na vaši napravi, preden se pošlje, TelemetryDeck ne shranjuje vašega IP-naslova in noben signal ne vsebuje vsebine vaših beležk, zvoka, prepisov, koledarja ali stikov. Ne uporabljajo se za oglaševanje in se ne združujejo s podatki iz drugih aplikacij.</p>\n<p>Ti signali vključujejo tudi približno regijo in časovni pas vaše naprave ter približna trajanja, na primer koliko časa je trajal posnetek ali njegova obdelava, združena v razpone namesto natančnih vrednosti. Vse je povezano samo z anonimnim identifikatorjem, ki se na vaši napravi posoli in zgosti, nikoli z vašim imenom ali računom. Vaši zapiski, zvok in prepisi nikoli niso del teh signalov in prek njih ne zapustijo vaše naprave.</p>"
     },
     {
       "h": "Nakupi",

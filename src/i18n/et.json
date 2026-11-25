@@ -7,7 +7,7 @@
   "home_link": "Avaleht",
   "privacy_title": "Privaatsus",
   "privacy_description": "Libretta privaatsuspoliitika: ilma kontota ja ilma oma serverita. Teie märkmeid töödeldakse seadmes ja hoitakse teie enda kaustas.",
-  "updated": "Uuendatud 23. novembril 2026",
+  "updated": "Uuendatud 25. novembril 2026",
   "intro": "Libretta on häälmärkmik: te kirjutate, räägite ja salvestate koosolekuid ning rakendus transkribeerib ja võtab need kokku. See on loodud nii, et kõik see toimub teie seadmes ja jääb kausta, mis kuulub teile.",
   "summary": [
     "<strong>Ilma kontota.</strong> Me ei küsi kunagi nime, e-posti aadressi ega parooli.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Kasutusstatistika",
-      "html": "<p>Et teada saada, milliseid funktsioone kasutatakse ja mis katki läheb, saadab Libretta anonüümset kasutusstatistikat teenusele <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, mis on loodud privaatsust silmas pidades. Iga signaal ütleb, millist ekraani või funktsiooni kasutati, koos rakenduse ja süsteemi versiooni, seadme mudeli ja keelega. Kasutaja identifikaator räsitakse teie seadmes enne saatmist, TelemetryDeck ei salvesta teie IP-aadressi ja ükski signaal ei sisalda teie märkmete, heli, transkriptsioonide, kalendri ega kontaktide sisu. Neid ei kasutata reklaamiks ega kombineerita teiste rakenduste andmetega.</p>"
+      "html": "<p>Et teada saada, milliseid funktsioone kasutatakse ja mis katki läheb, saadab Libretta anonüümset kasutusstatistikat teenusele <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, mis on loodud privaatsust silmas pidades. Iga signaal ütleb, millist ekraani või funktsiooni kasutati, koos rakenduse ja süsteemi versiooni, seadme mudeli ja keelega. Kasutaja identifikaator räsitakse teie seadmes enne saatmist, TelemetryDeck ei salvesta teie IP-aadressi ja ükski signaal ei sisalda teie märkmete, heli, transkriptsioonide, kalendri ega kontaktide sisu. Neid ei kasutata reklaamiks ega kombineerita teiste rakenduste andmetega.</p>\n<p>Need signaalid sisaldavad ka teie seadme ligikaudset piirkonda ja ajavööndit ning ligikaudseid kestusi, näiteks kui kaua salvestus või selle töötlemine aega võttis, rühmitatuna vahemikesse täpsete väärtuste asemel. Kõik on seotud ainult anonüümse identifikaatoriga, millele lisatakse teie seadmes sool ja mis räsitakse, mitte kunagi teie nime ega kontoga. Teie märkmed, heli ja transkriptsioonid ei ole kunagi nende signaalide osa ega lahku nende kaudu teie seadmest.</p>"
     },
     {
       "h": "Ostud",

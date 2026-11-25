@@ -7,7 +7,7 @@
   "home_link": "Trang chủ",
   "privacy_title": "Quyền riêng tư",
   "privacy_description": "Chính sách quyền riêng tư của Libretta: không cần tài khoản và không có máy chủ riêng. Ghi chú của bạn được xử lý trên thiết bị của bạn và lưu trong thư mục của bạn.",
-  "updated": "Cập nhật ngày 23 tháng 11 năm 2026",
+  "updated": "Cập nhật ngày 25 tháng 11 năm 2026",
   "intro": "Libretta là một cuốn sổ tay giọng nói: bạn viết, nói và ghi âm cuộc họp, còn ứng dụng sẽ chép lời và tóm tắt. Ứng dụng được thiết kế để mọi việc này diễn ra trên thiết bị của bạn và được lưu trong một thư mục thuộc về bạn.",
   "summary": [
     "<strong>Không cần tài khoản.</strong> Chúng tôi không bao giờ hỏi tên, email hay mật khẩu của bạn.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Thống kê sử dụng",
-      "html": "<p>Để biết tính năng nào được dùng và điều gì bị lỗi, Libretta gửi thống kê sử dụng ẩn danh đến <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, một dịch vụ được xây dựng vì quyền riêng tư. Mỗi tín hiệu cho biết màn hình hoặc tính năng nào đã được dùng, cùng với phiên bản ứng dụng và hệ thống, mẫu thiết bị và ngôn ngữ. Mã định danh người dùng được băm trên thiết bị của bạn trước khi gửi, TelemetryDeck không lưu địa chỉ IP của bạn, và không tín hiệu nào mang nội dung ghi chú, âm thanh, bản chép lời, lịch hay danh bạ của bạn. Chúng không được dùng cho quảng cáo hay kết hợp với dữ liệu từ các ứng dụng khác.</p>"
+      "html": "<p>Để biết tính năng nào được dùng và điều gì bị lỗi, Libretta gửi thống kê sử dụng ẩn danh đến <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, một dịch vụ được xây dựng vì quyền riêng tư. Mỗi tín hiệu cho biết màn hình hoặc tính năng nào đã được dùng, cùng với phiên bản ứng dụng và hệ thống, mẫu thiết bị và ngôn ngữ. Mã định danh người dùng được băm trên thiết bị của bạn trước khi gửi, TelemetryDeck không lưu địa chỉ IP của bạn, và không tín hiệu nào mang nội dung ghi chú, âm thanh, bản chép lời, lịch hay danh bạ của bạn. Chúng không được dùng cho quảng cáo hay kết hợp với dữ liệu từ các ứng dụng khác.</p>\n<p>Các tín hiệu này cũng bao gồm khu vực gần đúng và múi giờ của thiết bị, cùng các khoảng thời gian gần đúng, chẳng hạn một bản ghi âm hoặc việc xử lý nó mất bao lâu, được gom theo khoảng thay vì giá trị chính xác. Tất cả chỉ gắn với một mã định danh ẩn danh được thêm muối và băm ngay trên thiết bị của bạn, không bao giờ gắn với tên hay tài khoản của bạn. Ghi chú, âm thanh và bản chép lời của bạn không bao giờ nằm trong các tín hiệu này và không rời khỏi thiết bị của bạn qua chúng.</p>"
     },
     {
       "h": "Giao dịch mua",

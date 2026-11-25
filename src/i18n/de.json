@@ -7,7 +7,7 @@
   "home_link": "Start",
   "privacy_title": "Datenschutz",
   "privacy_description": "Datenschutzerklärung von Libretta: kein Account und kein eigener Server. Deine Notizen werden auf deinem Gerät verarbeitet und in deinem Ordner gespeichert.",
-  "updated": "Aktualisiert am 23. November 2026",
+  "updated": "Aktualisiert am 25. November 2026",
   "intro": "Libretta ist ein Sprachnotizbuch: Du schreibst, sprichst und nimmst Meetings auf, und die App transkribiert und fasst sie zusammen. Sie ist so gebaut, dass das alles auf deinem Gerät geschieht und in einem Ordner gespeichert wird, der dir gehört.",
   "summary": [
     "<strong>Kein Account.</strong> Wir fragen nie nach deinem Namen, deiner E-Mail-Adresse oder einem Passwort.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Nutzungsstatistiken",
-      "html": "<p>Um zu erfahren, welche Funktionen genutzt werden und was kaputtgeht, sendet Libretta anonyme Nutzungsstatistiken an <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, einen Dienst, der auf Datenschutz ausgelegt ist. Jedes Signal sagt, welcher Bildschirm oder welche Funktion genutzt wurde, zusammen mit App- und Systemversion, Gerätemodell und Sprache. Die Nutzerkennung wird vor dem Senden auf deinem Gerät gehasht, TelemetryDeck speichert deine IP-Adresse nicht, und kein Signal enthält den Inhalt deiner Notizen, deines Audios, deiner Transkripte, deines Kalenders oder deiner Kontakte. Sie werden nicht für Werbung verwendet und nicht mit Daten aus anderen Apps kombiniert.</p>"
+      "html": "<p>Um zu erfahren, welche Funktionen genutzt werden und was kaputtgeht, sendet Libretta anonyme Nutzungsstatistiken an <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, einen Dienst, der auf Datenschutz ausgelegt ist. Jedes Signal sagt, welcher Bildschirm oder welche Funktion genutzt wurde, zusammen mit App- und Systemversion, Gerätemodell und Sprache. Die Nutzerkennung wird vor dem Senden auf deinem Gerät gehasht, TelemetryDeck speichert deine IP-Adresse nicht, und kein Signal enthält den Inhalt deiner Notizen, deines Audios, deiner Transkripte, deines Kalenders oder deiner Kontakte. Sie werden nicht für Werbung verwendet und nicht mit Daten aus anderen Apps kombiniert.</p>\n<p>Diese Signale enthalten außerdem die ungefähre Region und die Zeitzone deines Geräts sowie ungefähre Dauern, etwa wie lange eine Aufnahme oder ihre Verarbeitung gedauert hat, in Bereichen zusammengefasst statt als genaue Werte. Alles ist ausschließlich mit einer anonymen Kennung verknüpft, die auf deinem Gerät gesalzen und gehasht wird, niemals mit deinem Namen oder deinem Konto. Deine Notizen, dein Audio und deine Transkripte sind nie Teil dieser Signale und verlassen dein Gerät nicht über sie.</p>"
     },
     {
       "h": "Käufe",
