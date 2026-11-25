@@ -7,7 +7,7 @@
   "home_link": "Home",
   "privacy_title": "Privacy",
   "privacy_description": "Privacybeleid van Libretta: geen account en geen eigen server. Je notities worden op je apparaat verwerkt en bewaard in jouw map.",
-  "updated": "Bijgewerkt op 23 november 2026",
+  "updated": "Bijgewerkt op 25 november 2026",
   "intro": "Libretta is een spraaknotitieboek: je schrijft, praat en neemt vergaderingen op, en de app transcribeert en vat ze samen. Het is zo gemaakt dat dit allemaal op je apparaat gebeurt en wordt bewaard in een map die van jou is.",
   "summary": [
     "<strong>Geen account.</strong> We vragen nooit om je naam, e-mailadres of een wachtwoord.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Gebruiksstatistieken",
-      "html": "<p>Om te weten welke functies worden gebruikt en wat er misgaat, stuurt Libretta anonieme gebruiksstatistieken naar <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, een dienst die met privacy in gedachten is gebouwd. Elk signaal geeft aan welk scherm of welke functie is gebruikt, samen met de app- en systeemversie, het apparaatmodel en de taal. De gebruikers-ID wordt op je apparaat gehasht voordat hij wordt verzonden, TelemetryDeck slaat je IP-adres niet op, en geen enkel signaal bevat de inhoud van je notities, audio, transcripties, agenda of contacten. Ze worden niet gebruikt voor advertenties en niet gecombineerd met gegevens van andere apps.</p>"
+      "html": "<p>Om te weten welke functies worden gebruikt en wat er misgaat, stuurt Libretta anonieme gebruiksstatistieken naar <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, een dienst die met privacy in gedachten is gebouwd. Elk signaal geeft aan welk scherm of welke functie is gebruikt, samen met de app- en systeemversie, het apparaatmodel en de taal. De gebruikers-ID wordt op je apparaat gehasht voordat hij wordt verzonden, TelemetryDeck slaat je IP-adres niet op, en geen enkel signaal bevat de inhoud van je notities, audio, transcripties, agenda of contacten. Ze worden niet gebruikt voor advertenties en niet gecombineerd met gegevens van andere apps.</p>\n<p>Deze signalen bevatten ook de geschatte regio en tijdzone van je apparaat, en geschatte duur, zoals hoe lang een opname of de verwerking ervan duurde, gegroepeerd in bereiken in plaats van exacte waarden. Alles is alleen gekoppeld aan een anonieme identificatiecode die op je apparaat wordt gezouten en gehasht, nooit aan je naam of account. Je notities, audio en transcripties maken nooit deel uit van deze signalen en verlaten je apparaat er niet mee.</p>"
     },
     {
       "h": "Aankopen",

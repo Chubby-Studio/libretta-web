@@ -7,7 +7,7 @@
   "home_link": "Home",
   "privacy_title": "Privacy",
   "privacy_description": "Informativa sulla privacy di Libretta: nessun account e nessun server nostro. Le tue note vengono elaborate sul tuo dispositivo e salvate nella tua cartella.",
-  "updated": "Aggiornata il 23 novembre 2026",
+  "updated": "Aggiornata il 25 novembre 2026",
   "intro": "Libretta è un taccuino vocale: scrivi, parli e registri riunioni, e l'app le trascrive e le riassume. È pensata perché tutto questo avvenga sul tuo dispositivo e venga salvato in una cartella che è tua.",
   "summary": [
     "<strong>Nessun account.</strong> Non ti chiediamo mai nome, email o password.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistiche di utilizzo",
-      "html": "<p>Per sapere quali funzioni vengono usate e cosa non funziona, Libretta invia statistiche di utilizzo anonime a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servizio pensato per la privacy. Ogni segnale indica quale schermata o funzione è stata usata, insieme alla versione dell'app e del sistema, al modello del dispositivo e alla lingua. L'identificatore utente viene sottoposto a hash sul tuo dispositivo prima di essere inviato, TelemetryDeck non conserva il tuo indirizzo IP e nessun segnale contiene il contenuto delle tue note, del tuo audio, delle tue trascrizioni, del tuo calendario o dei tuoi contatti. Non vengono usate per la pubblicità né combinate con dati di altre app.</p>"
+      "html": "<p>Per sapere quali funzioni vengono usate e cosa non funziona, Libretta invia statistiche di utilizzo anonime a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servizio pensato per la privacy. Ogni segnale indica quale schermata o funzione è stata usata, insieme alla versione dell'app e del sistema, al modello del dispositivo e alla lingua. L'identificatore utente viene sottoposto a hash sul tuo dispositivo prima di essere inviato, TelemetryDeck non conserva il tuo indirizzo IP e nessun segnale contiene il contenuto delle tue note, del tuo audio, delle tue trascrizioni, del tuo calendario o dei tuoi contatti. Non vengono usate per la pubblicità né combinate con dati di altre app.</p>\n<p>Questi segnali includono anche la regione approssimativa e il fuso orario del tuo dispositivo, e durate approssimative, come il tempo impiegato da una registrazione o dalla sua elaborazione, raggruppate in fasce anziché in valori esatti. Tutto è associato soltanto a un identificatore anonimo, con sale e sottoposto a hash sul tuo dispositivo, mai al tuo nome o al tuo account. Le tue note, il tuo audio e le tue trascrizioni non fanno mai parte di questi segnali e non lasciano il tuo dispositivo attraverso di essi.</p>"
     },
     {
       "h": "Acquisti",

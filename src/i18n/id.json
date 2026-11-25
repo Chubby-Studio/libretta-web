@@ -7,7 +7,7 @@
   "home_link": "Beranda",
   "privacy_title": "Privasi",
   "privacy_description": "Kebijakan privasi Libretta: tanpa akun dan tanpa server sendiri. Catatan Anda diproses di perangkat Anda dan disimpan di folder Anda.",
-  "updated": "Diperbarui 23 November 2026",
+  "updated": "Diperbarui 25 November 2026",
   "intro": "Libretta adalah buku catatan suara: Anda menulis, berbicara, dan merekam rapat, lalu app mentranskripsikan dan meringkasnya. App ini dirancang agar semua itu terjadi di perangkat Anda dan disimpan di folder milik Anda.",
   "summary": [
     "<strong>Tanpa akun.</strong> Kami tidak pernah meminta nama, email, atau kata sandi Anda.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistik penggunaan",
-      "html": "<p>Untuk mengetahui fitur mana yang digunakan dan apa yang rusak, Libretta mengirim statistik penggunaan anonim ke <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, layanan yang dibuat dengan mengutamakan privasi. Setiap sinyal menyebutkan layar atau fitur yang digunakan, beserta versi app dan sistem, model perangkat, dan bahasa. Pengidentifikasi pengguna di-hash di perangkat Anda sebelum dikirim, TelemetryDeck tidak menyimpan alamat IP Anda, dan tidak ada sinyal yang membawa isi catatan, audio, transkrip, kalender, atau kontak Anda. Data ini tidak digunakan untuk iklan atau digabungkan dengan data dari app lain.</p>"
+      "html": "<p>Untuk mengetahui fitur mana yang digunakan dan apa yang rusak, Libretta mengirim statistik penggunaan anonim ke <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, layanan yang dibuat dengan mengutamakan privasi. Setiap sinyal menyebutkan layar atau fitur yang digunakan, beserta versi app dan sistem, model perangkat, dan bahasa. Pengidentifikasi pengguna di-hash di perangkat Anda sebelum dikirim, TelemetryDeck tidak menyimpan alamat IP Anda, dan tidak ada sinyal yang membawa isi catatan, audio, transkrip, kalender, atau kontak Anda. Data ini tidak digunakan untuk iklan atau digabungkan dengan data dari app lain.</p>\n<p>Sinyal-sinyal ini juga mencakup perkiraan wilayah dan zona waktu perangkat Anda, serta perkiraan durasi, misalnya berapa lama sebuah rekaman atau pemrosesannya berlangsung, yang dikelompokkan dalam rentang, bukan nilai yang tepat. Semuanya hanya terkait dengan pengenal anonim yang diberi salt dan di-hash di perangkat Anda, tidak pernah dengan nama atau akun Anda. Catatan, audio, dan transkrip Anda tidak pernah menjadi bagian dari sinyal ini dan tidak meninggalkan perangkat Anda melaluinya.</p>"
     },
     {
       "h": "Pembelian",

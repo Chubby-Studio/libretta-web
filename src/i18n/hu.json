@@ -7,7 +7,7 @@
   "home_link": "Főoldal",
   "privacy_title": "Adatvédelem",
   "privacy_description": "A Libretta adatvédelmi irányelvei: nincs fiók, és nincs saját szerverünk. A jegyzeteidet az eszközöd dolgozza fel, és a te mappádban tárolódnak.",
-  "updated": "Frissítve: 2026. november 23.",
+  "updated": "Frissítve: 2026. november 25.",
   "intro": "A Libretta egy hangjegyzetfüzet: írsz, beszélsz és megbeszéléseket rögzítesz, az app pedig átírja és összefoglalja őket. Úgy készült, hogy mindez az eszközödön történjen, és egy olyan mappában tárolódjon, amely a tiéd.",
   "summary": [
     "<strong>Nincs fiók.</strong> Soha nem kérjük a neved, az e-mail-címed vagy a jelszavad.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Használati statisztikák",
-      "html": "<p>Hogy megtudjuk, mely funkciókat használják, és mi romlik el, a Libretta névtelen használati statisztikákat küld a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a> szolgáltatásnak, amelyet az adatvédelmet szem előtt tartva építettek. Minden jelzés megmondja, melyik képernyőt vagy funkciót használták, az app és a rendszer verziójával, az eszköz modelljével és a nyelvvel együtt. A felhasználóazonosítót az eszközödön hasheljük, mielőtt elküldenénk, a TelemetryDeck nem tárolja az IP-címedet, és egyetlen jelzés sem tartalmazza a jegyzeteid, a hangfelvételeid, az átirataid, a naptárad vagy a névjegyeid tartalmát. Nem használjuk őket reklámra, és nem kapcsoljuk össze más appok adataival.</p>"
+      "html": "<p>Hogy megtudjuk, mely funkciókat használják, és mi romlik el, a Libretta névtelen használati statisztikákat küld a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a> szolgáltatásnak, amelyet az adatvédelmet szem előtt tartva építettek. Minden jelzés megmondja, melyik képernyőt vagy funkciót használták, az app és a rendszer verziójával, az eszköz modelljével és a nyelvvel együtt. A felhasználóazonosítót az eszközödön hasheljük, mielőtt elküldenénk, a TelemetryDeck nem tárolja az IP-címedet, és egyetlen jelzés sem tartalmazza a jegyzeteid, a hangfelvételeid, az átirataid, a naptárad vagy a névjegyeid tartalmát. Nem használjuk őket reklámra, és nem kapcsoljuk össze más appok adataival.</p>\n<p>Ezek a jelek az eszközöd hozzávetőleges régióját és időzónáját, valamint hozzávetőleges időtartamokat is tartalmaznak, például hogy mennyi ideig tartott egy felvétel vagy a feldolgozása, pontos értékek helyett tartományokba csoportosítva. Mindez kizárólag egy névtelen azonosítóhoz kötődik, amelyet az eszközödön sóznak és hashelnek, soha nem a nevedhez vagy a fiókodhoz. A jegyzeteid, a hangfelvételeid és az átirataid soha nem részei ezeknek a jeleknek, és általuk nem hagyják el az eszközödet.</p>"
     },
     {
       "h": "Vásárlások",

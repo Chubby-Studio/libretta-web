@@ -7,7 +7,7 @@
   "home_link": "Acasă",
   "privacy_title": "Confidențialitate",
   "privacy_description": "Politica de confidențialitate Libretta: fără cont și fără server propriu. Notele tale sunt procesate pe dispozitivul tău și păstrate în folderul tău.",
-  "updated": "Actualizat la 23 noiembrie 2026",
+  "updated": "Actualizat la 25 noiembrie 2026",
   "intro": "Libretta este un caiet vocal: scrii, vorbești și înregistrezi ședințe, iar aplicația le transcrie și le rezumă. Este făcută astfel încât toate acestea să se întâmple pe dispozitivul tău și să fie păstrate într-un folder care îți aparține.",
   "summary": [
     "<strong>Fără cont.</strong> Nu îți cerem niciodată numele, e-mailul sau o parolă.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistici de utilizare",
-      "html": "<p>Pentru a afla ce funcții sunt folosite și ce nu funcționează, Libretta trimite statistici de utilizare anonime către <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un serviciu creat pentru confidențialitate. Fiecare semnal indică ce ecran sau funcție a fost folosită, împreună cu versiunea aplicației și a sistemului, modelul dispozitivului și limba. Identificatorul de utilizator este transformat în hash pe dispozitivul tău înainte de a fi trimis, TelemetryDeck nu îți stochează adresa IP și niciun semnal nu conține conținutul notelor, al audioului, al transcrierilor, al calendarului sau al contactelor tale. Nu sunt folosite pentru publicitate și nu sunt combinate cu date din alte aplicații.</p>"
+      "html": "<p>Pentru a afla ce funcții sunt folosite și ce nu funcționează, Libretta trimite statistici de utilizare anonime către <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un serviciu creat pentru confidențialitate. Fiecare semnal indică ce ecran sau funcție a fost folosită, împreună cu versiunea aplicației și a sistemului, modelul dispozitivului și limba. Identificatorul de utilizator este transformat în hash pe dispozitivul tău înainte de a fi trimis, TelemetryDeck nu îți stochează adresa IP și niciun semnal nu conține conținutul notelor, al audioului, al transcrierilor, al calendarului sau al contactelor tale. Nu sunt folosite pentru publicitate și nu sunt combinate cu date din alte aplicații.</p>\n<p>Aceste semnale includ și regiunea aproximativă și fusul orar al dispozitivului tău, precum și durate aproximative, de exemplu cât a durat o înregistrare sau procesarea ei, grupate în intervale în loc de valori exacte. Totul este legat doar de un identificator anonim, căruia i se adaugă sare și i se calculează un hash pe dispozitivul tău, niciodată de numele sau de contul tău. Notele, audio și transcrierile tale nu fac niciodată parte din aceste semnale și nu părăsesc dispozitivul tău prin ele.</p>"
     },
     {
       "h": "Achiziții",

@@ -7,7 +7,7 @@
   "home_link": "Home",
   "privacy_title": "Privacy",
   "privacy_description": "Libretta privacy policy: no account and no server of our own. Your notes are processed on your device and stored in your folder.",
-  "updated": "Updated 23 November 2026",
+  "updated": "Updated 25 November 2026",
   "intro": "Libretta is a voice notebook: you write, talk and record meetings, and the app transcribes and summarises them. It is built so that all of this happens on your device and is stored in a folder that belongs to you.",
   "summary": [
     "<strong>No account.</strong> We never ask for your name, email or a password.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Usage statistics",
-      "html": "<p>To learn which features are used and what breaks, Libretta sends anonymous usage statistics to <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, a service built for privacy. Each signal says which screen or feature was used, along with the app and system version, the device model and the language. The user identifier is hashed on your device before it is sent, TelemetryDeck does not store your IP address, and no signal carries the content of your notes, audio, transcripts, calendar or contacts. They are not used for advertising or combined with data from other apps.</p>"
+      "html": "<p>To learn which features are used and what breaks, Libretta sends anonymous usage statistics to <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, a service built for privacy. Each signal says which screen or feature was used, along with the app and system version, the device model and the language. The user identifier is hashed on your device before it is sent, TelemetryDeck does not store your IP address, and no signal carries the content of your notes, audio, transcripts, calendar or contacts. They are not used for advertising or combined with data from other apps.</p>\n<p>These signals also include the approximate region and time zone of your device, and approximate durations, such as how long a recording or its processing took, grouped into ranges instead of exact values. All of it is tied only to an anonymous identifier that is salted and hashed on your device, never to your name or account. Your notes, audio and transcripts are never part of these signals, and they do not leave your device through them.</p>"
     },
     {
       "h": "Purchases",

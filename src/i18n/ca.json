@@ -7,7 +7,7 @@
   "home_link": "Inici",
   "privacy_title": "Privadesa",
   "privacy_description": "Política de privadesa de Libretta: sense compte ni servidor propi. Les teves notes es processen al teu dispositiu i es desen a la teva carpeta.",
-  "updated": "Actualitzat el 23 de novembre del 2026",
+  "updated": "Actualitzat el 25 de novembre del 2026",
   "intro": "Libretta és un quadern de veu: escrius, parles i graves reunions, i l'app ho transcriu i ho resumeix. Està pensada perquè tot això passi al teu dispositiu i es desi en una carpeta que és teva.",
   "summary": [
     "<strong>Sense compte.</strong> Mai et demanem el nom, el correu electrònic ni una contrasenya.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Estadístiques d'ús",
-      "html": "<p>Per saber quines funcions es fan servir i què falla, Libretta envia estadístiques d'ús anònimes a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servei pensat per a la privadesa. Cada senyal diu quina pantalla o funció s'ha fet servir, juntament amb la versió de l'app i del sistema, el model de dispositiu i l'idioma. L'identificador d'usuari es xifra al teu dispositiu abans d'enviar-se, TelemetryDeck no desa la teva adreça IP, i cap senyal porta el contingut de les teves notes, l'àudio, les transcripcions, el calendari ni els contactes. No s'utilitzen per a publicitat ni es combinen amb dades d'altres apps.</p>"
+      "html": "<p>Per saber quines funcions es fan servir i què falla, Libretta envia estadístiques d'ús anònimes a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servei pensat per a la privadesa. Cada senyal diu quina pantalla o funció s'ha fet servir, juntament amb la versió de l'app i del sistema, el model de dispositiu i l'idioma. L'identificador d'usuari es xifra al teu dispositiu abans d'enviar-se, TelemetryDeck no desa la teva adreça IP, i cap senyal porta el contingut de les teves notes, l'àudio, les transcripcions, el calendari ni els contactes. No s'utilitzen per a publicitat ni es combinen amb dades d'altres apps.</p>\n<p>Aquests senyals inclouen també la regió aproximada i el fus horari del teu dispositiu, i durades aproximades, com el que triga un enregistrament o el seu processament, agrupades en trams en lloc de valors exactes. Tot va associat únicament a un identificador anònim, amb sal i xifrat amb un hash al teu dispositiu, mai al teu nom ni al teu compte. Les teves notes, l'àudio i les transcripcions no formen mai part d'aquests senyals i no surten del teu dispositiu a través d'ells.</p>"
     },
     {
       "h": "Compres",

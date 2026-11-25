@@ -7,7 +7,7 @@
   "home_link": "Inicio",
   "privacy_title": "Privacidad",
   "privacy_description": "Política de privacidad de Libretta: sin cuenta ni servidor propio. Tus notas se procesan en tu dispositivo y se guardan en tu carpeta.",
-  "updated": "Actualizada el 23 de noviembre de 2026",
+  "updated": "Actualizada el 25 de noviembre de 2026",
   "intro": "Libretta es un cuaderno de voz: escribes, hablas y grabas reuniones, y la app lo transcribe y lo resume. Está pensada para que todo eso ocurra en tu dispositivo y se guarde en una carpeta que es tuya.",
   "summary": [
     "<strong>No hay cuenta.</strong> No te pedimos nombre, email ni contraseña.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Estadísticas de uso",
-      "html": "<p>Para saber qué funciones se usan y qué falla, Libretta envía estadísticas de uso anónimas a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servicio pensado para la privacidad. Cada señal dice qué pantalla o función se usó, junto con la versión de la app y del sistema, el modelo de dispositivo y el idioma. El identificador de usuario se cifra en tu dispositivo antes de enviarse, TelemetryDeck no guarda tu dirección IP y ninguna señal lleva el contenido de tus notas, tu audio, tus transcripciones, tu calendario ni tus contactos. No se usan para publicidad ni se cruzan con datos de otras apps.</p>"
+      "html": "<p>Para saber qué funciones se usan y qué falla, Libretta envía estadísticas de uso anónimas a <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, un servicio pensado para la privacidad. Cada señal dice qué pantalla o función se usó, junto con la versión de la app y del sistema, el modelo de dispositivo y el idioma. El identificador de usuario se cifra en tu dispositivo antes de enviarse, TelemetryDeck no guarda tu dirección IP y ninguna señal lleva el contenido de tus notas, tu audio, tus transcripciones, tu calendario ni tus contactos. No se usan para publicidad ni se cruzan con datos de otras apps.</p>\n<p>Estas señales incluyen además la región aproximada y la zona horaria de tu dispositivo, y duraciones aproximadas, como lo que tarda una grabación o su procesado, agrupadas en tramos en lugar de valores exactos. Todo va asociado únicamente a un identificador anónimo, con sal y hasheado en tu dispositivo, nunca a tu nombre ni a tu cuenta. Tus notas, tu audio y tus transcripciones no forman nunca parte de estas señales y no salen de tu dispositivo a través de ellas.</p>"
     },
     {
       "h": "Compras",

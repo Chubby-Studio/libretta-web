@@ -7,7 +7,7 @@
   "home_link": "Pradžia",
   "privacy_title": "Privatumas",
   "privacy_description": "Libretta privatumo politika: be paskyros ir be savo serverio. Jūsų užrašai apdorojami įrenginyje ir saugomi jūsų aplanke.",
-  "updated": "Atnaujinta 2026 m. lapkričio 23 d.",
+  "updated": "Atnaujinta 2026 m. lapkričio 25 d.",
   "intro": "Libretta yra balso užrašų knygelė: jūs rašote, kalbate ir įrašote susitikimus, o programa juos transkribuoja ir apibendrina. Ji sukurta taip, kad visa tai vyktų jūsų įrenginyje ir liktų aplanke, kuris priklauso jums.",
   "summary": [
     "<strong>Be paskyros.</strong> Niekada neprašome vardo, el. pašto adreso ar slaptažodžio.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Naudojimo statistika",
-      "html": "<p>Kad sužinotume, kurios funkcijos naudojamos ir kas sugenda, Libretta siunčia anoniminę naudojimo statistiką į <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, paslaugą, sukurtą galvojant apie privatumą. Kiekvienas signalas nurodo, kuris ekranas ar funkcija buvo naudota, kartu su programos ir sistemos versija, įrenginio modeliu ir kalba. Naudotojo identifikatorius prieš išsiunčiant jūsų įrenginyje paverčiamas maišos reikšme, TelemetryDeck nesaugo jūsų IP adreso, ir joks signalas neturi jūsų užrašų, garso įrašų, transkripcijų, kalendoriaus ar kontaktų turinio. Jie nenaudojami reklamai ir nesujungiami su kitų programų duomenimis.</p>"
+      "html": "<p>Kad sužinotume, kurios funkcijos naudojamos ir kas sugenda, Libretta siunčia anoniminę naudojimo statistiką į <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, paslaugą, sukurtą galvojant apie privatumą. Kiekvienas signalas nurodo, kuris ekranas ar funkcija buvo naudota, kartu su programos ir sistemos versija, įrenginio modeliu ir kalba. Naudotojo identifikatorius prieš išsiunčiant jūsų įrenginyje paverčiamas maišos reikšme, TelemetryDeck nesaugo jūsų IP adreso, ir joks signalas neturi jūsų užrašų, garso įrašų, transkripcijų, kalendoriaus ar kontaktų turinio. Jie nenaudojami reklamai ir nesujungiami su kitų programų duomenimis.</p>\n<p>Šie signalai taip pat apima apytikslį jūsų įrenginio regioną ir laiko juostą bei apytikslę trukmę, pavyzdžiui, kiek truko įrašas ar jo apdorojimas, sugrupuotą į intervalus, o ne tikslias reikšmes. Visa tai susieta tik su anonimišku identifikatoriumi, kuris jūsų įrenginyje pasūdomas ir užhashuojamas, niekada ne su jūsų vardu ar paskyra. Jūsų užrašai, garso įrašai ir transkripcijos niekada nėra šių signalų dalis ir per juos nepalieka jūsų įrenginio.</p>"
     },
     {
       "h": "Pirkiniai",

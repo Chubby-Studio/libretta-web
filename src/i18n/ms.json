@@ -7,7 +7,7 @@
   "home_link": "Laman Utama",
   "privacy_title": "Privasi",
   "privacy_description": "Dasar privasi Libretta: tiada akaun dan tiada pelayan sendiri. Nota anda diproses pada peranti anda dan disimpan dalam folder anda.",
-  "updated": "Dikemas kini 23 November 2026",
+  "updated": "Dikemas kini 25 November 2026",
   "intro": "Libretta ialah buku nota suara: anda menulis, bercakap dan merakam mesyuarat, dan app ini mentranskripsi serta meringkaskannya. App ini direka supaya semua itu berlaku pada peranti anda dan disimpan dalam folder yang menjadi milik anda.",
   "summary": [
     "<strong>Tiada akaun.</strong> Kami tidak pernah meminta nama, e-mel atau kata laluan anda.",
@@ -37,7 +37,7 @@
     },
     {
       "h": "Statistik penggunaan",
-      "html": "<p>Untuk mengetahui ciri mana yang digunakan dan apa yang rosak, Libretta menghantar statistik penggunaan tanpa nama kepada <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, perkhidmatan yang dibina untuk privasi. Setiap isyarat menyatakan skrin atau ciri yang digunakan, bersama versi app dan sistem, model peranti dan bahasa. Pengecam pengguna di-hash pada peranti anda sebelum dihantar, TelemetryDeck tidak menyimpan alamat IP anda, dan tiada isyarat membawa kandungan nota, audio, transkrip, kalendar atau kenalan anda. Statistik ini tidak digunakan untuk pengiklanan atau digabungkan dengan data daripada app lain.</p>"
+      "html": "<p>Untuk mengetahui ciri mana yang digunakan dan apa yang rosak, Libretta menghantar statistik penggunaan tanpa nama kepada <a href=\"https://telemetrydeck.com/privacy/\">TelemetryDeck</a>, perkhidmatan yang dibina untuk privasi. Setiap isyarat menyatakan skrin atau ciri yang digunakan, bersama versi app dan sistem, model peranti dan bahasa. Pengecam pengguna di-hash pada peranti anda sebelum dihantar, TelemetryDeck tidak menyimpan alamat IP anda, dan tiada isyarat membawa kandungan nota, audio, transkrip, kalendar atau kenalan anda. Statistik ini tidak digunakan untuk pengiklanan atau digabungkan dengan data daripada app lain.</p>\n<p>Isyarat ini juga merangkumi anggaran rantau dan zon waktu peranti anda, serta anggaran tempoh, contohnya berapa lama sesuatu rakaman atau pemprosesannya mengambil masa, yang dikumpulkan dalam julat dan bukan nilai tepat. Semuanya dikaitkan hanya dengan pengecam tanpa nama yang diberi salt dan di-hash pada peranti anda, tidak pernah dengan nama atau akaun anda. Nota, audio dan transkrip anda tidak pernah menjadi sebahagian daripada isyarat ini dan tidak meninggalkan peranti anda melaluinya.</p>"
     },
     {
       "h": "Pembelian",
